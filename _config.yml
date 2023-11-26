@@ -1,0 +1,31 @@
+pretzel: 
+    engine: razor
+
+category_pages_layout: category
+tag_pages_layout: tag
+
+# Site settings
+author: Seth Hendrick
+title: Troop 53 Of Castleton NY
+description: "Troop 53 of Castleton's Archived Website"
+url: https://bsatroop53.com
+urlnohttp: bsatroop53.com
+contact: seth@shendrick.net
+
+github: https://github.com/xforever1313/bsatroop53.com
+githubissues: https://github.com/xforever1313/bsatroop53.com/issues
+
+exclude:
+ - .gitignore
+ - .git
+ - .gitmodules
+ - .tgitconfig
+ - .vs
+ - .vscode
+ - .cake
+ - build.cake
+ - tools
+ - README.md
+ - _thumbnails
+ - _pretzel
+ - _gallerydata

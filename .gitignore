@@ -1,0 +1,12 @@
+bin/
+obj/
+.vs/
+.vscode/
+.nuget/
+*.suo
+packages/
+_site
+.pretzel/
+public/
+_plugins/
+_thumbnails

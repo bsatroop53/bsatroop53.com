@@ -1,0 +1,10 @@
+---
+layout: nil
+---
+
+@using Pretzel.Logic.Templating.Context
+@Include( "humans_team.cstxt", Model, typeof( PageContext ) )
+
+/* Site */
+
+    Last Updated: @DateTime.Now.ToString( "s" )

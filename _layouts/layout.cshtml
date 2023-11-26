@@ -1,0 +1,42 @@
+@using System
+@using System.Collections.Generic
+@using System.Linq
+@using System.Text
+@using Pretzel.Logic.Templating.Context
+@using Page = Pretzel.Logic.Templating.Context.Page
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta content="en-us" http-equiv="Content-Language" />
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    @{
+        StringBuilder tagBuilder = new StringBuilder();
+        foreach( string tag in Model.Page.Tags )
+        {
+            tagBuilder.Append( tag + "," );
+        }
+        if( tagBuilder.Length > 0 )
+        {
+            tagBuilder = tagBuilder.Remove( tagBuilder.Length - 1, 1 );
+            tagBuilder.Insert( 0, ",", 1 );
+        }
+
+        @:<meta name="keywords" content="Boy Scout,Troop 53,Stories@(tagBuilder.ToString())" />
+
+        if( Model.Page.Bag.ContainsKey( "description" ) )
+        {
+            @:<meta name="description" content="@(Model.Page.Bag["description"])" />
+        }
+    }
+    <title>@Model.Title</title>
+
+    <link href="/static/css/github-highlight.css" rel="stylesheet" />
+    <link href="/static/css/github-markdown.css" rel="stylesheet" />
+    <link href="/static/css/custom.css" rel="stylesheet" />
+</head>
+<body>
+    @Raw( Model.Content )
+</body>
+</html>
