@@ -81,7 +81,7 @@ pipeline
                     {
                         String verbose = "-v"; // Make "-v" for verbose mode.
                         String sshOptions = "-o BatchMode=yes -o StrictHostKeyChecking=accept-new -i \\\"${WEBSITE_KEY}\\\"";
-                        sh "cd ./checkout && rsync --rsh=\"ssh ${verbose} ${sshOptions}\" -az --delete --exclude \".well-known\" ./_site ${SSHUSER}@bsatroop53.com:bsatroop53.com";
+                        sh "cd ./checkout/_site && rsync --rsh=\"ssh ${verbose} ${sshOptions}\" -az --delete --exclude \".well-known\" ./ ${SSHUSER}@bsatroop53.com:bsatroop53.com";
                     }
                 }
             }
