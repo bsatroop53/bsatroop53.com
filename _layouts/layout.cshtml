@@ -215,7 +215,10 @@
     <div id="footer-sec">
         <div>
             &copy; @DateTime.Now.Year <a href="/index.html">@Model.Site.Config["author"]</a> | Design Inspired By : <a href="https://web.archive.org/web/20230203155236/https://binarytheme.com/" target="_blank" rel="noopener noreferrer nofollow">BinaryTheme</a> |
-            <span>Page generated on @(DateTime.Now.ToString( "R" ))</span> | Opinions are those of the authors.
+            <span>Page generated on @(DateTime.UtcNow.ToString( "R" ))</span> | Opinions are those of the authors.
+        </div>
+        <div>
+            This website is an unofficial remake of the old troop website.  See the <a href="/about/archive.html">archive page</a> for more information.
         </div>
     </div>
 
