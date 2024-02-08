@@ -1,0 +1,110 @@
+---
+layout: layout
+---
+
+<article id="page-inner">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="page-head-line">@Model.Page.Title</h1>
+            <div class="page-subhead-line">
+                <ul>
+                    <li>
+                        Posted In:
+                        @{
+                            foreach( string category in Model.Page.Categories )
+                            {
+                                foreach( var page in Model.Site.Pages )
+                                {
+                                    if( page.Bag.ContainsKey( "category" ) )
+                                    {
+                                        if( category.Equals( page.Bag["category"] ) )
+                                        {
+                                            @:<a href="@(page.Url)">@(category)</a>,
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    </li>
+                    <li>
+                        Tagged as:
+                        @foreach( string tag in Model.Page.Tags )
+                        {
+                            foreach( var page in Model.Site.Pages )
+                            {
+                                if( page.Bag.ContainsKey( "tag" ) )
+                                {
+                                    if( tag.Equals( page.Bag["tag"] ) )
+                                    {
+                                        @:<a href="@(page.Url)">@(tag)</a>,
+                                    }
+                                }
+                            }
+                        }
+                    </li>
+                    <li>Posted on @Model.Page.Date.ToString( "D" )</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            @Raw( Model.Content )
+        </div>
+    </div>
+    <hr/>
+    <div class="row">
+        <div class="col-md-12">
+            <em>Like what you see?  Consider <a href="/about/donate.html">donating</a> to keep the server running.</em>
+        </div>
+    </div>
+    <hr/>
+    <div class="row">
+        <div class="col-md-12">
+            <nav id="posts-nav" style="display: flex; justify-content: space-around;">
+                <div>
+                    @if( Model.Previous != null )
+                    {
+                        <a href="@Model.Previous.Url" title="Previous Post: @Model.Previous.Title">&larr; @Model.Previous.Title</a>
+                    }
+                </div>
+                <div>
+                    @if( Model.Next != null )
+                    {
+                        <a href="@Model.Next.Url" title="next Post: @Model.Next.Title">@Model.Next.Title &rarr; </a>
+                    }
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    @if( Model.Comments )
+    {
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Comments</h2>
+                <div id="disqus_thread"></div>
+                <script>
+
+                /**
+                *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+                *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+                
+                var disqus_config = function () {
+                    this.page.url = '@Model.Site.Config["url"].ToString()@Model.Page.Url';  // Replace PAGE_URL with your page's canonical URL variable
+                };
+                
+                (function() { // DON'T EDIT BELOW THIS LINE
+                var d = document, s = d.createElement('script');
+                s.src = 'https://@(Model.Site.Config["disqus_shortname"].ToString()).disqus.com/embed.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+                })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+            </div>
+        </div>
+    }
+</article>
+
