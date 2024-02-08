@@ -1,14 +1,13 @@
 ---
 layout: page
 title: Boy Scout Troop 53
-description: Archive of the original Castleton Boy Scout Troop 53 website.
+description: Castleton Boy Scout Troop 53 website.
+tags: [home]
 ---
 
-# Welcome to the Troop 53 of Castleton's Website!
+## Troop 53 Turns 100
 
-...sort of...
-
-bsatroop53.com used to be the official website of Troop 53.  The domain expired, and was not renewed.  This website simply contains links to archived pages of the original website.
+2024 is the 100-year anniversary of Troop 53!
 
 ## Christmas Tree Sales
 
