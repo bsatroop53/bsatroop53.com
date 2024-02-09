@@ -8,7 +8,7 @@ pageindex: 0
 
 Since 1924, Troop 53 has served the boys of the Castleton-Schodack community for over 80 years in the Scouting program.
 
-The troop is part of the Mahikan District of the Twin Rivers Council, Boy Scouts of America. The troop is chartered with the BSA through the Kiwanis Club of Castleton, and for the past three decades has gathered in a dedicated scout meeting room on the second floor of Castleton Village Hall.  The troop is an IRS 501 (c) (3) organization.
+The troop is part of the Yankee Doodle (formerly Mahikan) District of the Twin Rivers Council, Boy Scouts of America. The troop is chartered with the BSA through the Kiwanis Club of Castleton, and for the past three decades has gathered in a dedicated scout meeting room on the second floor of Castleton Village Hall.  The troop is an IRS 501 (c) (3) organization.
 
 ## History
 
