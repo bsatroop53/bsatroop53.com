@@ -8,6 +8,10 @@ p.footertitle{
     margin-bottom:0;
 }
 
+p.footersentence{
+    margin-bottom:0;
+}
+
 ul.no-bullets {
     list-style-type: none;
     padding: 0;

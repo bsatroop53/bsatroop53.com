@@ -199,6 +199,9 @@
                         <a href="/about/privacy.html"><i class="fas fa-lock"></i> Privacy Policy</a>
                     </li>
                     <li>
+                        <a href="/about/credits.html"><i class="fa-solid fa-users"></i> Third-Party Credits</a>
+                    </li>
+                    <li>
                         <a href="@(Model.Site.Config["github"])" target="_blank" rel="noopener noreferrer nofollow"><i class="fa-brands fa-square-github"></i> Source Code</a>
                     </li>
                     <li>
@@ -228,7 +231,7 @@
                         <a href="https://rsrbsa.org/" target="_blank" rel="noopener noreferrer nofollow"><i class="fa-solid fa-campground"></i> Rotary Scout Reservation</a>
                     </li>
                     <li>
-                        <a href="https://rsrbsa.org/" target="_blank" rel="noopener noreferrer nofollow"><i class="fa-solid fa-mountain"></i> Camp Wakpominee</a>
+                        <a href="https://trcscouting.org/camp-wakpominee/" target="_blank" rel="noopener noreferrer nofollow"><i class="fa-solid fa-mountain"></i> Camp Wakpominee</a>
                     </li>
                 </ul>
             </div>
@@ -257,13 +260,35 @@
             </div>
         </div>
         <div class="row">
-            <p>
-                &copy; @DateTime.Now.Year <a href="/index.html">@Model.Site.Config["author"]</a> | Design Inspired By : <a href="https://web.archive.org/web/20230203155236/https://binarytheme.com/" target="_blank" rel="noopener noreferrer nofollow">BinaryTheme</a> |
-                <span>Page generated on @(DateTime.UtcNow.ToString( "R" ))</span> | Opinions are those of the authors.
-            </p>
-            <p>
-                This website is an unofficial remake of the old troop website.  See the <a href="/about/archive.html">archive page</a> for more information.
-            </p>
+            <div class="col-md-12">
+                <p class="footersentence">
+                    <strong>Site Information</strong>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <p class="footersentence">
+                    &copy; @DateTime.Now.Year <a href="/index.html">@Model.Site.Config["author"]</a>
+                </p>
+            </div>
+            <div class="col-md-6">
+                <p class="footersentence">
+                    Design Inspired By : <a href="https://web.archive.org/web/20230203155236/https://binarytheme.com/" target="_blank" rel="noopener noreferrer nofollow">BinaryTheme</a>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <p class="footersentence">
+                    Page generated on @(DateTime.UtcNow.ToString( "R" ))
+                </p>    
+            </div>
+            <div class="col-md-6">
+                <p class="footersentence">
+                    This website is an unofficial remake of the old troop website.  See the <a href="/about/archive.html">archive page</a> for more information.
+                </p>
+            </div>
         </div>
     </div>
 
