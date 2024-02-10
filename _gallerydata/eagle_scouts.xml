@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ImageGallery ImageDir="static/img/galleries/eagle_scouts" ThumbnailOutputDir="static/img/galleries/eagle_scouts/thumbnails/" ThumbnailScale="0.25">
+<ImageGallery ImageDir="static/img/galleries/eagle_scouts" DefaultImage="DefaultImage.jpg" ThumbnailOutputDir="static/img/galleries/eagle_scouts/thumbnails/" DefaultThumbnailScale="0.99">
     <Image FileName="1929_Carlos_Morgan.jpg">
         <Alt>Carlos Morgan</Alt>
         <Caption>Carlos Morgan - 1929</Caption>

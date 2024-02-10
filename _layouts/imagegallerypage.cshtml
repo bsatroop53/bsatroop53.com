@@ -19,10 +19,10 @@ layout: page
 @for( int i = 0; i < imageData.Length; )
 {
     <div class="row">
-    @for( int j = 0; ( j < 2 ) && imageData.Any(); ++j )
+    @for( int j = 0; ( j < 4 ) && ( i < imageData.Length ); ++j )
     {
-        var imageContext = imageData[i++];
-        <div class="col-md-6">
+        var imageContext = imageData[i];
+        <div class="col-md-3">
             <div class="panel panel-default" style="max-width:@(imageContext.ThumbnailWidth);">
                 <div class="panel-body">
                     <a href="@imageContext.OriginalPhotoUrl" target="_blank">
@@ -37,6 +37,7 @@ layout: page
                 }
             </div>
         </div>
+        ++i;
     }
     </div>
 }
