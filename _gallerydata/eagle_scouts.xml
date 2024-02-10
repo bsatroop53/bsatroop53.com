@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageGallery ImageDir="static/img/galleries/eagle_scouts" ThumbnailOutputDir="static/img/galleries/eagle_scouts/thumbnails/" ThumbnailScale="0.25">
+    <Image FileName="1929_Carlos_Morgan.jpg">
+        <Alt>Carlos Morgan</Alt>
+        <Caption>Carlos Morgan - 1929</Caption>
+    </Image>
+    <Image FileName="1931_Thurston_Paul.jpg">
+        <Alt>Thurston Paul</Alt>
+        <Caption>Thurston Paul - 1931</Caption>
+    </Image>
+    <Image FileName="1931_Jay_Paul.jpg">
+        <Alt>Jay Paul</Alt>
+        <Caption>Jay Paul - 1931</Caption>
+    </Image>
+    <Image FileName="1933_Raymond_Dieffenbach.jpg">
+        <Alt>Raymon Dieffenbach</Alt>
+        <Caption>Raymond Dieffenbach - 1933</Caption>
+    </Image>
+    <Image FileName="1937_Thomas_Latham.jpg">
+        <Alt>Thomas Latham</Alt>
+        <Caption>Thomas Latham - 1937</Caption>
+    </Image>
+    <Image FileName="1938_Albert_Bleadow.jpg">
+        <Alt>Albert Bleadow</Alt>
+        <Caption>Albert Bleadow - 1938</Caption>
+    </Image>
+    <Image FileName="1940_Raymond_A_Kirsch.jpg">
+        <Alt>Raymond Kirsch</Alt>
+        <Caption>Raymond Kirsch - 1940</Caption>
+    </Image>
+    <Image FileName="1942_Paul_Ton.jpg">
+        <Alt>Paul Ton</Alt>
+        <Caption>Paul Ton - 1942</Caption>
+    </Image>
+    <Image FileName="1942_Russell_Vandewal.jpg">
+        <Alt>Russell Van de Wal</Alt>
+        <Caption>Russell Van de Wal - 1942</Caption>
+    </Image>
+    <Image FileName="1942_Gordon_Shillinglaw.jpg">
+        <Alt>Gordon Shillinglaw</Alt>
+        <Caption>Gordon Shillinglaw - 1942</Caption>
+    </Image>
+    <Image FileName="1968_Christopher_R_Martin.jpg">
+        <Alt>Christopher Martin</Alt>
+        <Caption>Christopher Martin - 1968</Caption>
+    </Image>
+    <Image FileName="1969_Michael_W_Corey.jpg">
+        <Alt>Michael Corey</Alt>
+        <Caption>Michael Corey - 1969</Caption>
+    </Image>
+    <Image FileName="1969_Thomas_Sparks.jpg">
+        <Alt>Thomas Sparks</Alt>
+        <Caption>Thomas Sparks - 1969</Caption>
+    </Image>
+</ImageGallery>
