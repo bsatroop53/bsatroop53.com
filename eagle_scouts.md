@@ -1,5 +1,5 @@
 ---
-layout: imagegallerypage
+layout: imagegallerypage4
 title: BSA Troop 53 Eagle Scouts
 description: Members of Troop 53 that achieved scouting's highest rank.
 tags: [eagle, list, names, scout]
