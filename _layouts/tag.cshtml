@@ -9,22 +9,30 @@ layout : layout
 <article id="page-inner">
     <div class="row">
         <div class="col-md-12">
-            <h1 class="page-head-line">Tag: @tagName</h1>
+            <h1 class="page-head-line">Posts tagged as "@tagName"</h1>
         </div>
     </div>
 
     <div class="row">
         <div class="col-md-12">
             <ul>
-                @{
-                    foreach( var cat in @Model.Site.Tags )
+                @foreach( var tag in @Model.Site.Tags )
+                {
+                    @if( tag.Name.Equals( tagName ) )
                     {
-                        if( cat.Name.Equals( tagName ) )
+                        @foreach( var post in tag.Posts )
                         {
-                            foreach( var post in cat.Posts )
-                            {
-                                @:<li><a href="@post.Url">@post.Title</a></li>
-                            }
+                            <li>
+                                <a href="@post.Url">@post.Title</a>
+                                @if( @post.Bag.ContainsKey( "description" ) )
+                                {
+                                    <ul>
+                                        <li>
+                                            @post.Bag["description"].ToString()
+                                        </li>
+                                    </ul>
+                                }
+                            </li>
                         }
                     }
                 }
