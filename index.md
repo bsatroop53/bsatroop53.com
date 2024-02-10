@@ -14,7 +14,3 @@ Welcome to the (currently unofficial) website of Troop 53 of Castleton NY!  This
 ## Christmas Tree Sales
 
 If you're here looking for information about Troop 53's annual Christmas tree sale, please go to the Maple Hill Trees website: [www.maplehilltrees.com](http://www.maplehilltrees.com/).
-
-## Other Links
-
-This website's source code is open source, and viewable on GitHub here: [https://github.com/xforever1313/bsatroop53.com](https://github.com/xforever1313/bsatroop53.com)
