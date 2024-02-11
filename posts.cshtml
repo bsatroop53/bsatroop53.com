@@ -1,0 +1,35 @@
+---
+layout : layout
+title : All Posts
+description : "All of the posts on this website"
+tags: ["posts"]
+---
+
+<article id="page-inner">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="page-head-line">All Posts</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <ul>
+                @foreach( var post in @Model.Site.Posts )
+                {
+                    <li>
+                        <a href="@post.Url">@post.Title</a>
+                        @if( @post.Bag.ContainsKey( "description" ) )
+                        {
+                            <ul>
+                                <li>
+                                    @post.Bag["description"].ToString()
+                                </li>
+                            </ul>
+                        }
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</article>

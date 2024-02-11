@@ -1,0 +1,98 @@
+---
+layout: layout
+---
+
+@using Pretzel.Logic.Extensibility.Extensions;
+@using Pretzel.SethExtensions;
+
+@{
+    string defaultAuthor = "Anonymous";
+    if( Model.Site.Config.ContainsKey( "author" ) )
+    {
+        defaultAuthor = Model.Site.Config["author"]?.ToString() ?? defaultAuthor;
+    }
+}
+
+<article id="page-inner">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="page-head-line">@Model.Page.Title</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div id="postmeta">
+                <div class="col-md-4">
+                    <i class="fa fa-user"></i> @Model.Page.GetAuthor( defaultAuthor )
+                </div>
+                <div class="col-md-4">
+                    <i class="fa fa-calendar"></i> @Model.Page.Date.ToString( "MMM dd yyyy" )
+                </div>
+                <div class="col-md-4">
+                    Posted In:
+                    @foreach( string category in Model.Page.Categories )
+                    {
+                        @foreach( var page in Model.Site.Pages )
+                        {
+                            @if( page.Bag.ContainsKey( "category" ) )
+                            {
+                                @if( category.Equals( page.Bag["category"] ) )
+                                {
+                                    <a href="@(page.Url)">@(category)</a>
+                                }
+                            }
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            @Raw( Model.Content )
+        </div>
+    </div>
+    <hr class="post-bottom-hr"/>
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Tagged as:</h2>
+            <ul class="tags">
+            @foreach( string tag in Model.Page.Tags )
+            {
+                @foreach( var page in Model.Site.Pages )
+                {
+                    @if( page.Bag.ContainsKey( "tag" ) )
+                    {
+                        @if( tag.Equals( page.Bag["tag"] ) )
+                        {
+                            <li>
+                                <a href="@(page.Url)">@(tag)</a>
+                            </li>
+                        }
+                    }
+                }
+            }
+            </ul>
+        </div>
+    </div>
+    <hr/>
+    <div class="row">
+        <div class="col-md-12">
+            <nav id="posts-nav" style="display: flex; justify-content: space-around;">
+                <div>
+                    @if( Model.Previous != null )
+                    {
+                        <a href="@Model.Previous.Url" title="Previous Post: @Model.Previous.Title">&larr; @Model.Previous.Title</a>
+                    }
+                </div>
+                <div>
+                    @if( Model.Next != null )
+                    {
+                        <a href="@Model.Next.Url" title="next Post: @Model.Next.Title">@Model.Next.Title &rarr; </a>
+                    }
+                </div>
+            </nav>
+        </div>
+    </div>
+</article>
+

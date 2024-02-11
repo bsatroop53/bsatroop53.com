@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageGallery ImageDir="static/img/galleries/eagle_scouts" DefaultImage="DefaultImage.jpg" ThumbnailOutputDir="static/img/galleries/eagle_scouts/thumbnails/" DefaultThumbnailScale="0.99">
+    <Image FileName="1929_Carlos_Morgan.jpg">
+        <Alt>Carlos Morgan</Alt>
+        <Caption>Carlos Morgan - 1929</Caption>
+    </Image>
+    <Image FileName="1931_Thurston_Paul.jpg">
+        <Alt>Thurston Paul</Alt>
+        <Caption>Thurston Paul - 1931</Caption>
+    </Image>
+    <Image FileName="1931_Jay_Paul.jpg">
+        <Alt>Jay Paul</Alt>
+        <Caption>Jay Paul - 1931</Caption>
+    </Image>
+    <Image FileName="1933_Raymond_Dieffenbach.jpg">
+        <Alt>Raymon Dieffenbach</Alt>
+        <Caption>Raymond Dieffenbach - 1933</Caption>
+    </Image>
+    <Image FileName="1937_Thomas_Latham.jpg">
+        <Alt>Thomas Latham</Alt>
+        <Caption>Thomas Latham - 1937</Caption>
+    </Image>
+    <Image FileName="1938_Albert_Bleadow.jpg">
+        <Alt>Albert Bleadow</Alt>
+        <Caption>Albert Bleadow - 1938</Caption>
+    </Image>
+    <Image FileName="1940_Raymond_A_Kirsch.jpg">
+        <Alt>Raymond Kirsch</Alt>
+        <Caption>Raymond Kirsch - 1940</Caption>
+    </Image>
+    <Image FileName="1942_Paul_Ton.jpg">
+        <Alt>Paul Ton</Alt>
+        <Caption>Paul Ton - 1942</Caption>
+    </Image>
+    <Image FileName="1942_Russell_Vandewal.jpg">
+        <Alt>Russell Van de Wal</Alt>
+        <Caption>Russell Van de Wal - 1942</Caption>
+    </Image>
+    <Image FileName="1942_Gordon_Shillinglaw.jpg">
+        <Alt>Gordon Shillinglaw</Alt>
+        <Caption>Gordon Shillinglaw - 1942</Caption>
+    </Image>
+    <Image FileName="1968_Christopher_R_Martin.jpg">
+        <Alt>Christopher Martin</Alt>
+        <Caption>Christopher Martin - 1968</Caption>
+    </Image>
+    <Image FileName="1969_Michael_W_Corey.jpg">
+        <Alt>Michael Corey</Alt>
+        <Caption>Michael Corey - 1969</Caption>
+    </Image>
+    <Image FileName="1969_Thomas_Sparks.jpg">
+        <Alt>Thomas Sparks</Alt>
+        <Caption>Thomas Sparks - 1969</Caption>
+    </Image>
+    <Image FileName="1976_Paul_Albertine.jpg">
+        <Alt>Paul Albertine</Alt>
+        <Caption>Paul Albertine - 1976</Caption>
+    </Image>
+    <Image FileName="1976_Donald_McKnight.jpg">
+        <Alt>Donald McKnight</Alt>
+        <Caption>Donald McKnight - 1976</Caption>
+    </Image>
+    <Image FileName="1978_Scott_Van_Nederynen.jpg">
+        <Alt>Scott Van Nederynen</Alt>
+        <Caption>Scott Van Nederynen - 1978</Caption>
+    </Image>
+    <Image FileName="1980_Geoffrey_D_Schad.jpg">
+        <Alt>Geoffrey Schad</Alt>
+        <Caption>Geoffrey Schad - 1980</Caption>
+    </Image>
+    <Image FileName="1980_James_Ray.jpg">
+        <Alt>James Ray</Alt>
+        <Caption>James Ray - 1980</Caption>
+    </Image>
+    <Image FileName="1981_Gary_Favour.jpg">
+        <Alt>Gary Favour</Alt>
+        <Caption>Gary Favour - 1981</Caption>
+    </Image>
+    <Image FileName="1983_Gary_Favour.jpg">
+        <Alt>Michael Jenkins</Alt>
+        <Caption>Michael Jenkins - 1983</Caption>
+    </Image>
+    <Image FileName="1984_Richard_Folmsbee.jpg">
+        <Alt>Richard Folmsbee</Alt>
+        <Caption>Richard Folmsbee - 1984</Caption>
+    </Image>
+    <Image FileName="1985_Matthew_Stinner.jpg">
+        <Alt>Matthew Stinner</Alt>
+        <Caption>Matthew Stinner - 1985</Caption>
+    </Image>
+    <Image FileName="1985_Christopher_J_Hansen.jpg">
+        <Alt>Christopher Hansen</Alt>
+        <Caption>Christopher Hansen - 1985</Caption>
+    </Image>
+    <Image FileName="1987_Daniel_Jenkins.jpg">
+        <Alt>Daniel Jenkins</Alt>
+        <Caption>Daniel Jenkins - 1987</Caption>
+    </Image>
+    <Image FileName="1987_Anthony_Harris.jpg">
+        <Alt>Anthony Harris</Alt>
+        <Caption>Anthony Harris - 1987</Caption>
+    </Image>
+    <Image FileName="1987_Steven_A_Vandewal.jpg">
+        <Alt>Steven Van de Wal</Alt>
+        <Caption>Steven Van de Wal - 1987</Caption>
+    </Image>
+    <Image FileName="1995_Patrick_Burke.jpg">
+        <Alt>Patrick Burke</Alt>
+        <Caption>Patrick Burke - 1995</Caption>
+    </Image>
+    <Image FileName="1996_Michael_Wiley.jpg">
+        <Alt>Michael Wiley</Alt>
+        <Caption>Michael Wiley - 1996</Caption>
+    </Image>
+    <Image FileName="1997_David_Harris_Jr.jpg">
+        <Alt>David Harris, Jr.</Alt>
+        <Caption>David Harris, Jr. - 1997</Caption>
+    </Image>
+    <Image FileName="1998_Brian_Herr.jpg">
+        <Alt>Brian Herr</Alt>
+        <Caption>Brian Herr - 1998</Caption>
+    </Image>
+    <Image FileName="1999_Stephen_Wiley.jpg">
+        <Alt>Stephen Wiley</Alt>
+        <Caption>Stephen Wiley - 1999</Caption>
+    </Image>
+    <Image FileName="2002_P_David_Albertine_II.jpg">
+        <Alt>Paul David Albertine II</Alt>
+        <Caption>Paul David Albertine II - 2002</Caption>
+    </Image>
+    <Image FileName="2004_Robert_J_Roth.jpg">
+        <Alt>Robert Roth</Alt>
+        <Caption>Robert Roth - 2004</Caption>
+    </Image>
+    <Image FileName="2005_Seth_Hiser.jpg">
+        <Alt>Seth Hiser</Alt>
+        <Caption>Seth Hiser - 2005</Caption>
+    </Image>
+    <Image FileName="2005_Adam_Butterworth.jpg">
+        <Alt>Adam Butterworth</Alt>
+        <Caption>Adam Butterworth - 2005</Caption>
+    </Image>
+    <Image FileName="2005_Michael_Warner.jpg">
+        <Alt>Michael Warner</Alt>
+        <Caption>Michael Warner - 2005</Caption>
+    </Image>
+    <Image FileName="2005_Daniel_Albertine.jpg">
+        <Alt>Daniel Albertine</Alt>
+        <Caption>Daniel Albertine - 2005</Caption>
+    </Image>
+    <Image FileName="2006_Dustin_J_Albertine.jpg">
+        <Alt>Dustin Albertine</Alt>
+        <Caption>Dustin Albertine - 2006</Caption>
+    </Image>
+    <Image FileName="2007_KC_Shafer.jpg">
+        <Alt>KC Shafer</Alt>
+        <Caption>KC Shafer - 2007</Caption>
+    </Image>
+    <Image FileName="2007_Daniel_M_Roth.jpg">
+        <Alt>Daniel Roth</Alt>
+        <Caption>Daniel Roth - 2007</Caption>
+    </Image>
+    <Image FileName="2008_Brett_C_Wagner.jpg">
+        <Alt>Brett Wagner</Alt>
+        <Caption>Brett Wagner - 2008</Caption>
+    </Image>
+    <Image FileName="2008_Matthew_M_McKnight.jpg">
+        <Alt>Matthew McKnight</Alt>
+        <Caption>Matthew McKnight - 2008</Caption>
+    </Image>
+    <Image FileName="2008_Tadd_Benoit.jpg">
+        <Alt>Tadd Benoit</Alt>
+        <Caption>Tadd Benoit - 2008</Caption>
+    </Image>
+    <Image FileName="2008_Ian_Walling.jpg">
+        <Alt>Ian Walling</Alt>
+        <Caption>Ian Walling - 2008</Caption>
+    </Image>
+    <Image FileName="2009_Seth_R_Hendrick.jpg">
+        <Alt>Seth Hendrick</Alt>
+        <Caption>Seth Hendrick - 2009</Caption>
+    </Image>
+    <Image FileName="2010_Corey_Haughton.jpg">
+        <Alt>Corey Haughton</Alt>
+        <Caption>Corey Haughton - 2010</Caption>
+    </Image>
+    <Image FileName="2010_Ted_Tobin.jpg">
+        <Alt>Ted Tobin</Alt>
+        <Caption>Ted Tobin - 2010</Caption>
+    </Image>
+    <Image FileName="2010_Jason_Zobre.jpg">
+        <Alt>Jason Zobre</Alt>
+        <Caption>Jason Zobre - 2010</Caption>
+    </Image>
+    <Image FileName="2013_William_Noll.jpg">
+        <Alt>William Noll</Alt>
+        <Caption>William Noll - 2013</Caption>
+    </Image>
+    <Image FileName="2013_Jacob_Parslow.jpg">
+        <Alt>Jacob Parslow</Alt>
+        <Caption>Jacob Parslow - 2013</Caption>
+    </Image>
+    <Image FileName="2013_Alexander_Pulver.jpg">
+        <Alt>Alexander Pulver</Alt>
+        <Caption>Alexander Pulver - 2013</Caption>
+    </Image>
+    <Image FileName="2017_Noah_Roberts.jpg">
+        <Alt>Noah Roberts</Alt>
+        <Caption>Noah Roberts - 2017</Caption>
+    </Image>
+    <Image FileName="2019_Seth_Roberts.jpg">
+        <Alt>Seth Roberts</Alt>
+        <Caption>Seth Roberts - 2019</Caption>
+    </Image>
+    <Image FileName="2021_Peter_Basile.jpg">
+        <Alt>Peter Basile</Alt>
+        <Caption>Peter Basile - 2021</Caption>
+    </Image>
+    <Image FileName="2023_Ethan_Maier.jpg">
+        <Alt>Ethan Maier</Alt>
+        <Caption>Ethan Maier - 2023</Caption>
+    </Image>
+</ImageGallery>

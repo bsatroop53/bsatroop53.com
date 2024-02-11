@@ -1,0 +1,25 @@
+---
+layout : layout
+exclude_from_navbar: true
+---
+
+@using Pretzel.Categories;
+
+<article id="page-inner">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="page-head-line">All Tags</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <ul>
+                @foreach( var sitePage in Model.Site.Pages.Where( p => p.Bag.ContainsKey( "tag" ) ).OrderBy( p => p.Title ) )
+                {
+                    <li><a href="@sitePage.Url">@sitePage.Title</a></li>
+                }
+            </ul>
+        </div>
+    </div>
+</article>

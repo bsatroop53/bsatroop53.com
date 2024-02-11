@@ -4,13 +4,16 @@ pretzel:
 category_pages_layout: category
 tag_pages_layout: tag
 
+# Only really enable this so categories get cached.
+enable_subcategories: true
+
 # Site settings
-author: Seth Hendrick
-title: Troop 53 Of Castleton NY
-description: "Troop 53 of Castleton's Archived Website"
+author: bsatroop53.com
+title: BSA Troop 53 Of Castleton, NY
+description: "BSA Troop 53 of Castleton's Website"
 url: https://bsatroop53.com
 urlnohttp: bsatroop53.com
-contact: seth@shendrick.net
+contact: admin@bsatroop53.com
 
 github: https://github.com/xforever1313/bsatroop53.com
 githubissues: https://github.com/xforever1313/bsatroop53.com/issues

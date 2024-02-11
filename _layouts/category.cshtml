@@ -1,0 +1,42 @@
+﻿---
+layout : layout
+---
+
+@{
+    object catName = Model.Page.Bag["category"];
+}
+
+<article id="page-inner">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="page-head-line">@catName</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <ul>
+                @foreach( var cat in @Model.Site.Categories )
+                {
+                    @if( cat.Name.Equals( catName ) )
+                    {
+                        @foreach( var post in cat.Posts )
+                        {
+                            <li>
+                                <a href="@post.Url">@post.Title</a>
+                                @if( @post.Bag.ContainsKey( "description" ) )
+                                {
+                                    <ul>
+                                        <li>
+                                            @post.Bag["description"].ToString()
+                                        </li>
+                                    </ul>
+                                }
+                            </li>
+                        }
+                    }
+                }
+            </ul>
+        </div>
+    </div>
+</article>

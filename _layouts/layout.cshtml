@@ -1,6 +1,5 @@
 @using System
 @using System.Collections.Generic
-@using System.Linq
 @using System.Text
 @using Pretzel.Logic.Templating.Context
 @using Page = Pretzel.Logic.Templating.Context.Page
@@ -12,31 +11,316 @@
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     @{
-        StringBuilder tagBuilder = new StringBuilder();
-        foreach( string tag in Model.Page.Tags )
+        if( Model.Page.Bag.ContainsKey( "tags" ) )
         {
-            tagBuilder.Append( tag + "," );
+            var tagBuilder = new StringBuilder();
+            var tags = Model.Page.Bag["tags"] as IEnumerable<string>;
+            foreach( string tag in tags ?? Array.Empty<string>() )
+            {
+                tagBuilder.Append( tag + "," );
+            }
+            if( tagBuilder.Length > 0 )
+            {
+                tagBuilder = tagBuilder.Remove( tagBuilder.Length - 1, 1 );
+                @:<meta name="keywords" content="Castleton,Schodack,Boy,Scout,Troop,53,253,Pack,BSA,@tagBuilder.ToString()" />
+            }
         }
-        if( tagBuilder.Length > 0 )
-        {
-            tagBuilder = tagBuilder.Remove( tagBuilder.Length - 1, 1 );
-            tagBuilder.Insert( 0, ",", 1 );
-        }
-
-        @:<meta name="keywords" content="Boy Scout,Troop 53,Stories@(tagBuilder.ToString())" />
 
         if( Model.Page.Bag.ContainsKey( "description" ) )
         {
             @:<meta name="description" content="@(Model.Page.Bag["description"])" />
+            @:<meta property="og:description" content="shendrick.net: @(Model.Page.Bag["description"])" />
         }
     }
+
+    <meta property="og:title" content="shendrick.net: @Model.Page.Title" />
+    <meta property="og:url" content="@(Model.Site.Config["url"])@Model.Page.Url" />
+    <meta property="og:site_name" content="@(Model.Site.Config["title"])" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:type" content="article" />
+
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Blog Feed" />
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Blog Feed" />
+    <link rel="shortcut icon" href="/static/img/favicon.ico" />
+
     <title>@Model.Title</title>
 
-    <link href="/static/css/github-highlight.css" rel="stylesheet" />
-    <link href="/static/css/github-markdown.css" rel="stylesheet" />
+    <!-- BOOTSTRAP STYLES-->
+    <link href="/static/css/bootstrap.css" rel="stylesheet" />
+
+    <!-- Binary Theme Styles -->
+    <link href="/static/css/basic.css" rel="stylesheet" />
     <link href="/static/css/custom.css" rel="stylesheet" />
+
+    <!-- BSA Troop 53-specific styles-->
+    <link href="/static/css/bsat53.css" rel="stylesheet" />
+
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="/static/css/fa.fontawesome.min.css">
+    <link rel="stylesheet" href="/static/css/fa.brands.min.css">
+    <link rel="stylesheet" href="/static/css/fa.regular.min.css">
+    <link rel="stylesheet" href="/static/css/fa.solid.min.css">
+    <link rel="stylesheet" href="/static/css/fa.v5-font-face.min.css">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/static/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/static/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/static/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/static/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/static/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/static/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/static/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/static/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/static/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/static/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/static/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/static/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
 </head>
 <body>
-    @Raw( Model.Content )
+    <div id="wrapper">
+        <!-- Top row -->
+        <nav class="navbar navbar-default navbar-cls-top " role="navigation" style="margin-bottom: 0">
+            <!-- Top-left -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <h1 id="main-title" style="padding:0.5em;">Troop 53 of Castleton, NY</h1>
+        </nav>
+
+        <!-- Side Bar -->
+        <nav class="navbar-default navbar-side" role="navigation">
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+                    <li>
+                        <a href="/index.html"><img class="image avatar" src="/static/img/53patch.png" width="240" height="240" /></a>
+                    </li>
+                    <li>
+                        <a href="/index.html"><i class="fa fa-home"></i>Home</a>
+                    </li>
+                    @{
+                        List<string> ignorePages = new List<string>() { "/", "/posts" };
+                        List<Page> aboutPages = new List<Page>();
+                        List<Page> otherPages = new List<Page>();
+                        foreach( Page thePage in Model.Site.Pages )
+                        {
+                            if( thePage.Bag.ContainsKey( "layout" ) && "aboutpage".Equals( thePage.Bag["layout"] ) )
+                            {
+                                aboutPages.Add( thePage );
+                            }
+                            else if(
+                                ( ignorePages.Contains( @thePage.Id ) == false ) &&
+                                ( string.IsNullOrEmpty( @thePage.Id ) == false ) &&
+                                ( @thePage.Id.Contains( ".well-known" ) == false ) && // Don't include lets encrypt stuff.
+                                ( "nil".Equals( thePage.Bag["layout"] ) == false ) &&
+                                // Don't include page if we explicitly exclude it from the nav bar.
+                                ( ( @thePage.Bag.ContainsKey( "exclude_from_navbar" ) && ( "True".Equals( @thePage.Bag["exclude_from_navbar"].ToString(), StringComparison.InvariantCultureIgnoreCase ) ) ) == false )
+                            )
+                            {
+                                otherPages.Add( thePage );
+                            }
+                        }
+
+                        int Compare( Page left, Page right )
+                        {
+                            const string key = "pageindex";
+                            if( left.Bag.ContainsKey( key ) == false )
+                            {
+                                throw new KeyNotFoundException(
+                                    left.Id + " needs " + key
+                                );
+                            }
+                            else if ( right.Bag.ContainsKey(key) == false )
+                            {
+                                throw new KeyNotFoundException(
+                                    right.Id + " needs " + key
+                                );
+                            }
+                            return left.Bag[key].ToString().CompareTo( right.Bag[key].ToString() );
+                        }
+                        aboutPages.Sort( Compare );
+                        otherPages.Sort( Compare );
+                    }
+                    <li>
+                        <a href="#"><i class="fa fa-question-circle"></i>About<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            @foreach( var thePage in aboutPages )
+                            {
+                                if( thePage.Bag.ContainsKey( "icon" ) )
+                                {
+                                    @:<li><a href="@thePage.Url"><i class="fa @thePage.Bag["icon"]"></i>@thePage.Title</a></li>
+                                }
+                                else
+                                {
+                                    @:<li><a href="@thePage.Url"><i class="fa-regular fa-circle-dot"></i>@thePage.Title</a></li>
+                                }
+                            }
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-file-text"></i>Posts<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a href="/posts.html"><i class="fa-regular fa-circle-dot"></i>All Posts</a></li>
+                            @foreach( var category in Model.Site.Categories )
+                            {
+                                foreach( var page in Model.Site.Pages )
+                                {
+                                    if( page.Bag.ContainsKey( "category" ) )
+                                    {
+                                        if( category.Name.Equals( page.Bag["category"] ) )
+                                        {
+                                            @:<li><a href="@(page.Url)"><i class="fa-regular fa-circle-dot"></i>@(category.Name)</a></li>
+                                        }
+                                    }
+                                }
+                            }
+                        </ul>
+                    </li>
+                    @foreach( var thePage in otherPages )
+                    {
+                        if( thePage.Bag.ContainsKey( "icon" ) )
+                        {
+                            @:<li><a href="@thePage.Url"><i class="fa @thePage.Bag["icon"]"></i>@thePage.Title</a></li>
+                        }
+                        else
+                        {
+                            @:<li><a href="@thePage.Url"><i class="fa-regular fa-circle-dot"></i>@thePage.Title</a></li>
+                        }
+                    }
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Main Page -->
+        <div id="page-wrapper">
+            @Raw( Model.Content )
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer-sec">
+        <div class="row">
+            <div class="col-md-4">
+                <p class="footertitle"><strong>Site Links</strong></p>
+                <ul class="no-bullets">
+                    <li>
+                        <a href="/index.html"><i class="fa fa-home"></i> Home</a>
+                    </li>
+                    <li>
+                        <a href="/about/privacy.html"><i class="fas fa-lock"></i> Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href="/about/credits.html"><i class="fa-solid fa-users"></i> Third-Party Credits</a>
+                    </li>
+                    <li>
+                        <a href="@(Model.Site.Config["github"])" target="_blank" rel="noopener noreferrer nofollow"><i class="fa-brands fa-square-github"></i> Source Code</a>
+                    </li>
+                    <li>
+                        <a href="/atom.xml"><i class="fa fa-rss"></i> ATOM Feed</a>
+                    </li>
+                    <li>
+                        <a href="/rss.xml"><i class="fa fa-rss"></i> RSS Feed</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <p class="footertitle"><strong>Scouting Links</strong></p>
+                <ul class="no-bullets">
+                    <li>
+                        <a href="https://www.scouting.org/" target="_blank" rel="noopener noreferrer nofollow"><i class="fa-solid fa-landmark"></i> Boy Scouts of America</a>
+                    </li>
+                    <li>
+                        <a href="https://www.scoutshop.org/" target="_blank" rel="noopener noreferrer nofollow"><i class="fa-solid fa-store"></i> Scout Shop</a>
+                    </li>
+                    <li>
+                        <a href="https://trcscouting.org/" target="_blank" rel="noopener noreferrer nofollow"><i class="fa-solid fa-people-roof"></i> Twin Rivers Council</a>
+                    </li>
+                    <li>
+                        <a href="https://scoutlife.org/" target="_blank" rel="noopener noreferrer nofollow"><i class="fa-solid fa-book-open"></i> Scout Life Magazine</a>
+                    </li>
+                    <li>
+                        <a href="https://rsrbsa.org/" target="_blank" rel="noopener noreferrer nofollow"><i class="fa-solid fa-campground"></i> Rotary Scout Reservation</a>
+                    </li>
+                    <li>
+                        <a href="https://trcscouting.org/camp-wakpominee/" target="_blank" rel="noopener noreferrer nofollow"><i class="fa-solid fa-mountain"></i> Camp Wakpominee</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <p class="footertitle"><strong>Castleton/Schodack Links</strong></p>
+                <ul class="no-bullets">
+                    <li>
+                        <a href="https://www.castleton-on-hudson.org/" target="_blank" rel="noopener noreferrer nofollow"><i class="fa-solid fa-map-location-dot"></i> Village of Castleton</a>
+                    </li>
+                    <li>
+                        <a href="https://www.schodack.org/" target="_blank" rel="noopener noreferrer nofollow"><i class="fa fa-map-signs"></i> Town of Schodack, NY</a>
+                    </li>
+                    <li>
+                        <a href="https://www.schodack.k12.ny.us/" target="_blank" rel="noopener noreferrer nofollow"><i class="fa-solid fa-school"></i> Schodack Central Schools</a>
+                    </li>
+                    <li>
+                        <a href="https://castletonkiwanis.com/" target="_blank" rel="noopener noreferrer nofollow"><i class="fa-solid fa-k"></i> Castleton Kiwanis</a>
+                    </li>
+                    <li>
+                        <a href="http://www.maplehilltrees.com/" target="_blank" rel="noopener noreferrer nofollow"><i class="fa-solid fa-tree"></i> Maple Hill Trees</a>
+                    </li>
+                    <li>
+                        <a href="https://parks.ny.gov/parks/146/details.aspx" target="_blank" rel="noopener noreferrer nofollow"><i class="fa-solid fa-caravan"></i> Schodack Island State Park</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="footersentence">
+                    <strong>Site Information</strong>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <p class="footersentence">
+                    &copy; @DateTime.Now.Year <a href="/index.html">@Model.Site.Config["author"]</a>
+                </p>
+            </div>
+            <div class="col-md-6">
+                <p class="footersentence">
+                    Design Inspired By : <a href="https://web.archive.org/web/20230203155236/https://binarytheme.com/" target="_blank" rel="noopener noreferrer nofollow">BinaryTheme</a>
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <p class="footersentence">
+                    Page generated on @(DateTime.UtcNow.ToString( "R" ))
+                </p>    
+            </div>
+            <div class="col-md-6">
+                <p class="footersentence">
+                    This website is an unofficial remake of the old troop website.  See the <a href="/about/archive.html">archive page</a> for more information.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- SCRIPTS -AT THE BOTTOM TO REDUCE THE LOAD TIME-->
+    <!-- JQUERY SCRIPTS -->
+    <script src="/static/js/jquery-1.10.2.js"></script>
+    <!-- BOOTSTRAP SCRIPTS -->
+    <script src="/static/js/bootstrap.js"></script>
+    <!-- METISMENU SCRIPTS -->
+    <script src="/static/js/jquery.metisMenu.js"></script>
+    <!-- CUSTOM SCRIPTS -->
+    <script src="/static/js/custom.js"></script>
 </body>
 </html>
