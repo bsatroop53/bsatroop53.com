@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageGallery ImageDir="static/img/galleries/historical_photographs" ThumbnailOutputDir="static/img/galleries/2008_spring_camporee/thumbnails/" DefaultThumbnailScale="0.99">
+    <Image FileName="1930_gerrysipter_franklinvandewal_jaypaul.jpg">
+        <Alt>Three scouts in scout uniforms sitting on the ground eating lunch.  There is a bike on the ground to he right of them.</Alt>
+        <Caption>Patrol Activity - 1930's Gerry Sipter, Franklin VanDeWal, and Jay Paul.</Caption>
+    </Image>
+    <Image FileName="4apr1931_newspaper_thurstonpauleagle.jpg">
+        <Alt>Newspaper article that reads "Castleton Boy Attains Eagle Scout Ranking."</Alt>
+        <Caption>Thurston Paul, Castleton's 2nd Eagle Scout. He went on to become a General in the U.S. Army.</Caption>
+    </Image>
+    <Image FileName="1940_newspaper_albert_bleadow.jpg">
+        <Alt>Boy looking at a Scouting magazine.</Alt>
+        <Caption>Albert Bleadow - 1940.</Caption>
+    </Image>
+    <Image FileName="jul1940_gordon_shillinglaw.jpg">
+        <Alt>A scout standing on a dock in uniform, facing the camera.</Alt>
+        <Caption>Gordon Shillinglaw at Big Moose Lake - 1940.  Gordon went on to become a Professor of Accounting at Columbia University Graduate School of Business.  Although he earned the rank of Eagle Scout during World War II, he was not presented with his award until 2006.</Caption>
+    </Image>
+    <Image FileName="1944_sss153_at_roll_call_spring.jpg">
+        <Alt>Eight scouts in a line facing towards the left.  There is a tent behind them.</Alt>
+        <Caption>Sea Scout Troop 153 at Roll Call - 1944.</Caption>
+    </Image>
+    <Image FileName="1944_sss153_at_wheeler_hose_co_basement.jpg">
+        <Alt>Twelve scouts standing behind a bar inside of a basement.</Alt>
+        <Caption>Sea Scout Troop 153 at Wheeler Hose Company basement (Green Ave at Chestnut St) - 1944.</Caption>
+    </Image>
+    <Image FileName="sea_scouts_from_sandy_smith.jpg">
+        <Alt>Three scouts standing in a row boat on the Hudson River.  The two on the left are holding up oars.</Alt>
+        <Caption>Sea Scouts from Troop 153 at Castleton's North Dock.</Caption>
+    </Image>
+    <Image FileName="1970_mahikan_lodge_albertine_smith.jpg">
+        <Alt>Two scouts standing outside a wooden lodge.  There are several hockey sticks standing up, being stuck in the snow.  A sign says "Mahikan Lodge" and it has a moose on it.</Alt>
+        <Caption>Mahikan Lodge, Stratton Mtn. Scout Reservation - early 1970's. Paul D. Albertine and Dana Smith.</Caption>
+    </Image>
+    <Image FileName="1971_t53_memorial_day_parade.jpg">
+        <Alt>Scouts marching down the street, heading left.</Alt>
+        <Caption>Memorial Day parade 1971. Green Avenue at Hillview Terrace.</Caption>
+    </Image>
+    <Image FileName="1974_t53_room_refinish.jpg">
+        <Alt>Two people on the floor.  The person on the left is staining the floor, the person on the right appears to be sanding.</Alt>
+        <Caption>Mr. Al VanNederynen and Jeff VanNederynen refinish the floor in the Village Hall scout meeting room (1973-4).</Caption>
+    </Image>
+    <Image FileName="straton_mountain.jpg">
+        <Alt>A sign that says "Stratton Mountain Scout Reservation, Boy Scouts of America".</Alt>
+        <Caption>At the entrance to Stratton Mtn. Scout Reservation in Vermont.</Caption>
+    </Image>
+    <Image FileName="2007_matt_mcknight_at_international_food_festival.jpg">
+        <Alt>Matt McKnight holding a pot, another person is scooping something out of it.</Alt>
+        <Caption>Matt McKnight serves international scouts at 2007 World Jamboree, Chelmsford, England.</Caption>
+    </Image>
+    <Image FileName="2007_norwich.jpg">
+        <Alt>21 scouts and leaders standing on a grassy field, facing the camera.</Alt>
+        <Caption>Troop 53 at the 2007 Norwich University Scouting Association Camporee.</Caption>
+    </Image>
+    <Image FileName="t53_flag.jpg">
+        <Alt>A red and white flag waving in the breeze surrounded by tents.  It says "Troop 53, Castleton On Hudson, NY".  There are 6 gold stars on the flag.</Alt>
+        <Caption>Troop 53 flag flying proudly over the campsite on an absolutely beautiful day.</Caption>
+    </Image>
+</ImageGallery>
