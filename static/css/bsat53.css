@@ -74,19 +74,20 @@ ul.no-bullets {
     Includes the sidebar, but not the links contained within.
 */
 #wrapper {
-    background: #606c38;
+    background: #015400;
 }
 
 /* Includes the sidebar links */
 
 .sidebar-collapse .nav > li > a {
     color: #fff;
-    background: #283618;
+    background: #013300;
+    border-bottom: 1px solid #FFFFCC;
 }
 
 .sidebar-collapse .nav > li > a:hover,
 .sidebar-collapse .nav > li > a:focus {
-    background: #112409;
+    background: #001A00;
     outline: 0;
 }
 
@@ -94,7 +95,7 @@ ul.no-bullets {
     Includes the area surrounding the article area
 */
 #page-wrapper {
-    background-color: #dda15e;
+    background-color: #fdd555;
 }
 
 
@@ -103,17 +104,21 @@ ul.no-bullets {
 */
 
 #page-inner {
-    background-color: #fefae0;
+    background-color: #fffeee;
 }
 
 /*
     Includes the entire footer.
 */
 #footer-sec {
-    background: #5c3412;
+    background: #331900;
     font-size: 14px;
 }
 
 #footer-sec a {
     color: #ccc;
+}
+
+.panel-footer {
+    background-color: #faf2e5
 }
