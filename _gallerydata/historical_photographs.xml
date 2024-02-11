@@ -44,6 +44,16 @@
         <Alt>A sign that says "Stratton Mountain Scout Reservation, Boy Scouts of America".</Alt>
         <Caption>At the entrance to Stratton Mtn. Scout Reservation in Vermont.</Caption>
     </Image>
+    <Image FileName="2003_rotary.jpg">
+        <Alt>24 scouts and adults posing for a photo in front of a big outdoor fireplace.</Alt>
+        <Caption>Troop photo at Rotary Scout Reservation in 2003.</Caption>
+        <ThumbnailScale>0.40</ThumbnailScale>
+    </Image>
+    <Image FileName="2005_March1IndeNews.jpg">
+        <Alt>More than 150 people braved brisk weather to attend the first-ever community day at Schodack Island State Park oof Route 9J last Saturday, February 26.  Scouts from Castleton Troop #53 worked on this project (front to back): Seth Hendrick, Will Noll, Dusty Albertine (at top) and Dennis Strainge.  In the background were Daniel Albertine, Ian Walling, and James Gutta.</Alt>
+        <Caption>Newspaper clipping from Schodack Island State Park's winter festival featuring scouts building a tower.</Caption>
+        <ThumbnailScale>0.50</ThumbnailScale>
+    </Image>
     <Image FileName="2007_matt_mcknight_at_international_food_festival.jpg">
         <Alt>Matt McKnight holding a pot, another person is scooping something out of it.</Alt>
         <Caption>Matt McKnight serves international scouts at 2007 World Jamboree, Chelmsford, England.</Caption>
@@ -51,6 +61,14 @@
     <Image FileName="2007_norwich.jpg">
         <Alt>21 scouts and leaders standing on a grassy field, facing the camera.</Alt>
         <Caption>Troop 53 at the 2007 Norwich University Scouting Association Camporee.</Caption>
+    </Image>
+    <Image FileName="2008_wakpominee.jpg">
+        <Alt>Five scouts sitting in camping chairs looking at the camera.</Alt>
+        <Caption>Scouts at Camp Wakpominee in 2008.</Caption>
+    </Image>
+    <Image FileName="2010_wakpominee.jpg">
+        <Alt>15 scouts posing for the camera in front of three flag poles.</Alt>
+        <Caption>Troop photo at Camp Wakpominee in 2010.</Caption>
     </Image>
     <Image FileName="t53_flag.jpg">
         <Alt>A red and white flag waving in the breeze surrounded by tents.  It says "Troop 53, Castleton On Hudson, NY".  There are 6 gold stars on the flag.</Alt>
