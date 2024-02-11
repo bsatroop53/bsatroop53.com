@@ -26,22 +26,6 @@ layout: layout
                             }
                         }
                     </li>
-                    <li>
-                        Tagged as:
-                        @foreach( string tag in Model.Page.Tags )
-                        {
-                            foreach( var page in Model.Site.Pages )
-                            {
-                                if( page.Bag.ContainsKey( "tag" ) )
-                                {
-                                    if( tag.Equals( page.Bag["tag"] ) )
-                                    {
-                                        @:<a href="@(page.Url)">@(tag)</a>,
-                                    }
-                                }
-                            }
-                        }
-                    </li>
                     <li>Posted on @Model.Page.Date.ToString( "D" )</li>
                 </ul>
             </div>
@@ -52,7 +36,29 @@ layout: layout
             @Raw( Model.Content )
         </div>
     </div>
-    <hr/>
+    <hr class="post-bottom-hr"/>
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Tagged as:</h2>
+            <ul class="tags">
+            @foreach( string tag in Model.Page.Tags )
+            {
+                @foreach( var page in Model.Site.Pages )
+                {
+                    @if( page.Bag.ContainsKey( "tag" ) )
+                    {
+                        @if( tag.Equals( page.Bag["tag"] ) )
+                        {
+                            <li>
+                                <a href="@(page.Url)">@(tag)</a>
+                            </li>
+                        }
+                    }
+                }
+            }
+            </ul>
+        </div>
+    </div>
     <hr/>
     <div class="row">
         <div class="col-md-12">
