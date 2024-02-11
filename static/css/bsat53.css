@@ -36,6 +36,7 @@ ul.no-bullets {
     margin-bottom: 0px;
 }
 
+/* Overriding shendrick.net's theme */
 
 #postmeta {
     padding-top: 0.5em;
@@ -47,5 +48,72 @@ ul.no-bullets {
     padding-bottom: 2em;
     font-style: italic;
     margin-bottom: 1em;
-    border-bottom: 1px dashed #00CA79
+    border-bottom: 1px dashed #ff0000;
+}
+
+.page-head-line {
+    border-bottom: 2px solid rgb(255, 0, 0);
+}
+
+/* 
+    The bar at the top of the site.
+    Leave it the default, it looks good.
+*/
+
+/*
+.navbar-cls-top {
+    background: rgb(0, 51, 102);
+}
+
+.navbar-default {
+
+}
+*/
+
+/*
+    Includes the sidebar, but not the links contained within.
+*/
+#wrapper {
+    background: #606c38;
+}
+
+/* Includes the sidebar links */
+
+.sidebar-collapse .nav > li > a {
+    color: #fff;
+    background: #283618;
+}
+
+.sidebar-collapse .nav > li > a:hover,
+.sidebar-collapse .nav > li > a:focus {
+    background: rgb(17, 36, 9);
+    outline: 0;
+}
+
+/*
+    Includes the area surrounding the article area
+*/
+#page-wrapper {
+    background-color: #dda15e;
+}
+
+
+/*
+   Includes the area where the article text is located.
+*/
+
+#page-inner {
+    background-color: #fefae0;
+}
+
+/*
+    Includes the entire footer.
+*/
+#footer-sec {
+    background: #5c3412;
+    font-size: 14px;
+}
+
+#footer-sec a {
+    color: #ccc;
 }
