@@ -86,7 +86,7 @@ ul.no-bullets {
 
 .sidebar-collapse .nav > li > a:hover,
 .sidebar-collapse .nav > li > a:focus {
-    background: rgb(17, 36, 9);
+    background: #112409;
     outline: 0;
 }
 
