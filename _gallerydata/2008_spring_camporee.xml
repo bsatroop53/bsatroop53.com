@@ -2,6 +2,10 @@
 <ImageGallery ImageDir="static/img/galleries/2008_spring_camporee" ThumbnailOutputDir="static/img/galleries/2008_spring_camporee/thumbnails/" DefaultThumbnailScale="0.20">
     <Image FileName="2008SpringCamporee.jpg">
         <Alt>A patch of a person in a green shirt fishing in front of the Hudson River with a sunset in the background.  The Castleton Bridge is on the left, and the number 53 is between its pillars.  There is text around the outside that reads: Mahikan District 2008 Spring Camporee</Alt>
-        <Caption>Camporee Patch featuring the Castleton Bridge on the Left</Caption>
+        <Caption>Camporee Patch featuring the Castleton Bridge on the Left.</Caption>
+    </Image>
+    <Image FileName="2008MayIndyNewspaper.jpg">
+        <Alt>Scout Supper: Seth Hendrick of Boy Scouts Castleton Troop 53 cooks pizza in a dutch oven under a tent, sheltered from pouring rain during Schodack Island Scout Jamboree May 17.  To his right is scout Jacob Parslow.</Alt>
+        <Caption>Newspaper clipping from The Independent from the troop cooking dutch oven pizzas.</Caption>
     </Image>
 </ImageGallery>
