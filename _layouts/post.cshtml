@@ -2,32 +2,48 @@
 layout: layout
 ---
 
+@using Pretzel.Logic.Extensibility.Extensions;
+@using Pretzel.SethExtensions;
+
+@{
+    string defaultAuthor = "Anonymous";
+    if( Model.Site.Config.ContainsKey( "author" ) )
+    {
+        defaultAuthor = Model.Site.Config["author"]?.ToString() ?? defaultAuthor;
+    }
+}
+
 <article id="page-inner">
     <div class="row">
         <div class="col-md-12">
             <h1 class="page-head-line">@Model.Page.Title</h1>
-            <div class="page-subhead-line">
-                <ul>
-                    <li>
-                        Posted In:
-                        @{
-                            foreach( string category in Model.Page.Categories )
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div id="postmeta">
+                <div class="col-md-4">
+                    <i class="fa fa-user"></i> @Model.Page.GetAuthor( defaultAuthor )
+                </div>
+                <div class="col-md-4">
+                    <i class="fa fa-calendar"></i> @Model.Page.Date.ToString( "MMM dd yyyy" )
+                </div>
+                <div class="col-md-4">
+                    Posted In:
+                    @foreach( string category in Model.Page.Categories )
+                    {
+                        @foreach( var page in Model.Site.Pages )
+                        {
+                            @if( page.Bag.ContainsKey( "category" ) )
                             {
-                                foreach( var page in Model.Site.Pages )
+                                @if( category.Equals( page.Bag["category"] ) )
                                 {
-                                    if( page.Bag.ContainsKey( "category" ) )
-                                    {
-                                        if( category.Equals( page.Bag["category"] ) )
-                                        {
-                                            @:<a href="@(page.Url)">@(category)</a>,
-                                        }
-                                    }
+                                    <a href="@(page.Url)">@(category)</a>
                                 }
                             }
                         }
-                    </li>
-                    <li>Posted on @Model.Page.Date.ToString( "D" )</li>
-                </ul>
+                    }
+                </div>
             </div>
         </div>
     </div>

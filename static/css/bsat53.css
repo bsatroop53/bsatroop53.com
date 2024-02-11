@@ -35,3 +35,17 @@ ul.no-bullets {
 .post-bottom-hr {
     margin-bottom: 0px;
 }
+
+
+#postmeta {
+    padding-top: 0.5em;
+    /*
+        Apparently border-bottom is based on the padding.
+        If we want padding of 0.5 on bottom and top, and 1 em
+        is the text size, then we need 2 em.
+    */
+    padding-bottom: 2em;
+    font-style: italic;
+    margin-bottom: 1em;
+    border-bottom: 1px dashed #00CA79
+}
