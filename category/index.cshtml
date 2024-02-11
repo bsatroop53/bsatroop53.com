@@ -1,0 +1,45 @@
+---
+layout : layout
+exclude_from_navbar: true
+---
+
+@using Pretzel.Categories;
+
+@{
+    var categoryPages = Model.Site.GetCategoryPages();
+}
+
+<article id="page-inner">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="page-head-line">All Categories</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <ul>
+                @foreach( var topLevelCategory in categoryPages )
+                {
+                    <li>
+                        <a href="@(topLevelCategory.Url)">@(topLevelCategory.Page.Title)</a>
+                        @if(
+                            ( topLevelCategory.SubCategories != null ) && 
+                            topLevelCategory.SubCategories.Any()
+                        )
+                        {
+                            <ul class="clean-list">
+                                @foreach( var subCategory in topLevelCategory.SubCategories )
+                                {
+                                    <li>
+                                        <a href="@(subCategory.Url)">@(subCategory.Page.Title)</a>
+                                    </li>
+                                }
+                            </ul>
+                        }
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</article>

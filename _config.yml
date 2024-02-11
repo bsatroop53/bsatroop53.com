@@ -4,6 +4,9 @@ pretzel:
 category_pages_layout: category
 tag_pages_layout: tag
 
+# Only really enable this so categories get cached.
+enable_subcategories: true
+
 # Site settings
 author: bsatroop53.com
 title: BSA Troop 53 Of Castleton, NY
