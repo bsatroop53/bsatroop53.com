@@ -29,11 +29,11 @@
         if( Model.Page.Bag.ContainsKey( "description" ) )
         {
             @:<meta name="description" content="@(Model.Page.Bag["description"])" />
-            @:<meta property="og:description" content="shendrick.net: @(Model.Page.Bag["description"])" />
+            @:<meta property="og:description" content="BSA Troop 53: @(Model.Page.Bag["description"])" />
         }
     }
 
-    <meta property="og:title" content="shendrick.net: @Model.Page.Title" />
+    <meta property="og:title" content="BSA Troop 53: @Model.Page.Title" />
     <meta property="og:url" content="@(Model.Site.Config["url"])@Model.Page.Url" />
     <meta property="og:site_name" content="@(Model.Site.Config["title"])" />
     <meta name="twitter:card" content="summary_large_image">
