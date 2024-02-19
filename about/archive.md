@@ -4,7 +4,7 @@ title: Web Archive
 description: "Archived version of the old Troop 53 Website"
 icon: "fa-solid fa-folder-open"
 tags: [archive, machine, old, wayback, website]
-pageindex: 1
+pageindex: 9
 ---
 
 @Model.Site.Config["urlnohttp"] was, at one point, the official website of Troop 53 of Castleton.  However, through the years, the website eventually went down, and the domain expired.  The website's domain was purchased by Seth Hendrick, who became Eagle Scout during his time in Troop 53 in 2009.

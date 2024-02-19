@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Scout Oath and Law
+layout: aboutpage
+title: Scout Oath & Law
 description: "Reference to the Scout Oath, Law, Motto, Slogan, and Outdoor Code"
 tags: [law, motto, oath, outdoor code, slogan]
 pageindex: 3
