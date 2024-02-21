@@ -5,7 +5,7 @@ description: Castleton BSA Scout Troop 53 website.
 tags: [home]
 ---
 
-Welcome to the (currently unofficial) website of Troop 53 of Castleton NY!  This website is a remake of the old Troop 53 website, which went down sometime in 2012.  For more information on who runs this website, please check the [archive page](/about/archive.html).
+Welcome to the website of Troop 53 of Castleton NY!
 
 ## Troop 53 Turns 100
 
