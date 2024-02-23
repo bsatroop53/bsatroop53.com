@@ -1,0 +1,62 @@
+---
+layout: nil
+exclude_from_navbar: true
+---
+@using System.IO;
+@{
+    string rootDir = Model.Site.SourceFolder;
+    var staticDir = new DirectoryInfo( Path.Combine( rootDir, "static" ) );
+
+    long staticSize = Directory.EnumerateFiles( staticDir.FullName, "*.*", SearchOption.AllDirectories )
+        .Sum( t => ( new FileInfo( t ).Length ) );
+
+    var categoryDict = new Dictionary<string, int>();
+    var tagDict = new Dictionary<string, int>();
+    foreach( var post in Model.Site.Posts )
+    {
+        foreach( string category in post.Categories )
+        {
+            if( categoryDict.ContainsKey( category ) == false )
+            {
+                categoryDict[category] = 1;
+            }
+            else
+            {
+                ++categoryDict[category];
+            }
+        }
+
+        foreach( string tag in post.Tags )
+        {
+            if( tagDict.ContainsKey( tag ) == false )
+            {
+                tagDict[tag] = 1;
+            }
+            else
+            {
+                ++tagDict[tag];
+            }
+        }
+    }
+}
+# HELP bsatroop53_static_files_size_total Total file size of everything in the /static/ folder in bytes.
+# TYPE bsatroop53_static_files_size_total gauge
+bsatroop53_static_files_size_total @staticSize
+# HELP bsatroop53_post_total Total number of posts across the site.
+# TYPE bsatroop53_post_total gauge
+bsatroop53_post_total @Model.Site.Posts.Count
+# HELP bsatroop53_page_total Total number of pages across the site (includes thumbnails).
+# TYPE bsatroop53_page_total gauge
+bsatroop53_page_total @Model.Site.Pages.Count
+# HELP bsatroop53_posts_in_category Total number of posts that fit in a particular category.
+# TYPE bsatroop53_posts_in_category gauge
+@foreach( var categoryCount in categoryDict )
+{
+@:bsatroop53_posts_in_category{category="@categoryCount.Key"} @categoryCount.Value
+}
+# HELP bsatroop53_posts_in_tag Total number of posts that fit in a particular tag.
+# TYPE bsatroop53_posts_in_tag gauge
+@foreach( var tagCount in tagDict )
+{
+@:bsatroop53_posts_in_tag{tag="@tagCount.Key"} @tagCount.Value
+}
