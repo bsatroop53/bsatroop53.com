@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageGallery ImageDir="static/img/galleries/2007_washington_dc_trip" ThumbnailOutputDir="static/img/galleries/2007_washington_dc_trip/thumbnails/" DefaultThumbnailScale="0.70">
+    <Image FileName="dctrip_may_12_2007_0001.jpg">
+        <Alt>A crowd of people walking towards the Vietnam Veterans Memorial Wall.</Alt>
+        <Caption>Scouts visiting the Vietnam Veterans Memorial Wall.</Caption>
+    </Image>
+    <Image FileName="dctrip_may_12_2007_0002.jpg">
+        <Alt>A man in a white Troop 53 class B tee-shirt facing the camera smiling.  In the background, scouts sit looking at waterfalls.</Alt>
+        <Caption>Assistant Scoutmaster, Kevin Shaw, smiling for the camera while scouts take a break at the FDR Memorial.</Caption>
+    </Image>
+    <Image FileName="dctrip_may_12_2007_0003.jpg">
+        <Alt>Photo of the Lincoln Memorial from the outside.  Scouts are halfway up walking towards the enterance.</Alt>
+        <Caption>Scouts visiting the Lincoln Memorial.</Caption>
+    </Image>
+    <Image FileName="dctrip_may_12_2007_0007.jpg">
+        <Alt>Photo of the Jefferson Memorial.  A group of scouts are walking up the stairs.</Alt>
+        <Caption>Scouts walking up the stairs of the Jefferson Memorial.</Caption>
+    </Image>
+    <Image FileName="dctrip_may_12_2007_0006.jpg">
+        <Alt>Two scouts taking a drink from water fountains.</Alt>
+        <Caption>Scouts Brett Wagner and Rob Shaw taking a water break.</Caption>
+    </Image>
+    <Image FileName="dctrip_may_12_2007_0004.jpg">
+        <Alt>Photo of the US capital, with two scouts in class A uniforms walking towards the stairs.</Alt>
+        <Caption>Scouts Brett Wagner and Will Noll walking towards the Capital Building.</Caption>
+    </Image>
+</ImageGallery>
