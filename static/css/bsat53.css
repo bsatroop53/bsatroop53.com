@@ -25,7 +25,7 @@ ul.no-bullets {
     padding-left: 0px;
 }
 
-.tags li a {
+.tags li {
     float: left;
     padding: 3px 15px;
     margin: 5px;
