@@ -124,3 +124,14 @@ ul.no-bullets {
 .panel-footer {
     background-color: #faf2e5
 }
+
+table {
+    box-sizing: border-box;
+    border-spacing: 0;
+    border-collapse: collapse;
+    background-color: transparent;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
