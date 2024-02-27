@@ -4,6 +4,7 @@ const string pretzelExe = "./_pretzel/src/Pretzel/bin/Debug/net8.0/Pretzel.dll";
 const string pluginDir = "./_plugins";
 const string categoryPlugin = "./_plugins/Pretzel.Categories.dll";
 const string extensionPlugin = "./_plugins/Pretzel.SethExtensions.dll";
+const string sitePlugin = "./_plugins/SitePlugin.dll";
 
 // ---------------- Tasks ----------------
 
@@ -34,8 +35,17 @@ Task( "build_pretzel" )
     }
 ).Description( "Compiles Pretzel" );
 
+Task( "build_plugin" )
+.Does(
+    () =>
+    {
+        BuildPlugin();
+    }
+).Description( "Builds the map plugin" );
+
 Task( "build_all" )
 .IsDependentOn( "build_pretzel" )
+.IsDependentOn( "build_plugin" )
 .IsDependentOn( "taste" );
 
 // ---------------- Functions  ----------------
@@ -44,9 +54,13 @@ void BuildPretzel()
 {
     Information( "Building Pretzel..." );
 
+    var msBuildSettings = new DotNetMSBuildSettings();
+    msBuildSettings.Properties["DefineConstants"] = new List<string>{ "NO_EXPORT_SETH_MARKDOWN_ENGINE" };
+
     var settings = new DotNetBuildSettings
     {
-        Configuration = "Debug"
+        Configuration = "Debug",
+        MSBuildSettings = msBuildSettings
     };
 
     DotNetBuild( "./_pretzel/src/Pretzel.sln", settings );
@@ -95,9 +109,32 @@ void BuildPretzel()
     Information( "Building Pretzel... Done!" );
 }
 
+void BuildPlugin()
+{
+    CheckPretzelDependency();
+
+    Information( "Building Plugin..." );
+
+    DotNetPublishSettings  settings = new DotNetPublishSettings
+    {
+        Configuration = "Debug",
+        NoBuild = false,
+        NoRestore = false
+    };
+
+    DotNetPublish( "./_siteplugin/SitePlugin/SitePlugin.csproj", settings );
+
+    EnsureDirectoryExists( pluginDir );
+    FilePathCollection files = GetFiles( "./_siteplugin/SitePlugin/bin/Debug/net8.0/publish/SitePlugin.*" );
+    CopyFiles( files, Directory( pluginDir ) );
+
+    Information( "Building Plugin... Done!" );
+}
+
 void RunPretzel( string argument, bool abortOnFail )
 {
     CheckPretzelDependency();
+    CheckSitePluginDependency();
 
     bool fail = false;
     string onStdOut( string line )
@@ -145,6 +182,14 @@ void CheckPretzelDependency()
     )
     {
         BuildPretzel();
+    }
+}
+
+void CheckSitePluginDependency()
+{
+    if( FileExists( sitePlugin ) == false )
+    {
+        BuildPlugin();
     }
 }
 

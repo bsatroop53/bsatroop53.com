@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\_pretzel\src\Pretzel.Logic\Pretzel.Logic.csproj" />
+    <ProjectReference Include="..\..\_pretzel\src\Pretzel.SethExtensions\Pretzel.SethExtensions.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Markdig" />
+  </ItemGroup>
+
+</Project>

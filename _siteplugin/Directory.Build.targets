@@ -1,0 +1,3 @@
+<Project>
+    <Import Project="$(MSBuildThisFileDirectory)\..\_pretzel\Directory.Build.targets"/>
+</Project>
