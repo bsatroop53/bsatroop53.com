@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageGallery ImageDir="static/img/galleries/michael_dikant_annual_scout_award" ThumbnailOutputDir="static/img/galleries/michael_dikant_annual_scout_award/thumbnails/" DefaultThumbnailScale="0.80">
+    <Image FileName="award_rendering.jpg">
+        <Alt>Image of a scout standing on a trophy base.  The text says "Michael Dikant Annual Honor Scout Award Troop 53 Castleton"</Alt>
+        <Caption>A rendering of the physical award.  The Scout that wins the award keeps it for a year before passing it on to the next year's scout.</Caption>
+    </Image>
+    <Image FileName="bill_and_dusty.jpg">
+        <Alt>Two people standing on the camera.  The scout on the right is holding the Michael Dikant Award.</Alt>
+        <Caption>Dustin Albertine receiving the award in 2004.  To his left is Bill Dikant.</Caption>
+    </Image>
+</ImageGallery>

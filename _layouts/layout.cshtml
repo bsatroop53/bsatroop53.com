@@ -114,7 +114,10 @@
                         List<Page> otherPages = new List<Page>();
                         foreach( Page thePage in Model.Site.Pages )
                         {
-                            if( thePage.Bag.ContainsKey( "layout" ) && "aboutpage".Equals( thePage.Bag["layout"] ) )
+                            if(
+                                ( thePage.Bag.ContainsKey( "layout" ) && "aboutpage".Equals( thePage.Bag["layout"] ) ) ||
+                                ( thePage.Bag.ContainsKey( "is_about" ) && "True".Equals( thePage.Bag["is_about"].ToString() ) )
+                            )
                             {
                                 aboutPages.Add( thePage );
                             }
