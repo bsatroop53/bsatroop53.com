@@ -16,14 +16,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 //
 
-using System.Collections.Generic;
-using System;
 using System.Composition;
 using Markdig;
-using Markdig.Renderers;
-using Markdig.Renderers.Html;
-using Markdig.Renderers.Html.Inlines;
-using Markdig.Syntax.Inlines;
 using Pretzel.Logic.Extensibility;
 using Pretzel.SethExtensions;
 
@@ -37,6 +31,7 @@ namespace SitePlugin
             var pipeline = new MarkdownPipelineBuilder()
                 .UseAdvancedExtensions()
                 .Use<SethUrlMarkdownExtension>()
+                .Use<T53TableMarkdownExtension>()
                 .Build();
 
             return Markdown.ToHtml( source, pipeline );
