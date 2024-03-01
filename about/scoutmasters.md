@@ -1,10 +1,12 @@
 ---
-layout: aboutpage
+layout: imagegallerypage2
 title: Scoutmasters
 description: "A list of all the Troop 53 Scout Masters"
 icon: "fa-solid fa-person-chalkboard"
 tags: [list, scoutmaster]
 pageindex: 4
+image_gallery: "_gallerydata/scoutmasters.xml"
+is_about: true
 ---
 
 The list of scoutmasters that have led Troop 53 throughout the years.
@@ -42,3 +44,5 @@ The list of scoutmasters that have led Troop 53 throughout the years.
 | 2010 - 2013 | Dan Zobre              |                     |
 | 2013 - ???? | David Digiulio         |                     |
 | ???? -      | Jeff Brewer            |                     |
+
+## Photos

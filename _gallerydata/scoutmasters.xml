@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageGallery ImageDir="static/img/galleries/scoutmasters" ThumbnailOutputDir="static/img/galleries/scoutmasters/thumbnails/" DefaultThumbnailScale="0.80">
+    <Image FileName="scoutmasters_dan_dustin_eagle_2006.jpg">
+        <Alt>Five men smiling for the camera in front of an Eagle Scout banner.</Alt>
+        <Caption>Left to Right: Past T53 ASM/scout Dana Smith, and former T53 Scoutmasters Paul D. Albertine, Paul K. Albertine, Michael W. Corey, Donald K. McKnight. Taken at the Eagle Ceremony for Daniel &amp; Dusty Albertine in 2006.</Caption>
+    </Image>
+</ImageGallery>
