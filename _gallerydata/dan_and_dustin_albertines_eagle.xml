@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageGallery ImageDir="static/img/galleries/dan_and_dustin_albertines_eagle" ThumbnailOutputDir="static/img/galleries/dan_and_dustin_albertines_eagle/thumbnails/" DefaultThumbnailScale="0.80">
+    <Image FileName="dan_and_dustin.jpg">
+        <Alt>Two Eagle Scouts given the scout sign in front of an Eagle Scout banner.</Alt>
+        <Caption>Daniel Albertine (left) &amp; Dustin Albertine (right).</Caption>
+    </Image>
+</ImageGallery>

@@ -1,10 +1,11 @@
 --- 
-layout: post
+layout: imagegallerypost2
 title: "Two Brothers Receive Eagle Scout Award"
 author: "BSA Troop 53"
 category: "Press Releases"
 description: "Press release for when David and Dustin Albertine received their Eagle Scout ranks."
 tags: [award, daniel albertine, dustin albertine, eagle, rank, scout]
+image_gallery: _gallerydata/dan_and_dustin_albertines_eagle.xml
 ---
 
 The South Schodack Fire House was the setting for a May 28 dual Eagle Scout Award Ceremony.  The Sunday evening ceremony honored brothers, Daniel and Dustin Albertine, of Castleton Boy Scout Troop 53.  Troop 53 is chartered with the Boy Scouts of America through the Kiwanis Club of Castleton.
@@ -20,3 +21,5 @@ Dusty’s Eagle Scout project was to raise funds to assist the Nassau Police Dep
 Daniel and Dusty have been members of the Boy Scouts since they were in the first grade, starting as Tiger Cubs in Castleton Pack 253. Both boys earned the Arrow of Light award as Webelos scouts, during which time Daniel set his goal on earning every Webelos activity pin.
 
 Both Daniel and Dusty were part of the Twin Rivers Council contingent to attend the 2005 National Jamboree in Fort A.P. Hill, VA.  Both boys have recently returned home from a two-week Order of the Arrow Trek into the Minnesota Boundary Waters Canoeing area, where they spent one week repairing portage trails and one week exploring the wilderness, seeing a cow moose with her calves and several Bald Eagles on their trek.
+
+## Photos
