@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title: BSA Troop 53 Home
 description: Castleton BSA Scout Troop 53 website.
 tags: [home]

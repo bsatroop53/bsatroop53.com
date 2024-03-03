@@ -15,13 +15,35 @@ layout: page
     {
         queue.Enqueue( recent );
     }
+
+    var upcomingEvents = new Queue<Page>();
+    foreach( Page thePage in Model.Site.Pages )
+    {
+        if( thePage.Bag.ContainsKey( "layout" ) && "eventpage".Equals( thePage.Bag["layout"] ) )
+        {
+            upcomingEvents.Enqueue( thePage );
+        }
+    }
 }
 
 @Raw( Model.Content )
+@{
+    // Leave false until the centennial celebration
+    // details are official.
+}
+@if( upcomingEvents.Any() && false )
+{
+    <h2>Upcoming Events</h2>
+    <ul>
+        @while( upcomingEvents.Any() )
+        {
+            var thePage = upcomingEvents.Dequeue();
+            @:<li><strong><a href="@thePage.Url">@thePage.Title</a></strong> - @thePage.Bag["description"]</li>
+        }
+    </ul>
+}
 
-<h3><a href="/posts.html">View All Posts</a></h3>
-
-<h3>Recent Posts:</h3>
+<h2>Recent Posts</h2>
 
 <ul>
 @while( queue.Any() )
@@ -30,3 +52,5 @@ layout: page
     @:<li><strong><a href="@post.Url">@post.Title</a></strong> - @post.Bag["description"]</li>
 }
 </ul>
+
+<h3><a href="/posts.html">View All Posts</a></h3>

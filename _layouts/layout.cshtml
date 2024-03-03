@@ -122,6 +122,12 @@
                                 aboutPages.Add( thePage );
                             }
                             else if(
+                                ( thePage.Bag.ContainsKey( "layout" ) && "eventpage".Equals( thePage.Bag["layout"] ) )
+                            )
+                            {
+                                // Do nothing with event pages, those go elsewhere.
+                            }
+                            else if(
                                 ( ignorePages.Contains( @thePage.Id ) == false ) &&
                                 ( string.IsNullOrEmpty( @thePage.Id ) == false ) &&
                                 ( @thePage.Id.Contains( ".well-known" ) == false ) && // Don't include lets encrypt stuff.
