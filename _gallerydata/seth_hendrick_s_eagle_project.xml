@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/seth_hendrick_s_eagle_project" ThumbnailOutputDir="static/img/galleries/seth_hendrick_s_eagle_project/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="before_1.jpg">
+    <Alt>A paved path going down the middle of some grass.  To the left is a telephone pole.</Alt>
+    <Caption>Path before any work was done.</Caption>
+    <ThumbnailScale>0.65</ThumbnailScale>
+  </Image>
+  <Image FileName="before2_2.jpg">
+    <Alt>A patch of grass, but a lot of bare spots within.</Alt>
+    <Caption>What would become the garden before work was done.</Caption>
+    <ThumbnailScale>0.65</ThumbnailScale>
+  </Image>
+  <Image FileName="eagleproject3_0005_22.jpg">
+    <Alt>Five scouts posing for a photo.  The one of the left is holding a phone.  One in the middle is holding a shovel, ready to dig.  The one on the right is pointing a hose at the camera.</Alt>
+    <Caption>(Left to right) Scouts Jason Zobre, Mike Peters, Ian Walling, Alex Pulver, and Will Noll ready to help out.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="eagleproject3_0002_19.jpg">
+    <Alt>A scout bending down in front of a hole holding onto a post-hole digger inside of the hole.</Alt>
+    <Caption>Ian digging a hole for one of the posts.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="eagleproject3_0001_18.jpg">
+    <Alt>Four scouts are working on getting posts in the ground.  The one on the left is standing with his hands in his pockets.  The one on the center left is bending down filling a bucket with water.  The one on the center right is digging with the post-hole digger.  The one to the right is staring at the camera, but holding a water bottle up to his face so you can't see him.</Alt>
+    <Caption>Scouts hard at work getting the posts in the ground.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="eagleproject2_0006_17.jpg">
+    <Alt>Six people standing around a cement mixer, looking at it.</Alt>
+    <Caption>Scouts and Seth's dad getting ready to pour cement down a hole.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="eagleproject2_0005_16.jpg">
+    <Alt>Seth's dad pouring cement into a hole with another scout.  Ian is off to the right, giving the camera a dirty look.</Alt>
+    <Caption>Pouring cement into another hole.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="eagleproject2_0002_13.jpg">
+    <Alt>Seth's dad is on the left, walking with a shovel.  Scout Master Rich Noll is holding a shovel, and Will is spraying it with a hose.  Nate is to the right standing.  Two scouts are leaning against my car in the background.</Alt>
+    <Caption>Starting to rinse the dirt off the path.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="eagleproject2_0001_12.jpg">
+    <Alt>One scout trying to spray another scout with a hose.  The spray from the hose is not going to reach.</Alt>
+    <Caption>Scouts being sily with the hose.  They deserve some fun after working hard.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="eagleproject1_0009_11.jpg">
+    <Alt>All posts have been placed along the path.  Jason is off to the left staring at something.</Alt>
+    <Caption>The path is all clean!  Day 1 is complete!</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="eagleproject1_0002_4.jpg">
+    <Alt>Brett twisting an eye-hook into a post.</Alt>
+    <Caption>Eagle Scout, Brett Wagner, working hard putting in the eye hooks that will hold the chain.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="eagleproject1_0008_10.jpg">
+    <Alt>Brett twisting an eye-hook into a different post.  All the posts behind him have eye hooks in them.</Alt>
+    <Caption>More eye hooks have been added!</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="eagleproject1_0004_6.jpg">
+    <Alt>Chain is running between each of the posts.  Tops of the posts have been sawed off so they are the same height.</Alt>
+    <Caption>Chain has been run between the posts.  The posts were evened out by cutting off some of the tops.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="eagleproject3_0003_20.jpg">
+    <Alt>Chain is running between each of the posts.</Alt>
+    <Caption>Final view of the railing, from the church side.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="eagleproject1_0006_8.jpg">
+    <Alt>Chain is running between each of the posts.</Alt>
+    <Caption>Final view of the railing, from the parking lot side.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="eagleproject1_0005_7.jpg">
+    <Alt>Chain is running between each of the posts.</Alt>
+    <Caption>Another view of the railing, from the parking lot side.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="eagleproject2_0003_14.jpg">
+    <Alt>Mark Brockley is staring at the hole, filling it with water from a hose.  Brett and Rob are walking towards him in front of a blue pickup truck.  Seth's dad is standing behind the truck.</Alt>
+    <Caption>The tree has arrived!  The Mark Brockley, the church music director, is filling the hole with water.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="eagleproject2_0004_15.jpg">
+    <Alt>Brett raking to the left of the tree.</Alt>
+    <Caption>Brett hard at work raking around the tree.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="eagleproject1_0001_3.jpg">
+    <Alt>Seth's dad filling the hole we dug for the tree with water.  Brett, Rob, and Seth stand around him holding shovels waiting.</Alt>
+    <Caption>Tree is planted.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="eagleproject1_0003_5.jpg">
+    <Alt>Seth's dad filling the hole we dug for the tree with water.  Brett, Rob, and Seth stand around him holding shovels waiting.</Alt>
+    <Caption>The tree needs lots of water.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="eagleproject3_0004_21.jpg">
+    <Alt>Seth, Brett, and Rob holding shovels filling in a whole that contains a red tree.  They are standing on dirt, and smiling.</Alt>
+    <Caption>(Left to right): Brett Wagner, Seth Hendrick, and Rob Shaw filling in the hole.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="final_1_23.jpg">
+    <Alt>A chain railing to the left of a path.  To the left is a garden with a red tree in it.</Alt>
+    <Caption>Work completed!</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="final_2_24.jpg">
+    <Alt>A chain railing to the left of a path.  To the left is a garden with a red tree in it.</Alt>
+    <Caption>Work completed, from another angle.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+</ImageGallery>
