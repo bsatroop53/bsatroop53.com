@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ImageGallery ImageDir="static/img/galleries/historical_photographs" ThumbnailOutputDir="static/img/galleries/2008_spring_camporee/thumbnails/" DefaultThumbnailScale="0.99">
+<ImageGallery ImageDir="static/img/galleries/historical_photographs" ThumbnailOutputDir="static/img/galleries/historical_photographs/thumbnails/" DefaultThumbnailScale="0.99">
     <Image FileName="1930_gerrysipter_franklinvandewal_jaypaul.jpg">
         <Alt>Three scouts in scout uniforms sitting on the ground eating lunch.  There is a bike on the ground to he right of them.</Alt>
         <Caption>Patrol Activity - 1930's Gerry Sipter, Franklin VanDeWal, and Jay Paul.</Caption>
