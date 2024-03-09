@@ -44,22 +44,13 @@ pipeline
                 }
             }
             stages
-            {
-                stage( 'prepare' )
-                {
-                    steps
-                    {
-                        sh 'dotnet tool update Cake.Tool --version 3.0.0 --tool-path ./Cake'
-                        sh './Cake/dotnet-cake ./checkout/build.cake --showdescription'
-                    }
-                }
-            
+            {           
                 stage( 'build' )
                 {
                     steps
                     {
-                        sh './Cake/dotnet-cake ./checkout/build.cake --target=build_pretzel'
-                        sh './Cake/dotnet-cake ./checkout/build.cake --target=generate'
+                        sh 'cd ./checkout && ./devops.sh --target=build_pretzel'
+                        sh 'cd ./checkout && ./devops.sh --target=generate'
                     }
                 }
             }
