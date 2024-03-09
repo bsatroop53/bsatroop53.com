@@ -1,9 +1,12 @@
 ﻿---
 layout : layout
 ---
-
+@using Pretzel.Logic.Templating.Context
+@using Page = Pretzel.Logic.Templating.Context.Page
 @{
     object catName = Model.Page.Bag["category"];
+    bool usesMap = "Eagle Projects".Equals( catName?.ToString() );
+    List<Page> posts = new List<Page>();
 }
 
 <article id="page-inner">
@@ -12,9 +15,22 @@ layout : layout
             <h1 class="page-head-line">@catName</h1>
         </div>
     </div>
-
+    @if( usesMap )
+    {
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Map of Eagle Project Locations</h2>
+                <noscript>JavaScript Required to view the map.</noscript>
+                <div id="mapid" style="width: 100%;height: 500px;"></div>
+            </div>
+        </div>
+    }
     <div class="row">
         <div class="col-md-12">
+            @if( usesMap )
+            {
+                <h2>Posts</h2>
+            }
             <ul>
                 @foreach( var cat in @Model.Site.Categories )
                 {
@@ -22,6 +38,10 @@ layout : layout
                     {
                         @foreach( var post in cat.Posts )
                         {
+                            @if( usesMap )
+                            {
+                                posts.Add( post );
+                            }
                             <li>
                                 <a href="@post.Url">@post.Title</a>
                                 @if( @post.Bag.ContainsKey( "description" ) )
@@ -40,3 +60,66 @@ layout : layout
         </div>
     </div>
 </article>
+@if( usesMap )
+{
+<!-- SCRIPTS -AT THE BOTTOM TO REDUCE THE LOAD TIME-->
+<script src="/static/js/leaflet.js"></script>
+<script>
+    // Create Map - Center it at Village Hall in Castleton, NY.
+    var map = L.map('mapid').setView([42.52739562850955, -73.75663059282356], 10);
+
+    // Pull from OSM API
+    var osmURL = "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png";
+
+    // In order to use open street map, we need to attribute to it.
+    var osmAttrib = 'Map Data &copy; <a href="http://openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+
+    // Create the OSM layer.
+    var osm = new L.TileLayer( osmURL, { minZoom: 0, maxZoom: 18, attribution: osmAttrib});
+
+    // Add the osm layer to the map
+    map.addLayer(osm);
+
+    // Create Icon
+    var centerIcon = L.icon({
+        iconUrl: "/static/img/leaflet/marker-icon.png",
+        iconSize: [25, 41],
+        iconAnchor:[12.5, 41],
+        popupAnchor:[0, -30]
+    });
+
+    @for( int i = 0; i < posts.Count; ++i )
+    {
+        Page post = posts[i];
+        double lat;
+        double lon;
+        if( 
+            ( post.Bag.ContainsKey( "latitude" ) == false ) ||
+            ( double.TryParse( post.Bag["latitude"]?.ToString(), out lat ) == false )
+        )
+        {
+            continue;
+        }
+        if( 
+            ( post.Bag.ContainsKey( "longitude" ) == false ) ||
+            ( double.TryParse( post.Bag["longitude"]?.ToString(), out lon ) == false )
+        )
+        {
+            continue;
+        }
+
+        <text>
+            var mapHtmlInfo_@(i) = '<div class="left" style="overflow: auto; color: black;">';
+            mapHtmlInfo_@(i) += '<p class="mapTitle"><strong>@post.Title</strong></p>';
+            @if( post.Bag.ContainsKey( "description" ) )
+            {
+                @:mapHtmlInfo_@(i) += '<p class="mapDescription">@post.Bag["description"]</p>';
+            }
+            mapHtmlInfo_@(i) += '<p class="mapDescription"><a href="@post.Url" target="_blank">Read Post</a>';
+
+            var mapInfoPopup_@(i) = L.popup({maxwidth:500}).setContent(mapHtmlInfo_@(i));
+            var mapInfoMarker_@(i) = L.marker([@lat, @lon]).setIcon(centerIcon).addTo(map).bindPopup(mapInfoPopup_@(i));
+        </text>
+    }
+</script>
+}

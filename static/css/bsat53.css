@@ -135,3 +135,11 @@ table {
     margin-bottom: 20px;
     border: 1px solid #ddd;
 }
+
+.mapTitle {
+    font-size: large;
+}
+
+.mapDescription {
+    font-size: medium;
+}
