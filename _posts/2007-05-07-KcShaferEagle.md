@@ -2,7 +2,7 @@
 layout: post
 title: "KC Lucas Shafer Attains the Rank of Eagle Scout"
 author: "BSA Troop 53"
-category: "Press Releases"
+category: "News"
 description: "Press release for when KC Shafer received his Eagle Scout rank."
 tags: [award, eagle, KC Shafer, rank, scout]
 ---

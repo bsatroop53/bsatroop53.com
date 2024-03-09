@@ -2,7 +2,7 @@
 layout: post
 title: "Eagle Scouts Return from High Adventure Trek in New Mexico"
 author: "BSA Troop 53"
-category: "Press Releases"
+category: "News"
 description: "Press release for Daniel and Dusty Albertine returned from a 2-week backpacking trip in New Mexico."
 tags: [adventure, daniel albertine, dustin albertine, eagle, high, new mexico, scout]
 ---

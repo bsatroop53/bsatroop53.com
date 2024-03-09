@@ -2,7 +2,7 @@
 layout: post
 title: "David Albertine Receives Scouting's Highest Rank"
 author: "BSA Troop 53"
-category: "Press Releases"
+category: "News"
 description: "Press release for when David Albertine received his Eagle Scout rank."
 tags: [award, david albertine, eagle, rank, scout]
 ---

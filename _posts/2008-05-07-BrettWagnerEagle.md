@@ -2,7 +2,7 @@
 layout: post
 title: "Brett C Wagner Attains the Rank of Eagle Scout"
 author: "BSA Troop 53"
-category: "Press Releases"
+category: "News"
 description: "Press release for when Brett Wagner received his Eagle Scout rank."
 tags: [award, brett wagner, eagle, rank, scout]
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "Robbie Roth Receives Scouting's Highest Rank"
 author: "BSA Troop 53"
-category: "Press Releases"
+category: "News"
 description: "Press release for when Robbie Roth received his Eagle Scout rank."
 tags: [award, eagle, rank, robbie roth, scout]
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "Daniel Roth Receives Scouting's Highest Rank"
 author: "BSA Troop 53"
-category: "Press Releases"
+category: "News"
 description: "Town of Schodack Resolution for when Daniel Roth received his Eagle Scout rank."
 tags: [award, daniel roth, eagle, rank, scout]
 ---

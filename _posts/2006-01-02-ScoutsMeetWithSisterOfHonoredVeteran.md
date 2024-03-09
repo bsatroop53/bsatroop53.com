@@ -2,7 +2,7 @@
 layout: post
 title: "Scouts Meet with Sister of an Honored Veteran"
 author: "BSA Troop 53"
-category: "Press Releases"
+category: "News"
 description: "Scouts meet the sister of Peter Andrews, who died serving their country during World War II."
 tags: [edwin fulgo, george earing, gold, historian, kenny jaros, peter andrew, star, veteran, war, william grooten, william stolp]
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: "Matt M. McKnight Attains the Rank of Eagle Scout"
 author: "BSA Troop 53"
-category: "Press Releases"
+category: "News"
 description: "Press release for when Matt McKnight received his Eagle Scout rank."
 tags: [award, eagle, matt mcknight, rank, scout]
 ---

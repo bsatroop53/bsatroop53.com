@@ -2,7 +2,7 @@
 layout: post
 title: "Troop 53 Scoutmaster Remembered"
 author: "BSA Troop 53"
-category: "Press Releases"
+category: "News"
 description: "Remembering William R. Monty, Sr."
 tags: [eagle, scoutmaster, william r monty, veteran]
 ---

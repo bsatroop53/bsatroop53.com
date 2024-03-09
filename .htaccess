@@ -11,3 +11,10 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 Header always set Permissions-Policy: interest-cohort=()
 
 ErrorDocument 404 /404/
+
+# News was once "Press Releases".  Change it to News.
+RewriteEngine On
+RewriteRule ^/?Press\sReleases/(.*)$ /News/$1 [L,R=301]
+
+RewriteEngine On
+RewriteRule ^/?category/?press-releases/(.*)$ /category/news/$1 [L,R=301]

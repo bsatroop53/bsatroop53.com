@@ -2,7 +2,7 @@
 layout: post
 title: "Eagle Scouts Return from High Adventure Trek in Minnesota"
 author: "BSA Troop 53"
-category: "Press Releases"
+category: "News"
 description: "Press release for Daniel and Dusty Albertine returned from a 2-week canoe trip in Minnesota."
 tags: [adventure, daniel albertine, dustin albertine, eagle, high, minnesota, scout]
 ---

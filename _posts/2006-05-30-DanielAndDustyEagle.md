@@ -2,7 +2,7 @@
 layout: imagegallerypost2
 title: "Two Brothers Receive Eagle Scout Award"
 author: "BSA Troop 53"
-category: "Press Releases"
+category: "News"
 description: "Press release for when David and Dustin Albertine received their Eagle Scout ranks."
 tags: [award, daniel albertine, dustin albertine, eagle, rank, scout]
 image_gallery: _gallerydata/dan_and_dustin_albertines_eagle.xml
