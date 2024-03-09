@@ -1,9 +1,13 @@
 ---
 layout: nil
 ---
+/* Team */
 
-@using Pretzel.Logic.Templating.Context
-@Include( "humans_team.cstxt", Model, typeof( PageContext ) )
+    Seth Hendrick
+        GitHub: https://tech.lgbt/@@xforever1313
+        Mastodon: https://tech.lgbt/@@xforever1313
+        Twitter: https://twitter.com/xforever1313
+        Website: https://shendrick.net
 
 /* Site */
 
