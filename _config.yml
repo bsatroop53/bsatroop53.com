@@ -29,6 +29,9 @@ exclude:
  - build.cake
  - tools
  - README.md
+ - _devops
  - _thumbnails
  - _pretzel
  - _gallerydata
+ - devops.bat
+ - devops.sh
