@@ -5,7 +5,7 @@ description: Castleton BSA Scout Troop 53 website.
 tags: [home]
 ---
 
-Welcome to the website of Troop 53 of Castleton NY!
+Welcome to the website of Troop 53 of Castleton, NY!
 
 ## Troop 53 Turns 100
 
@@ -17,6 +17,9 @@ If you are a current or former member of the Troop, and wish to add a post to th
 
 There are plans to have a centennial celebration Memorial Day Weekend, 2024.  Stay tuned to this website for details.  There is also a Centennial Celebration [Facebook Page](https://www.facebook.com/profile.php?id=61550093638626) as well.
 
-## Christmas Tree Sales
+@if( false )
+{
+@:## Christmas Tree Sales
 
-If you're here looking for information about Troop 53's annual Christmas tree sale, please go to the Maple Hill Trees website: [www.maplehilltrees.com](http://www.maplehilltrees.com/).
+@:If you're here looking for information about Troop 53's annual Christmas tree sale, please go to the Maple Hill Trees website: [www.maplehilltrees.com](http://www.maplehilltrees.com/).
+}
