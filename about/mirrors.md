@@ -40,3 +40,33 @@ git clone https://github.com/bsatroop53/bsatroop53.com
 cd bsatroop53.com
 git submodule update --init
 ```
+
+## Building the Website on your PC
+
+### Preparing the source code
+
+You can build and test the website locally on your own computer.  To do this, download the website files and Pretzel files either by the zip links above _or_ via Git.
+
+If you downloaded via Git, you can skip to the next step.
+
+If you downloaded the zip files, first extract the website files.  You'll notice an empty "_pretzel" folder.  Delete this folder for now.  Extract the Pretzel zip file next.  When extracting, a "pretzel-master" folder will appear.  Rename this folder to "_pretzel" and then copy it into the extracted website files to replace the empty _pretzel folder.
+
+### Installing Dotnet SDK
+
+[Dotnet](https://en.wikipedia.org/wiki/.NET) is a runtime developed by Microsoft.  The Dotnet SDK must be installed in order to build the website.
+
+You can download the .NET SDK from here: [https://dotnet.microsoft.com/en-us/download/dotnet/8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0).  You'll want to download version 8.0, and click the link under the "Installers" column, rather than the "Binaries" column.  Once downloaded, go ahead and install it.
+
+### Testing the Website
+
+Once Dotnet is installed, you can try testing the website locally.  There are scripts in the root of the website source files you can run to do this.  If on Windows, go to your extracted website files, and double click on "devops.bat".  This will launch a command prompt.  If on MacOS or Linux, double click on "devops.sh".  This should launch a shell.
+
+The devops script will do the following:
+
+* Build Pretzel, the static site generator from source.
+* Build the Troop 53 Site Plugins.
+* Launch Pretzel, which will convert the site files from markdown to html.
+* Launch your web browser, which will show you the website locally.
+* Press 'q' in the command prompt or shell to stop the website from running, and close your web browser.
+
+When it launches your web browser, the site you see is not the actual BSA Troop 53 website.  Instead, the web browser is using the files from your PC instead.  No one outside of your home network can access the webpage, so don't worry about strangers getting access to files on your computer.
