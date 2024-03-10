@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/1999_memorial_day_parade" ThumbnailOutputDir="static/img/galleries/1999_memorial_day_parade/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="cubscouts3_0004_1.jpg">
+    <Alt>A giant American flag being being held up my multiple scouts, who surround it.  They are all marching forward.</Alt>
+    <Caption>The Troop and Pack from the front.  All scouts are sharing in holding up the America flag.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="cubscouts3_0010_2.jpg">
+    <Alt>Four people holding up the giant America flag from the back corner.  All are in uniform.  One is an adult woman, the rest are boys.</Alt>
+    <Caption>Scouts and Den Leader Maggie Crowley holding up the back corner.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+</ImageGallery>
