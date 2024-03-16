@@ -19,7 +19,9 @@ layout: page
                 T53GalleryImage image = imagesByYear[year][i];
                 <div class="col-sm-2">
                     <div class="portfolio-item" style="max-width: @(T53AllImageGallery.MaximumWidth)px;">
-                        <img class="thumbnailimage" src="@image.GalleryThumbNailPage.Url" alt="@image.PretzelImageContext.ImageInfo.SafeGetAlt()" />
+                        <a class="gallery-preview" href="@image.PretzelImageContext.OriginalPhotoUrl">
+                            <img class="thumbnailimage" src="@image.GalleryThumbNailPage.Url" alt="@image.PretzelImageContext.ImageInfo.SafeGetAlt()" />
+                        </a>
                     </div>
                 </div>
                 ++i;
