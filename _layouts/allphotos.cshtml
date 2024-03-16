@@ -1,0 +1,27 @@
+---
+layout: page
+---
+@using SitePlugin;
+@{
+    var imagesByYear = T53AllImageGallery.ImagesByYear;
+}
+@Raw( Model.Content )
+<p>Total Images: @T53AllImageGallery.TotalImages</p>
+
+@foreach( int year in imagesByYear.Keys.OrderBy( i => i ) )
+{
+    <h2>@year</h2>
+    for( int i = 0; i < imagesByYear[year].Count; ++i )
+    {
+        <div class="row">
+            @for( int j = 0; ( i < imagesByYear[year].Count ) && ( j < 6 ); ++j )
+            {
+                T53GalleryImage image = imagesByYear[year][i];
+                <div class="col-md-2">
+                    <img src="@image.GalleryThumbNailPage.Url" alt="@image.PretzelImageContext.ImageInfo.SafeGetAlt()" />
+                </div>
+                ++i;
+            }
+        </div>
+    }
+}
