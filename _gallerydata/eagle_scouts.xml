@@ -204,20 +204,30 @@
         <Alt>Alexander Pulver</Alt>
         <Caption>Alexander Pulver - 2013</Caption>
     </Image>
+    <!-- Source: https://bsa53.weebly.com/eagle-scouts.html -->
     <Image FileName="2017_Noah_Roberts.jpg">
         <Alt>Noah Roberts</Alt>
         <Caption>Noah Roberts - 2017</Caption>
     </Image>
+    <!-- Source: https://www.facebook.com/photo/?fbid=1731647353604443&set=a.169297129839481 -->
     <Image FileName="2019_Seth_Roberts.jpg">
         <Alt>Seth Roberts</Alt>
         <Caption>Seth Roberts - 2019</Caption>
     </Image>
+    <!-- Source: https://www.schodack.org/sites/g/files/vyhlif1186/f/agendas/tb_meeting_061021.pdf -->
+    <!-- Source: https://www.facebook.com/watch/?v=1468477833501360 -->
     <Image FileName="2021_Peter_Basile.jpg">
         <Alt>Peter Basile</Alt>
         <Caption>Peter Basile - 2021</Caption>
     </Image>
+    <!-- Source: https://www.facebook.com/photo/?fbid=1275262233236778&set=a.1086694758760194 -->
     <Image FileName="2023_Ethan_Maier.jpg">
         <Alt>Ethan Maier</Alt>
         <Caption>Ethan Maier - 2023</Caption>
+    </Image>
+    <!-- Source: https://www.facebook.com/permalink.php?story_fbid=176719708793733&id=100093671139823 -->
+    <Image FileName="2023_Ciaran_Sweet.jpg">
+        <Alt>Ciaran Sweet</Alt>
+        <Caption>Ciaran Sweet - 2023</Caption>
     </Image>
 </ImageGallery>
