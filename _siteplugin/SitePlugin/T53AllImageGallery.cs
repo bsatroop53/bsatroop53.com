@@ -37,7 +37,7 @@ namespace SitePlugin
             RegexOptions.Compiled | RegexOptions.ExplicitCapture
         );
 
-        private const int maximumWidth = 200;
+        public static readonly int MaximumWidth = 200;
 
         private readonly Dictionary<string, T53GalleryImage> images;
 
@@ -166,7 +166,7 @@ namespace SitePlugin
         {
             var linkHelper = new LinkHelper();
 
-            double ratio = maximumWidth / ( (double)imageContext.OriginalWidth );
+            double ratio = MaximumWidth / ( (double)imageContext.OriginalWidth );
 
             if( ratio > 1 )
             {
@@ -177,7 +177,7 @@ namespace SitePlugin
             string outputFileName = $"{postTitle}_{imageContext.ImageInfo.ThumbnailFileName}";
 
             int thumbnailHeight = (int)Math.Round( imageContext.OriginalHeight * ratio );
-            int thumbnailWidth = Math.Min( maximumWidth, imageContext.OriginalWidth );
+            int thumbnailWidth = Math.Min( MaximumWidth, imageContext.OriginalWidth );
 
             using( var fileStream = new FileStream( imageContext.OriginalPhotoFilePath.FullName, FileMode.Open, FileAccess.Read ) )
             using( var image = new MagickImage( fileStream ) )
