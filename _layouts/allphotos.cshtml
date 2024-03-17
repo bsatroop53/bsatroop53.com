@@ -33,7 +33,7 @@ layout: page
                             <div class="lightboxwrapper" class="lightboxwrapper">
                                 <div class="panel panel-default">
                                     <div class="panel-heading closeButtonHeader">
-                                        <a href="#" class="btn btn-danger">
+                                        <a href="#_" class="btn btn-danger">
                                             <i class="fa-solid fa-x"></i>
                                         </a>
                                     </div>
@@ -41,7 +41,7 @@ layout: page
                                         @if( image.Previous != null )
                                         {
                                             <a href="#galleryimage_@(image.Previous.Id)" class="prev">
-                                                <div>&#10094;</div>
+                                                <div class="prevarrow">&#10094;</div>
                                             </a>
                                         }
                                         <a href="@image.PretzelImageContext.OriginalPhotoUrl" target="_blank">
@@ -50,12 +50,12 @@ layout: page
                                         @if( image.Next != null )
                                         {
                                             <a href="#galleryimage_@(image.Next.Id)" class="next">
-                                                <div>&#10095;</div>
+                                                <div class="nextarrow">&#10095;</div>
                                             </a>
                                         }
                                     </div>
                                     <div class="panel-footer">
-                                        <p class="captionText"><em>Posted in: <a href="@image.PostPage.Url" target="_blank">@image.PostPage.Title</a></em></p>
+                                        <p><em class="captionText">View Post: <a href="@image.PostPage.Url" target="_blank">@image.PostPage.Title</a></em></p>
                                     </div>
                                 </div>
                             </div>

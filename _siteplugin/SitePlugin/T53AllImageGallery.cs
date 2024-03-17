@@ -156,8 +156,9 @@ namespace SitePlugin
                         T53GalleryImage? next;
                         if( ( yearIndex == 0 ) && ( imageIndex == 0 ) )
                         {
-                            // At the start of the list, no previous.
-                            prev = null;
+                            // At the start of the list, make the previous
+                            // the last image.
+                            prev = localByYear[yearKeys.Last()].LastOrDefault();
                         }
                         else if( imageIndex == 0 )
                         {
@@ -177,8 +178,8 @@ namespace SitePlugin
                             ( ( imageIndex + 1 ) >= imageList.Count )
                         )
                         {
-                            // At the end of the list, no next.
-                            next = null;
+                            // At the end of the list, make next go back to the start.
+                            next = localByYear[yearKeys.First()].FirstOrDefault();
                         }
                         else if( ( imageIndex + 1 ) >= imageList.Count )
                         {
