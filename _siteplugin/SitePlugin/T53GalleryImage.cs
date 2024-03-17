@@ -16,6 +16,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 //
 
+using System.Text.RegularExpressions;
 using Pretzel.Logic.Templating.Context;
 using Pretzel.SethExtensions.ImageGallery;
 
@@ -23,6 +24,13 @@ namespace SitePlugin
 {
     public class T53GalleryImage
     {
+        // ---------------- Fields ----------------
+
+        private static readonly Regex invalidCharacterRegex = new Regex(
+            @"[^\w-\.]",
+            RegexOptions.Compiled | RegexOptions.ExplicitCapture
+        );
+
         // ---------------- Constructor ----------------
 
         public T53GalleryImage(
@@ -34,11 +42,15 @@ namespace SitePlugin
             this.PretzelImageContext = context;
             this.PostPage = postPage;
             this.GalleryThumbNailPage = galleryThumbnailPage;
+            this.Id = invalidCharacterRegex.Replace(
+                this.GalleryThumbNailPage.Id,
+                "-"
+            );
         }
 
         // ---------------- Properties ----------------
 
-        public string Id => GalleryThumbNailPage.Id;
+        public string Id { get; }
 
         public ImageInfoContext PretzelImageContext { get; }
 
