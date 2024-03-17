@@ -13,16 +13,17 @@ layout: page
 @for( int yearIndex = 0; yearIndex < years.Length; ++yearIndex )
 {
     int year = years[yearIndex];
+    var imageByYear = imagesByYear[year];
 
-    string previousId = null;
     <h2>@year</h2>
-    for( int i = 0; i < imagesByYear[year].Count; ++i )
+    for( int i = 0; i < imageByYear.Count; ++i )
     {
         <div class="row">
-            @for( int j = 0; ( i < imagesByYear[year].Count ) && ( j < picsPerRow ); ++j )
+            @for( int j = 0; ( i < imageByYear.Count ) && ( j < picsPerRow ); ++j )
             {
-                string id = "" + year + i;
-                T53GalleryImage image = imagesByYear[year][i];
+                T53GalleryImage image = imageByYear[i];
+                string id = image.Id;
+
                 <div class="col-sm-2">
                     <div class="portfolio-item" style="max-width: @(T53AllImageGallery.MaximumWidth)px;">
                         <a class="gallery-preview" href="#galleryimage_@(id)">
@@ -36,21 +37,21 @@ layout: page
                                             <i class="fa-solid fa-x"></i>
                                         </a>
                                     </div>
-                                    <div class="panel-body">
-                                        @if( previousId != null )
+                                    <div class="panel-body photoDisplay">
+                                        @if( image.Previous != null )
                                         {
-                                            <div class="prev">
-                                                <a href="#galleryimage_@(previousId)">&#10094;</a>
-                                            </div>
+                                            <a href="#galleryimage_@(image.Previous.Id)" class="prev">
+                                                <div>&#10094;</div>
+                                            </a>
                                         }
                                         <a href="@image.PretzelImageContext.OriginalPhotoUrl" target="_blank">
                                             <img class="thumbnailimage" src="@image.PretzelImageContext.ThumbnailUrl" alt="@image.PretzelImageContext.ImageInfo.SafeGetAlt()"/>
                                         </a>
-                                        @if( nextId != null )
+                                        @if( image.Next != null )
                                         {
-                                            <div class="next">
-                                                <a href="#galleryimage_@(nextId)">&#10095;</a>
-                                            </div>
+                                            <a href="#galleryimage_@(image.Next.Id)" class="next">
+                                                <div class="next">&#10095;</div>
+                                            </a>
                                         }
                                     </div>
                                     <div class="panel-footer">
@@ -62,7 +63,6 @@ layout: page
                     </div>
                 </div>
                 ++i;
-                previousId = id;
             }
         </div>
     }

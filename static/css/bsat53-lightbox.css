@@ -54,12 +54,17 @@ img:target {
     justify-content: flex-end;
 }
 
+.photoDisplay {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* 
     Prev / Next inspired from here:
     https://www.w3schools.com/howto/howto_js_slideshow.asp
 */
 
-.prev .next {
+.prev, .next {
     cursor: pointer;
     position: absolute;
     top: 50%;

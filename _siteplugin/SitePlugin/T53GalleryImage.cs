@@ -38,6 +38,8 @@ namespace SitePlugin
 
         // ---------------- Properties ----------------
 
+        public string Id => GalleryThumbNailPage.Id;
+
         public ImageInfoContext PretzelImageContext { get; }
 
         /// <summary>
@@ -60,6 +62,10 @@ namespace SitePlugin
 
         public string OriginalPhotoPath => 
             this.PretzelImageContext.OriginalPhotoFilePath.FullName;
+
+        public T53GalleryImage? Previous { get; internal set; } = null;
+
+        public T53GalleryImage? Next { get; internal set; } = null;
 
         // ---------------- Functions ----------------
 

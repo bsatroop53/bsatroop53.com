@@ -144,6 +144,59 @@ namespace SitePlugin
                     imageList.Sort( ( left, right ) => left.PostPage.Date.CompareTo( right.PostPage.Date ) );
                 }
 
+                int[] yearKeys = localByYear.Keys.OrderBy( i => i ).ToArray();
+                for( int yearIndex = 0; yearIndex < yearKeys.Length; ++yearIndex )
+                {
+                    int year = yearKeys[yearIndex];
+                    List<T53GalleryImage> imageList = localByYear[year];
+
+                    for( int imageIndex = 0; imageIndex < imageList.Count; ++imageIndex )
+                    {
+                        T53GalleryImage? prev;
+                        T53GalleryImage? next;
+                        if( ( yearIndex == 0 ) && ( imageIndex == 0 ) )
+                        {
+                            // At the start of the list, no previous.
+                            prev = null;
+                        }
+                        else if( imageIndex == 0 )
+                        {
+                            // At the start of the list, prev
+                            // must come from previous year.
+                            prev = localByYear[yearKeys[yearIndex - 1]].LastOrDefault();
+                        }
+                        else
+                        {
+                            // Otherwise, last just comes from the previous
+                            // one in the year.
+                            prev = imageList[imageIndex - 1];
+                        }
+                        
+                        if(
+                            ( ( yearIndex + 1 ) >= localByYear.Count ) &&
+                            ( ( imageIndex + 1 ) >= imageList.Count )
+                        )
+                        {
+                            // At the end of the list, no next.
+                            next = null;
+                        }
+                        else if( ( imageIndex + 1 ) >= imageList.Count )
+                        {
+                            // At end of image index, next must come from the next year.
+                            next = localByYear[yearKeys[yearIndex + 1]].FirstOrDefault();
+                        }
+                        else
+                        {
+                            // Otherwise, just get the next one in the year.
+                            next = imageList[imageIndex + 1];
+                        }
+
+                        T53GalleryImage current = imageList[imageIndex];
+                        current.Previous = prev;
+                        current.Next = next;
+                    }
+                }
+
                 lock( imagesByYear )
                 {
                     imagesByYear.Clear();
