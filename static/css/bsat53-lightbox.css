@@ -1,0 +1,90 @@
+/*
+ Code mostly borrowed from https://codesalad.dev/blog/how-to-create-an-image-lightbox-in-pure-css-25
+*/
+
+img:target {
+    border: 5px solid red;
+}
+
+.lightbox {
+    /* Default to hidden */
+    display: none;
+  
+    /* Overlay entire screen */
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  
+    /* A bit of padding around image */
+    padding: 1em;
+  
+    /* Translucent background */
+    background: rgba(0, 0, 0, 0.8);
+}
+  
+  /* Unhide the lightbox when it's the target */
+.lightbox:target {
+    /*display: block;*/
+    /* Center the pop-up */
+    display: flex;
+    justify-content: center;
+}
+  
+.lightbox span {
+    /* Full width and height */
+    display: block;
+    width: 100%;
+    height: 100%;
+  
+    /* Size and position background image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.lightboxwrapper {
+    max-width: 700px;
+}
+
+.closeButtonHeader {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* 
+    Prev / Next inspired from here:
+    https://www.w3schools.com/howto/howto_js_slideshow.asp
+*/
+
+.prev .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.captionText {
+    color: black;
+}
