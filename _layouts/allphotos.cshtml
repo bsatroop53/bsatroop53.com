@@ -16,7 +16,7 @@ layout: page
     var imageByYear = imagesByYear[year];
 
     <h2>@year</h2>
-    for( int i = 0; i < imageByYear.Count; ++i )
+    for( int i = 0; i < imageByYear.Count; )
     {
         <div class="row">
             @for( int j = 0; ( i < imageByYear.Count ) && ( j < picsPerRow ); ++j )
