@@ -141,7 +141,7 @@ namespace SitePlugin
 
                 foreach( List<T53GalleryImage> imageList in localByYear.Values )
                 {
-                    imageList.Sort( ( left, right ) => left.PostPage.Date.CompareTo( right.PostPage.Date ) );
+                    imageList.Sort( CompareImages );
                 }
 
                 int[] yearKeys = localByYear.Keys.OrderBy( i => i ).ToArray();
@@ -208,6 +208,20 @@ namespace SitePlugin
             }
 
             Console.WriteLine( "Generating thumbnails for full gallery... Done!" );
+        }
+
+        private static int CompareImages( T53GalleryImage left, T53GalleryImage right )
+        {
+            if( left.PostPage.Id == right.PostPage.Id )
+            {
+                return left.PretzelImageContext.ImageInfo.Index.CompareTo(
+                    right.PretzelImageContext.ImageInfo.Index
+                );
+            }
+            else
+            {
+                return left.PostPage.Date.CompareTo( right.PostPage.Date );
+            }
         }
 
         private static Page CreateGalleryThumbnail(
