@@ -45,7 +45,8 @@ layout: page
                                             </a>
                                         }
                                         <a href="@image.PretzelImageContext.OriginalPhotoUrl" target="_blank">
-                                            <img class="thumbnailimage" src="@image.PretzelImageContext.ThumbnailUrl" alt="@image.PretzelImageContext.ImageInfo.SafeGetAlt()"/>
+                                            <div class="focusedImage" style="background-image:url('@image.PretzelImageContext.ThumbnailUrl');width:@(image.PretzelImageContext.ThumbnailWidth)px;height:@(image.PretzelImageContext.ThumbnailHeight)px;">
+                                            </div>
                                         </a>
                                         @if( image.Next != null )
                                         {
