@@ -10,6 +10,10 @@ layout: page
 @Raw( Model.Content )
 <p>Total Images: @T53AllImageGallery.TotalImages</p>
 
+<noscript>
+    JavaScript disabled.  Image Gallery will still work, but navigation via arrow keys will not.
+</noscript>
+
 @for( int yearIndex = 0; yearIndex < years.Length; ++yearIndex )
 {
     int year = years[yearIndex];
