@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/2003_summer_camp_at_rotary_scout_reservation" ThumbnailOutputDir="static/img/galleries/2003_summer_camp_at_rotary_scout_reservation/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="rotary_2003_3.jpg">
+    <Alt>A red patch with a red background and a red and gold phoenix with a thunder bold in the center of its chest.  It says "Twin Rivers Council 2003 Rotary Scout Reservation".</Alt>
+    <Caption>The patch scouts and adults earned by camping at Rotary in 2003.</Caption>
+    <ThumbnailScale>0.65</ThumbnailScale>
+  </Image>
+  <Image FileName="2003_rotary_2.jpg">
+    <Alt>24 scouts and adults posing for a photo in front of a big outdoor fireplace.</Alt>
+    <Caption>Troop photo at Rotary Scout Reservation in 2003.</Caption>
+    <ThumbnailScale>0.65</ThumbnailScale>
+  </Image>
+</ImageGallery>
