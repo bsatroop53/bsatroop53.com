@@ -1,0 +1,190 @@
+---
+layout: page
+---
+@using SitePlugin;
+@{
+    const int picsPerRow = 6;
+    var imagesByYear = T53AllImageGallery.ImagesByYear;
+    int[] years = imagesByYear.Keys.OrderBy( i => i ).ToArray();
+}
+@Raw( Model.Content )
+<p>Total Images: @T53AllImageGallery.TotalImages</p>
+
+<noscript>
+    JavaScript disabled.  Image Gallery will still work, but navigation via arrow keys will not.
+</noscript>
+
+@for( int yearIndex = 0; yearIndex < years.Length; ++yearIndex )
+{
+    int year = years[yearIndex];
+    var imageByYear = imagesByYear[year];
+
+    <h2>@year</h2>
+    for( int i = 0; i < imageByYear.Count; )
+    {
+        <div class="row">
+            @for( int j = 0; ( i < imageByYear.Count ) && ( j < picsPerRow ); ++j )
+            {
+                T53GalleryImage image = imageByYear[i];
+                string id = image.Id;
+
+                <div class="col-sm-2">
+                    <div class="portfolio-item" style="max-width: @(T53AllImageGallery.MaximumWidth)px;">
+                        <a class="gallery-preview" href="#galleryimage_@(id)" onclick="lightboxEnter( 'galleryimage_@(id)' )">
+                            <img class="thumbnailimage" src="@image.GalleryThumbNailPage.Url" alt="@image.PretzelImageContext.ImageInfo.SafeGetAlt()" />
+                        </a>
+                        <div class="lightbox" id="galleryimage_@(id)">
+                            <div class="lightboxwrapper">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading closeButtonHeader">
+                                        <a href="#_" class="btn btn-danger" onclick="lightboxExit()">
+                                            <i class="fa-solid fa-x"></i>
+                                        </a>
+                                    </div>
+                                    <div class="panel-body photoDisplay">
+                                        @if( image.Previous != null )
+                                        {
+                                            <a href="#galleryimage_@(image.Previous.Id)" class="prev" id="prev_galleryimage_@(id)" onclick="lightboxEnter('galleryimage_@(image.Previous.Id)')">
+                                                <div class="prevarrow">&#10094;</div>
+                                            </a>
+                                        }
+                                        <a href="@image.PretzelImageContext.OriginalPhotoUrl" target="_blank">
+                                            <div class="focusedImage" style="background-image:url('@image.PretzelImageContext.ThumbnailUrl');width:@(image.PretzelImageContext.ThumbnailWidth)px;height:@(image.PretzelImageContext.ThumbnailHeight)px;">
+                                            </div>
+                                        </a>
+                                        @if( image.Next != null )
+                                        {
+                                            <a href="#galleryimage_@(image.Next.Id)" class="next" id="next_galleryimage_@(id)" onclick="lightboxEnter('galleryimage_@(image.Next.Id)')">
+                                                <div class="nextarrow">&#10095;</div>
+                                            </a>
+                                        }
+                                    </div>
+                                    <div class="panel-footer">
+                                        <p><em class="captionText">View Post: <a href="@image.PostPage.Url" target="_blank">@image.PostPage.Title</a></em></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                ++i;
+            }
+        </div>
+    }
+}
+
+<script>
+    var currentImage;
+    var previousImage;
+    var nextImage;
+
+    window.onload = function()
+    {
+        var hash = window.location.hash;
+        console.log( "Starting hash: " + hash );
+        if(
+            ( hash == null ) ||
+            ( hash == undefined ) ||
+            ( hash.startsWith( "#galleryimage_" ) === false )
+        )
+        {
+            lightboxExit();
+        }
+        else
+        {
+            lightboxEnter( hash.substring( 1 ) );
+        }
+    };
+
+    window.addEventListener(
+        'keydown',
+        function( event )
+        {
+            switch( event.key )
+            {
+                case 'ArrowLeft':
+                    if( this.previousImage )
+                    {
+                        window.location.hash = "#" + this.previousImage;
+                        lightboxEnter( this.previousImage );
+                    }
+                    break;
+        
+                case 'ArrowRight':
+                    if( this.nextImage )
+                    {
+                        window.location.hash = "#" + this.nextImage;
+                        lightboxEnter( this.nextImage );
+                    }
+                    break;
+        
+                case 'Escape':
+                    // This closes the lightbox.
+                    lightboxExit();
+                    window.location.hash = "#" + "_";
+                    break;
+
+                default:
+                    break;
+            }
+        }
+    );
+
+    function lightboxExit()
+    {
+        this.currentImage = null;
+        this.nextImage = null;
+        this.previousImage= null;
+
+        console.log( "cleared" );
+    }
+
+    function lightboxEnter( photoId )
+    {
+        this.currentImage = photoId;
+
+        var previousImageButton = document.getElementById( "prev_" + photoId );
+        if( previousImageButton !== null )
+        {
+            var hrefValue = previousImageButton.getAttribute( "href" );
+            if( hrefValue )
+            {
+                // Remove '#' in front.
+                this.previousImage = hrefValue.substring( 1 );
+            }
+            else
+            {
+                console.log( "Can not find href within id: " + "prev_" + photoId );
+                this.previousImage = null;
+            }
+        }
+        else
+        {
+            console.log( "Can not find element with id: " + "prev_" + photoId );
+            this.previousImage = null;
+        }
+
+        var nextImageButton = document.getElementById( "next_" + photoId );
+        if( nextImageButton !== null )
+        {
+            var hrefValue = nextImageButton.getAttribute( "href" );
+            if( hrefValue )
+            {
+                // Remove '#' in front.
+                this.nextImage = hrefValue.substring( 1 );
+            }
+            else
+            {
+                console.log( "Can not find href within id: " + "next_" + photoId );
+                this.previousImage = null;
+            }
+        }
+        else
+        {
+            console.log( "Can not find element with id: " + "next_" + photoId );
+            this.nextImage = null;
+        }
+
+        console.log( "Current: " + this.currentImage + ", Next: " + this.nextImage + ", Previous: " + this.previousImage );
+    }
+</script>

@@ -3,6 +3,7 @@ layout: nil
 exclude_from_navbar: true
 ---
 @using System.IO;
+@using SitePlugin;
 @{
     string rootDir = Model.Site.SourceFolder;
     var staticDir = new DirectoryInfo( Path.Combine( rootDir, "static" ) );
@@ -48,6 +49,9 @@ bsatroop53_post_total @Model.Site.Posts.Count
 # HELP bsatroop53_page_total Total number of pages across the site (includes thumbnails).
 # TYPE bsatroop53_page_total gauge
 bsatroop53_page_total @Model.Site.Pages.Count
+# HELP bsatroop53_photo_total Total number of photos in all posts across the site.
+# TYPE bsatroop53_photo_total gauge
+bsatroop53_photo_total @T53AllImageGallery.TotalImages
 # HELP bsatroop53_posts_in_category Total number of posts that fit in a particular category.
 # TYPE bsatroop53_posts_in_category gauge
 @foreach( var categoryCount in categoryDict )

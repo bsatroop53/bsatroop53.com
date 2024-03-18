@@ -54,6 +54,7 @@
 
     <!-- BSA Troop 53-specific styles-->
     <link href="/static/css/bsat53.css" rel="stylesheet" />
+    <link href="/static/css/bsat53-lightbox.css" rel="stylesheet" />
 
     <!-- Leaflet JS -->
     <link href="/static/css/leaflet.css" rel="stylesheet" />
@@ -115,6 +116,7 @@
                         List<string> ignorePages = new List<string>() { "/", "/posts" };
                         List<Page> aboutPages = new List<Page>();
                         List<Page> otherPages = new List<Page>();
+                        List<Page> photoPages = new List<Page>();
                         foreach( Page thePage in Model.Site.Pages )
                         {
                             if(
@@ -123,6 +125,12 @@
                             )
                             {
                                 aboutPages.Add( thePage );
+                            }
+                            else if(
+                                ( thePage.Bag.ContainsKey( "is_photo_page" ) && "True".Equals( thePage.Bag["is_photo_page"].ToString() ) )
+                            )
+                            {
+                                photoPages.Add( thePage );
                             }
                             else if(
                                 ( thePage.Bag.ContainsKey( "layout" ) && "eventpage".Equals( thePage.Bag["layout"] ) )
@@ -162,6 +170,7 @@
                         }
                         aboutPages.Sort( Compare );
                         otherPages.Sort( Compare );
+                        photoPages.Sort( Compare );
                     }
                     <li>
                         <a href="#"><i class="fa fa-question-circle"></i>About<span class="fa arrow"></span></a>
@@ -194,6 +203,22 @@
                                             @:<li><a href="@(page.Url)"><i class="fa-regular fa-circle-dot"></i>@(category.Name)</a></li>
                                         }
                                     }
+                                }
+                            }
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-photo-film"></i>Photos<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            @foreach( var thePage in photoPages )
+                            {
+                                if( thePage.Bag.ContainsKey( "icon" ) )
+                                {
+                                    @:<li><a href="@thePage.Url"><i class="fa @thePage.Bag["icon"]"></i>@thePage.Title</a></li>
+                                }
+                                else
+                                {
+                                    @:<li><a href="@thePage.Url"><i class="fa-regular fa-circle-dot"></i>@thePage.Title</a></li>
                                 }
                             }
                         </ul>
