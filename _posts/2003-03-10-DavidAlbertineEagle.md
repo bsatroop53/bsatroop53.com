@@ -1,10 +1,11 @@
 --- 
-layout: post
+layout: "imagegallerypost2"
 title: "David Albertine Receives Scouting's Highest Rank"
 author: "BSA Troop 53"
 category: "News"
 description: "Press release for when David Albertine received his Eagle Scout rank."
 tags: [award, david albertine, eagle, rank, scout]
+image_gallery: "_gallerydata/david_albertine_receives_scouting_s_highest_rank.xml"
 ---
 
 After twelve years on the trail to Eagle, eighteen year old P. David Albertine, II received BSA Eagle Scout at a Court of Honor held on March 8th, 2003 at the South Schodack Firehouse. David, a member of Troop 53 of Castleton, NY has been a member of the Boy Scouts since 1991 when he became a Tiger Cub in Pack 253, also of Castleton. Troop 53 is sponsored by the Village of Castleton. Pack 253 is sponsored by the Castleton Kiwanis Club.
@@ -16,3 +17,5 @@ David's Eagle Scout project was to create a Nature Trail and trail improvements 
 David, who completed the requirements for Eagle just days before the deadline of his eighteenth birthday, shares these words with fellow scouts seeking BSA's highest rank "If there is one valuable lesson that I can pass on it's "Don't wait to the last minute"". David's requirements were completed just 4 days before his 18th birthday. David also presented a gift to honored guest, Eagle Scout Russell Van de Wal, who earned his Eagle in 1941 as a member of Troop 53.
 
 David's plans for the future include college and a career in aviation, possibly as a Missionary Pilot. David has not ruled out a career in the military.
+
+## Photos from the Eagle Ceremony

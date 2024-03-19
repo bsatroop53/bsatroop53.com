@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/david_albertine_receives_scouting_s_highest_rank" ThumbnailOutputDir="static/img/galleries/david_albertine_receives_scouting_s_highest_rank/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="dsc00168_2.jpg">
+    <Alt>Four people smiling for the camera.  The two folks on the right are in Class A uniforms.  The two people in the middle are shaking hands with each other.</Alt>
+    <Caption>David (center-right) receiving his Eagle award.  To the far right is his father, and also a Troop 53 Eagle Scout, Paul D. Albertine.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="dsc00167_1.jpg">
+    <Alt>Four people smiling at the camera.  The two in the middle are wearing Class A uniforms.</Alt>
+    <Caption>Photo taken in front of the rank ladder, which shows all of the Cub Scout and Boy Scout ranks a scout can earn.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+</ImageGallery>
