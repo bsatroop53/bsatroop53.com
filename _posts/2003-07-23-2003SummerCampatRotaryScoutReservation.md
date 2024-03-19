@@ -3,7 +3,7 @@ layout: "imagegallerypost2"
 title: "2003 Summer Camp at Rotary Scout Reservation"
 author: "Seth Hendrick"
 category: "Camping Trips"
-description: "Troop 53 was at Camp Rotary for a week during the summer."
+description: "Troop 53 was at Camp Rotary for a week during the summer of 2003."
 tags: ["rotary scout reservation", "summer camp"]
 is_date_estimate: True
 image_gallery: "_gallerydata/2003_summer_camp_at_rotary_scout_reservation.xml"

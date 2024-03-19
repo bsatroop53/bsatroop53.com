@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/1995_summer_camp_at_rotary_scout_reservation" ThumbnailOutputDir="static/img/galleries/1995_summer_camp_at_rotary_scout_reservation/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="1995_1.jpg">
+    <Alt>18 scouts and adults in Class A uniforms smiling at the camera in front of a pond.  The sign in front says "Rotary Scout Reservation 1995 Troop 53."</Alt>
+    <Caption>Troop photo at Rotary Scout Reservation in 1995.</Caption>
+    <ThumbnailScale>0.9158716876846241</ThumbnailScale>
+  </Image>
+</ImageGallery>
