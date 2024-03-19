@@ -4,6 +4,7 @@ layout: layout
 
 @using Pretzel.Logic.Extensibility.Extensions;
 @using Pretzel.SethExtensions;
+@using SitePlugin;
 
 @{
     string defaultAuthor = "Anonymous";
@@ -27,6 +28,10 @@ layout: layout
                 </div>
                 <div class="col-md-4">
                     <i class="fa fa-calendar"></i> @Model.Page.Date.ToString( "MMM dd yyyy" )
+                    @if( Model.IsPostEstimate() )
+                    {
+                        <em>(estimated)</em>
+                    }
                 </div>
                 <div class="col-md-4">
                     Posted In:
