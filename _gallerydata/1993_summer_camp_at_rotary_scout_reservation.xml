@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/1993_summer_camp_at_rotary_scout_reservation" ThumbnailOutputDir="static/img/galleries/1993_summer_camp_at_rotary_scout_reservation/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="rotary_1993_1.jpg">
+    <Alt>21 Scouts and Adults dressed in Class A uniforms.  The sign in front of them says "Camp Rotary 1993 Troop 53."</Alt>
+    <Caption>Troop photo at Rotary Scout Reservation in 1993.</Caption>
+    <ThumbnailScale>0.8592589193379474</ThumbnailScale>
+  </Image>
+</ImageGallery>
