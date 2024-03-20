@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/1992_summer_camp_at_rotary_scout_reservation" ThumbnailOutputDir="static/img/galleries/1992_summer_camp_at_rotary_scout_reservation/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="rotary_1992_1.jpg">
+    <Alt>17 scouts and adults dressed in Class A Uniforms in front of a pond.  To the left if the US flag, to the right is the Troop 53 flag.  The sign in front says "Rotary Scout Reservation 1992 Troop 53."</Alt>
+    <Caption>Troop photo at Rotary Scout Reservation in 1992.</Caption>
+    <ThumbnailScale>0.7072176156926858</ThumbnailScale>
+  </Image>
+</ImageGallery>
