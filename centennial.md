@@ -34,7 +34,7 @@ Every year, the troop marches in the Castleton/Schodack Memorial day parade.  Th
 
 Not going to be in town Memorial Day?  There are other ways to celebrate even from far away!  The troop is also collecting photos all across the troop history, and adding them to this very [website](/photos/AllPhotos.html).  If you have photos of past troop events, and are comfortable having photos added to this website, please fill out form located here: [https://edit.bsatroop53.com/](https://edit.bsatroop53.com/).
 
-If you are an Eagle scout who got their award after 2009, please send a photo from around when you earned you Eagle Award if you are comfortable so that it can be added to the [Eagle Scout page](/eagle_scouts.html).
+If you are an Eagle scout who got their award after 2009, please send a photo of yourself from around the time when you earned your Eagle Award if you are comfortable doing so.  That way, it can be added to the [Eagle Scout page](/eagle_scouts.html) on this website.
 
 ## RSVP
 
