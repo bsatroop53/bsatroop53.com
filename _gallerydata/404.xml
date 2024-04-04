@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/404" ThumbnailOutputDir="static/img/galleries/404/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="bsasign_1.jpg">
+    <Alt>A red sign hanging on a tree that says "Troop 53, BSA.  Castleton On Hudson, New York.  Since 1924"</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+</ImageGallery>
