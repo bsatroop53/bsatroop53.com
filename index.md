@@ -15,7 +15,7 @@ If you are a current or former member of the Troop, and wish to add a post to th
 
 ### Centennial Celebration
 
-There are plans to have a centennial celebration Memorial Day Weekend, 2024.  Stay tuned to this website for details.  There is also a Centennial Celebration [Facebook Page](https://www.facebook.com/profile.php?id=61550093638626) as well.
+There are plans to have a centennial celebration Memorial Day Weekend, 2024.  Stay tuned to [this page](/centennial.html) for details.  There is also a Centennial Celebration [Facebook Page](https://www.facebook.com/profile.php?id=61550093638626) as well.
 
 @if( false )
 {
