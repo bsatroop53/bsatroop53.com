@@ -10,7 +10,7 @@ exclude_from_navbar: false
 
 Interested in joining Troop 53 or Pack 253?  If you live in the Castleton/Schodack area, you can have a parent or guardian sign up online.
 
-The links to the online application are below.  If, for some reason, the links do not work, you can go to [https://beascout.scouting.org/](beascout.scouting.org) and use the zip code "12033" to find the pack or the troop.
+The links to the online application are below.  If, for some reason, the links do not work, you can go to [https://beascout.scouting.org/](https://beascout.scouting.org) and use the zip code "12033" to find the pack or the troop.
 
 ## Register for Pack 253
 
