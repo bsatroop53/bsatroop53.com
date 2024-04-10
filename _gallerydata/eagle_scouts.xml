@@ -180,9 +180,15 @@
         <Alt>Seth Hendrick</Alt>
         <Caption>Seth Hendrick - 2009</Caption>
     </Image>
+    <!-- Source: https://www.schodack.org/sites/g/files/vyhlif1186/f/uploads/2010_resolutions.pdf -->
     <Image FileName="2010_Corey_Haughton.jpg">
         <Alt>Corey Haughton</Alt>
         <Caption>Corey Haughton - 2010</Caption>
+    </Image>
+    <!-- Source: https://www.schodack.org/sites/g/files/vyhlif1186/f/uploads/2010_resolutions.pdf -->
+    <Image FileName="2010_Patrick_Curtin.jpg">
+        <Alt>Patrick Curtin</Alt>
+        <Caption>Patrick Curtin - 2010</Caption>
     </Image>
     <Image FileName="2010_Ted_Tobin.jpg">
         <Alt>Ted Tobin</Alt>
