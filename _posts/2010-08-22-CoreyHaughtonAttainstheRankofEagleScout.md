@@ -64,4 +64,3 @@ August 22, 2010.
 
 * *[Source](https://www.schodack.org/sites/g/files/vyhlif1186/f/uploads/2010_resolutions.pdf)*
 * *[Archived Source](https://web.archive.org/web/20240410214901/https://www.schodack.org/sites/g/files/vyhlif1186/f/uploads/2010_resolutions.pdf)*
-
