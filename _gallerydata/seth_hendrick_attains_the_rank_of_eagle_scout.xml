@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/seth_hendrick_attains_the_rank_of_eagle_scout" ThumbnailOutputDir="static/img/galleries/seth_hendrick_attains_the_rank_of_eagle_scout/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="pic_0027_2.jpg">
+    <Alt>Two people standing in Class A uniforms.  The person on the left if at a podium, reading from a folder.</Alt>
+    <Caption>Scoutmaster, Rich Noll, reading proclamations from the Town of Schodack and Rensselear County</Caption>
+    <ThumbnailScale>0.9123335775327277</ThumbnailScale>
+  </Image>
+  <Image FileName="pic_0024_5.jpg">
+    <Alt>Two people standing in Class A uniforms.  The person on the left if at a podium, reading from something on it.</Alt>
+    <Caption>Assistant Scoutmaster, Bruce Wagner, giving remarks.</Caption>
+    <ThumbnailScale>0.9190424771066765</ThumbnailScale>
+  </Image>
+  <Image FileName="pic_0022_7.jpg">
+    <Alt>Two people standing in Class A uniforms.  The person on the left if at a podium, reading from something on it.</Alt>
+    <Caption>Former Scoutmaster and Eagle Scout, Paul Albertine, giving remarks.  Behind Seth is Eagle Scout, Dusty Albertine.</Caption>
+    <ThumbnailScale>0.8592603275851332</ThumbnailScale>
+  </Image>
+  <Image FileName="pic_0018_11.jpg">
+    <Alt>Two people standing in Class A uniforms.  The person on the left if at a podium, reading from something on it.</Alt>
+    <Caption>Assistant Scoutmaster, Fred Wolfe, giving remarks.</Caption>
+    <ThumbnailScale>0.9279975644595171</ThumbnailScale>
+  </Image>
+  <Image FileName="pic_0019_10.jpg">
+    <Alt>Five people are standing at the front of the room.  All but the one in the middle are wearing Class A uniforms.</Alt>
+    <Caption>Seth is joined by other Eagle Scouts. To the right of him are Eagle Scouts Paul Albertine, Tadd Benoit, Brett Wagner, and Ian Walling. </Caption>
+    <ThumbnailScale>0.8840312613288595</ThumbnailScale>
+  </Image>
+  <Image FileName="pic_0006_23.jpg">
+    <Alt>Two people standing in front of the room.  The person on the left if at a podium, reading from something on it; they wearing a pink shirt and tie.  The person on the right is wearing a Class A.</Alt>
+    <Caption>Ged Walling gives remarks.</Caption>
+    <ThumbnailScale>0.9404032903209606</ThumbnailScale>
+  </Image>
+  <Image FileName="pic_0005_24.jpg">
+    <Alt>Man in a Class A uniform is reading something from a podium.</Alt>
+    <Caption>Former Scoutmaster, Dan Zobre, gives remarks.</Caption>
+    <ThumbnailScale>0.8788270416056938</ThumbnailScale>
+  </Image>
+  <Image FileName="pic_0020_9.jpg">
+    <Alt>Scout in a class A uniform has his right hand up in the scout sign.  He is speaking.</Alt>
+    <Caption>Seth recites the Scout Oath.</Caption>
+    <ThumbnailScale>0.9573973098035492</ThumbnailScale>
+  </Image>
+  <Image FileName="pic_0016_13.jpg">
+    <Alt>Three people smiling at the camera.  The person in the middle is wearing a Class A uniform.</Alt>
+    <Caption>Seth is joined by his proud parents.</Caption>
+    <ThumbnailScale>0.9200504696874775</ThumbnailScale>
+  </Image>
+</ImageGallery>

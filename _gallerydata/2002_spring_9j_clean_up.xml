@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/2002_spring_9j_clean_up" ThumbnailOutputDir="static/img/galleries/2002_spring_9j_clean_up/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="9j_2002_1.jpg">
+    <Alt>14 scouts and adults smiling at the camera.  Most are wearing orage vests and yellow hard hats.</Alt>
+    <Caption>The troop in front of the railroad tracks after picking up trash.</Caption>
+    <ThumbnailScale>0.7969889151703464</ThumbnailScale>
+  </Image>
+</ImageGallery>
