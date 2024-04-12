@@ -35,3 +35,4 @@ exclude:
  - _gallerydata
  - devops.bat
  - devops.sh
+ - Readme.md
