@@ -124,6 +124,17 @@ namespace DevOps.Tasks
 
         private static void HandlePostFile( BuildContext context, FilePath bsat53File )
         {
+            context.Information(
+                $"Extracting zip file '{bsat53File.FullPath}' to '{context.RepoRoot}'."
+            );
+
+            context.Unzip(
+                bsat53File,
+                context.RepoRoot,
+                false
+            );
+
+            context.DeleteFile( bsat53File.FullPath );
         }
     }
 }
