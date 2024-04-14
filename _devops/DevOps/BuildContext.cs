@@ -45,6 +45,8 @@ namespace DevOps
             this.PretzelSln = this.PretzelDir.CombineWithFilePath( "src/Pretzel.sln" );
             this.PretzelExe = this.PretzelDir.CombineWithFilePath( $"src/Pretzel/bin/Debug/{dotnetVersion}/Pretzel.dll" );
 
+            this.PostsDir = this.RepoRoot.Combine( "_posts" );
+
             this.SitePluginDir = this.RepoRoot.Combine( "_siteplugin" );
             this.SitePluginCsProj = this.SitePluginDir.CombineWithFilePath( "SitePlugin/SitePlugin.csproj" );
 
@@ -65,6 +67,8 @@ namespace DevOps
         public FilePath PretzelSln { get; }
 
         public FilePath PretzelExe { get; }
+
+        public DirectoryPath PostsDir { get; }
 
         public DirectoryPath SitePluginDir { get; }
 
