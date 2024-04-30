@@ -5,23 +5,33 @@
 -->
 <Files>
     <File name="BSA Guide To Advancement (2021 Edition).pdf">
-        <Category>Resources</Category>
+        <DisplayName>Guide To Advancement (2021 Edition)</DisplayName>
+        <Category>Advancement</Category>
         <OrignalUrl>https://filestore.scouting.org/filestore/pdf/33088.pdf</OrignalUrl>
         <ArchiveOrgUrl>https://web.archive.org/web/20240430023118/https://filestore.scouting.org/filestore/pdf/33088.pdf</ArchiveOrgUrl>
     </File>
+    <File name="EagleProjectWorkbook2023a.pdf">
+        <DisplayName>Eagle Project Workbook (2023a Edition)</DisplayName>
+        <Category>Advancement</Category>
+        <OrignalUrl>https://www.scouting.org/wp-content/uploads/2023/01/EagleProjectWorkbook2023a.pdf</OrignalUrl>
+        <ArchiveOrgUrl>https://web.archive.org/web/20240117054212/https://www.scouting.org/wp-content/uploads/2023/01/EagleProjectWorkbook2023a.pdf</ArchiveOrgUrl>
+    </File>
     <File name="BSA Meeting Planning Form.pdf">
+        <DisplayName>Meeting Planning Form</DisplayName>
         <Category>Resources</Category>
         <OrignalUrl>https://troopleader.scouting.org/wp-content/uploads/sites/5/2019/03/Fillable-Planning-Form.pdf</OrignalUrl>
         <ArchiveOrgUrl>https://web.archive.org/web/20240429235257/https://troopleader.scouting.org/wp-content/uploads/sites/5/2019/03/Fillable-Planning-Form.pdf</ArchiveOrgUrl>
     </File>
-    <File name="BSA Adults Uniform Inspection Sheet (Jan 2021 Edition).pdf">
-        <Category>Uniforms</Category>
-        <OrignalUrl>https://filestore.scouting.org/filestore/pdf/510-783(23)-Adult-Leader-Uniform-Sheet.pdf</OrignalUrl>
-        <ArchiveOrgUrl>https://web.archive.org/web/20240310054527/https://filestore.scouting.org/filestore/pdf/510-783(23)-Adult-Leader-Uniform-Sheet.pdf</ArchiveOrgUrl>
-    </File>
     <File name="BSA Scouts Uniform Inspection Sheet (Jan 2021 Edition).pdf">
+        <DisplayName>Scouts Uniform Inspection Sheet (Jan 2021 Edition)</DisplayName>
         <Category>Uniforms</Category>
         <OrignalUrl>https://filestore.scouting.org/filestore/pdf/510-784(23)-Scouts-Uniform-Inspection-Sheet.pdf</OrignalUrl>
         <ArchiveOrgUrl>https://web.archive.org/web/20240405133838/https://filestore.scouting.org/filestore/pdf/510-784(23)-Scouts-Uniform-Inspection-Sheet.pdf</ArchiveOrgUrl>
+    </File>
+    <File name="BSA Adults Uniform Inspection Sheet (Jan 2021 Edition).pdf">
+        <DisplayName>Adult Uniform Inspection Sheet (Jan 2021 Edition)</DisplayName>
+        <Category>Uniforms</Category>
+        <OrignalUrl>https://filestore.scouting.org/filestore/pdf/510-783(23)-Adult-Leader-Uniform-Sheet.pdf</OrignalUrl>
+        <ArchiveOrgUrl>https://web.archive.org/web/20240310054527/https://filestore.scouting.org/filestore/pdf/510-783(23)-Adult-Leader-Uniform-Sheet.pdf</ArchiveOrgUrl>
     </File>
 </Files>
