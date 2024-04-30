@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+    If there's a useful online form that should be mirrored, put it here.
+    A scout is honest, do not link to any pirated PDFs.
+-->
+<Files>
+    <File name="BSA Guide To Advancement (2021 Edition).pdf">
+        <Category>Resources</Category>
+        <OrignalUrl>https://filestore.scouting.org/filestore/pdf/33088.pdf</OrignalUrl>
+        <ArchiveOrgUrl>https://web.archive.org/web/20240430023118/https://filestore.scouting.org/filestore/pdf/33088.pdf</ArchiveOrgUrl>
+    </File>
+    <File name="BSA Meeting Planning Form.pdf">
+        <Category>Resources</Category>
+        <OrignalUrl>https://troopleader.scouting.org/wp-content/uploads/sites/5/2019/03/Fillable-Planning-Form.pdf</OrignalUrl>
+        <ArchiveOrgUrl>https://web.archive.org/web/20240429235257/https://troopleader.scouting.org/wp-content/uploads/sites/5/2019/03/Fillable-Planning-Form.pdf</ArchiveOrgUrl>
+    </File>
+    <File name="BSA Adults Uniform Inspection Sheet (Jan 2021 Edition).pdf">
+        <Category>Uniforms</Category>
+        <OrignalUrl>https://filestore.scouting.org/filestore/pdf/510-783(23)-Adult-Leader-Uniform-Sheet.pdf</OrignalUrl>
+        <ArchiveOrgUrl>https://web.archive.org/web/20240310054527/https://filestore.scouting.org/filestore/pdf/510-783(23)-Adult-Leader-Uniform-Sheet.pdf</ArchiveOrgUrl>
+    </File>
+    <File name="BSA Scouts Uniform Inspection Sheet (Jan 2021 Edition).pdf">
+        <Category>Uniforms</Category>
+        <OrignalUrl>https://filestore.scouting.org/filestore/pdf/510-784(23)-Scouts-Uniform-Inspection-Sheet.pdf</OrignalUrl>
+        <ArchiveOrgUrl>https://web.archive.org/web/20240405133838/https://filestore.scouting.org/filestore/pdf/510-784(23)-Scouts-Uniform-Inspection-Sheet.pdf</ArchiveOrgUrl>
+    </File>
+</Files>
