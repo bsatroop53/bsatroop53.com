@@ -1,15 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<!--
-    IPFS hashes of all the files in fileinfo.xml.
-    This is its own separate file since it must be generated
-    by a machine that has all of the pdfs mirrored AND
-    has access to an IPFS node.
-
-    If Seth is no longer maintaining the website, its probably
-    best to just delete this file, unless you know what IPFS is.
--->
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Files>
-    <File name="BSA Guide To Advancement (2021 Edition).pdf">
-        <IpfsHash>QmQ2eSuFdbpparCcQ1MiJLYSd5SbLVLmPpGr2gumVKYhgC</IpfsHash>
-    </File>
+  <File name="BSA Scouts Uniform Inspection Sheet (Jan 2021 Edition).pdf">
+    <IpfsHash>QmeEzGQYaxZm4HaNRUnTo138Eozhkez9mVb1HZQzRB4dsr</IpfsHash>
+  </File>
+  <File name="BSA Meeting Planning Form.pdf">
+    <IpfsHash>QmTLceoa69eRJzwbZsmG1Y92gcertsHfX2avZDvBUSRqaM</IpfsHash>
+  </File>
+  <File name="BSA Adults Uniform Inspection Sheet (Jan 2021 Edition).pdf">
+    <IpfsHash>QmNvxU9hJugotwUgcxxpmAfoxC7HsQDLrfmpib4tAF7UzN</IpfsHash>
+  </File>
+  <File name="BSA Guide To Advancement (2021 Edition).pdf">
+    <IpfsHash>QmQ2eSuFdbpparCcQ1MiJLYSd5SbLVLmPpGr2gumVKYhgC</IpfsHash>
+  </File>
+  <File name="EagleProjectWorkbook2023a.pdf">
+    <IpfsHash>QmP9cRA23bjDSn7DWwULAUP2fiecpqb7fLiRR4d3Titnf7</IpfsHash>
+  </File>
 </Files>
