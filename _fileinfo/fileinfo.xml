@@ -39,6 +39,13 @@
         <ArchiveOrgUrl>https://web.archive.org/web/20240310054527/https://filestore.scouting.org/filestore/pdf/510-783(23)-Adult-Leader-Uniform-Sheet.pdf</ArchiveOrgUrl>
     </File>
     <!-- Merit Badge Requirements -->
+    <File name="35856(23)_Archery_REQ.pdf">
+        <DisplayName>Archery Merit Badge Requirements</DisplayName>
+        <Edition>2023</Edition>
+        <Category>Merit Badge Requirements</Category>
+        <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35856(23)_Archery_REQ.pdf</OrignalUrl>
+        <ArchiveOrgUrl>https://web.archive.org/web/20240506032047/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35856(23)_Archery_REQ.pdf</ArchiveOrgUrl>
+    </File>
     <File name="(24)_Programming_REQS.pdf">
         <DisplayName>Programming Merit Badge Requirements</DisplayName>
         <Edition>2024</Edition>
