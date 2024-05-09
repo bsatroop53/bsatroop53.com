@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+    If there's a useful online form that should be mirrored, put it here.
+    A scout is honest, do not link to any pirated PDFs.
+-->
+<Files>
+    <File>
+        <DisplayName>Guide To Advancement</DisplayName>
+        <Category>Advancement</Category>
+        <Editions>
+            <Edition filename="BSA Guide To Advancement (2021 Edition).pdf">
+                <DisplayName>2021</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/pdf/33088.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240430023118/https://filestore.scouting.org/filestore/pdf/33088.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Eagle Project Workbook</DisplayName>
+        <Category>Advancement</Category>
+        <Editions>
+            <Edition filename="EagleProjectWorkbook2023a.pdf">
+                <DisplayName>2023a</DisplayName>
+                <OrignalUrl>https://www.scouting.org/wp-content/uploads/2023/01/EagleProjectWorkbook2023a.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240117054212/https://www.scouting.org/wp-content/uploads/2023/01/EagleProjectWorkbook2023a.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Meeting Planning Form</DisplayName>
+        <Category>Resources</Category>
+        <Editions>
+            <Edition filename="BSA Meeting Planning Form.pdf">
+                <DisplayName></DisplayName>
+                <OrignalUrl>https://troopleader.scouting.org/wp-content/uploads/sites/5/2019/03/Fillable-Planning-Form.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240429235257/https://troopleader.scouting.org/wp-content/uploads/sites/5/2019/03/Fillable-Planning-Form.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Scouts Uniform Inspection Sheet</DisplayName>
+        <Category>Uniforms</Category>
+        <Editions>
+            <Edition filename="BSA Scouts Uniform Inspection Sheet (Jan 2021 Edition).pdf">
+                <DisplayName>January 2021</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/pdf/510-784(23)-Scouts-Uniform-Inspection-Sheet.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240405133838/https://filestore.scouting.org/filestore/pdf/510-784(23)-Scouts-Uniform-Inspection-Sheet.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Adult Uniform Inspection Sheet</DisplayName>
+        <Category>Uniforms</Category>
+        <Editions>
+            <Edition filename="BSA Adults Uniform Inspection Sheet (Jan 2021 Edition).pdf">
+                <DisplayName>January 2021</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/pdf/510-783(23)-Adult-Leader-Uniform-Sheet.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240310054527/https://filestore.scouting.org/filestore/pdf/510-783(23)-Adult-Leader-Uniform-Sheet.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <!-- Merit Badge Requirements -->
+    <File>
+        <DisplayName>Archery Merit Badge Requirements</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35856(23)_Archery_REQ.pdf">
+                <DisplayName>2023</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35856(23)_Archery_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240506032047/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35856(23)_Archery_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Programming Merit Badge Requirements</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="(24)_Programming_REQS.pdf">
+                <DisplayName>2024</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Programming_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240506031041/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Programming_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+            <Edition filename="35710(23)_Programming_REQS.pdf">
+                <DisplayName>2023</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35710(23)_Programming_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240506030814/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35710(23)_Programming_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+            <Edition filename="35710(22)_Programming_REQS.pdf">
+                <DisplayName>2022</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35710(22)_Programming_REQS.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/2/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35710(22)_Programming_REQS.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+</Files>
