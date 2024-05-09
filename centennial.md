@@ -10,14 +10,6 @@ exclude_from_navbar: true
 
 2024 is a special year, Troop 53 turned 100 years old!  The troop is planning several ways to celebrate.
 
-## Memorial Day Parade
-
-Every year, the troop marches in the Castleton/Schodack Memorial day parade.  This year, troop alumni are also welcome to march with the troop.
-
-* **Who:** Current troop members and troop alumni.
-* **When:** Memorial Day.  Monday Math 27th, 2024.  Meet at 9:30AM.
-* **Where:** TBD, but most likely meeting at the corner of Boltwood Ave. and Benedict St.
-
 ## Photo Collection
 
 Not going to be in town Memorial Day?  There are other ways to celebrate even from far away!  The troop is also collecting photos all across the troop history, and adding them to this very [website](/photos/AllPhotos.html).  If you have photos of past troop events, and are comfortable having photos added to this website, please fill out form located here: [https://edit.bsatroop53.com/](https://edit.bsatroop53.com/).

@@ -13,10 +13,6 @@ Welcome to the website of Troop 53 of Castleton, NY!
 
 If you are a current or former member of the Troop, and wish to add a post to this site, please checkout the editor at [https://edit.bsatroop53.com/](https://edit.bsatroop53.com/).  Posts can be photos of camping trips or outings, Eagle projects, Dutch oven recipes, or pretty much anything related to the troop.
 
-### Centennial Celebration
-
-There are plans to have a centennial celebration Memorial Day Weekend, 2024.  Stay tuned to [this page](/centennial.html) for details.  There is also a Centennial Celebration [Facebook Page](https://www.facebook.com/profile.php?id=61550093638626) as well.
-
 @if( false )
 {
 @:## Christmas Tree Sales
