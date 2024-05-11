@@ -1,0 +1,48 @@
+---
+layout: page
+---
+@using Pretzel.Logic.Templating.Context;
+@using Pretzel.SethExtensions;
+@using SitePlugin;
+@{
+    const string ipfsUrlPrefix = "https://cloudflare-ipfs.com/ipfs";
+    var fileList = FileGallery.FileData; 
+}
+@Raw( Model.Content )
+
+@foreach( string fileCategory in fileList.Keys.OrderBy( c => c ) )
+{
+    <div class="row">
+        <div class="col-md-12">
+        <h3>@fileCategory</h3>
+            <ul>
+            @foreach( T53File file in fileList[fileCategory] )
+            {
+                <li>
+                    <strong>@file.get_DisplayName()</strong>
+                    <ul>
+                        @foreach( T53FileEditionInfo edition in file.get_EditionList() )
+                        {
+                            <li>
+                                <span><strong>@edition.get_EditionName() Edition  </strong></span>
+                                @if( edition.get_DirectLink() != null )
+                                {
+                                    <span>|  <a href="@edition.get_DirectLink()" target="_blank" rel="@SethHtmlFormatter.ATagRelProperties">Direct Link</a></span>
+                                }
+                                @if( edition.get_ArchiveOrgLink() != null )
+                                {
+                                    <span>|  <a href="@edition.get_ArchiveOrgLink()" target="_blank" rel="@SethHtmlFormatter.ATagRelProperties">archive.org Link</a></span>
+                                }
+                                @if( string.IsNullOrWhiteSpace( edition.get_IpfsCid() ) == false )
+                                {
+                                    <span>|  <a href="@ipfsUrlPrefix/@edition.get_IpfsCid()" target="_blank" rel="@SethHtmlFormatter.ATagRelProperties">IPFS Link</a></span>
+                                }
+                            </li>
+                        }
+                    </ul>
+                </li>
+            }
+            </ul>
+        </div>
+    </div>
+}

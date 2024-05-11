@@ -18,26 +18,14 @@
 
 namespace SitePlugin
 {
-    public class T53File
+    public record class T53File
     {
-        // ---------------- Fields ----------------
-
-        private readonly List<T53FileEditionInfo> editionList;
-
-        // ---------------- Constructor ----------------
-
-        public T53File()
-        {
-            this.editionList = new List<T53FileEditionInfo>();
-            this.EditionList = this.editionList.AsReadOnly();
-        }
-
         // ---------------- Properties ----------------
 
-        public string DisplayName { get; private set; } = "";
+        public string DisplayName { get; init; } = "";
 
-        public string Category { get; private set; } = "Other";
+        public string Category { get; init; } = "Other";
 
-        public IReadOnlyList<T53FileEditionInfo> EditionList { get; private set; }
+        public IReadOnlyList<T53FileEditionInfo> EditionList { get; init; } = [];
     }
 }

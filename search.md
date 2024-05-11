@@ -4,7 +4,7 @@ title: Search
 description: "Search BSA Troop 53's website"
 tags: [duckduckgo, search]
 icon: fa fa-search
-pageindex: 1
+pageindex: 2
 ---
 @using Pretzel.Logic.Templating.Context
 <iframe src="https://duckduckgo.com/search.html?site=@Model.Site.Config["urlnohttp"]&amp;prefill=Search%20with%20DuckDuckGo" style="overflow:hidden;margin:0;padding:0;height:40px;" class="ddg-search" frameborder="0"></iframe>

@@ -24,11 +24,11 @@ namespace SitePlugin
 
         public string FileName { get; init; } = "";
 
-        public string EditionName { get; init; } = "";
+        public string EditionName { get; init; } = "Default";
 
         public Uri? DirectLink { get; init; } = null;
 
-        public Uri? ArchiveOrdLink { get; init; } = null;
+        public Uri? ArchiveOrgLink { get; init; } = null;
 
         public string? IpfsCid { get; init; } = null;
     }
