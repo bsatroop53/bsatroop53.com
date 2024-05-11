@@ -24,7 +24,7 @@ namespace SitePlugin
 
         public string FileName { get; init; } = "";
 
-        public string EditionName { get; init; } = "Default";
+        public string EditionName { get; init; } = "";
 
         public Uri? DirectLink { get; init; } = null;
 
