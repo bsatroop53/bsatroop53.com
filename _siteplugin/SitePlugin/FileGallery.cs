@@ -16,7 +16,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 //
 
-using System.Composition;
+using System.Collections.ObjectModel;
 using System.Xml.Linq;
 using Pretzel.Logic.Extensibility;
 using Pretzel.Logic.Templating.Context;
@@ -36,15 +36,29 @@ namespace SitePlugin
 
         static FileGallery()
         {
+            var emptyDict = new Dictionary<string, IReadOnlyList<T53File>>();
+            FileData = new ReadOnlyDictionary<string, IReadOnlyList<T53File>>( emptyDict );
         }
 
         // ---------------- Properties ----------------
+
+        public static IReadOnlyDictionary<string, IReadOnlyList<T53File>> FileData { get; private set; }
 
         // ---------------- Functions ----------------
 
         public void Transform( SiteContext context )
         {
             Dictionary<string, string> ipfsData = ParseIpfsFile( context );
+            IReadOnlyDictionary<string, IReadOnlyList<T53File>> fileData = ParseFileInfo( context, ipfsData );
+            FileData = fileData;
+        }
+
+        private static IReadOnlyDictionary<string, IReadOnlyList<T53File>> ParseFileInfo(
+            SiteContext context,
+            Dictionary<string, string> ipfsInfo
+        )
+        {
+            var dict = new Dictionary<string, List<T53File>>();
 
             var fileInfoFile = new FileInfo( Path.Combine( context.SourceFolder, "fileinfo", "fileinfo.xml" ) );
 
@@ -54,25 +68,18 @@ namespace SitePlugin
             if( root is null )
             {
                 Console.WriteLine( "WARNING!  Can not read file info file, this page will be empty." );
-                return;
             }
-
-            var fileDic = new Dictionary<string, T53File>();
-
-            foreach( XElement fileNode in root.Elements() )
+            else
             {
-                if( "File".Equals( fileNode.Name.LocalName ) )
-                {
-                    XAttribute? attr = fileNode.Attributes().FirstOrDefault( a => a.Name.LocalName == "name" );
-                    if( attr is null )
-                    {
-                        continue;
-                    }
-                }
+
             }
+
+            return new ReadOnlyDictionary<string, IReadOnlyList<T53File>>(
+                new Dictionary<string, IReadOnlyList<T53File>>( dict.Select( d => new KeyValuePair<string, IReadOnlyList<T53File>>( d.Key, d.Value ) ) )
+            );
         }
 
-        private Dictionary<string, string> ParseIpfsFile( SiteContext context )
+        private static Dictionary<string, string> ParseIpfsFile( SiteContext context )
         {
             var dict = new Dictionary<string, string>();
             
