@@ -117,6 +117,7 @@
                         List<Page> aboutPages = new List<Page>();
                         List<Page> otherPages = new List<Page>();
                         List<Page> photoPages = new List<Page>();
+                        List<Page> eaglePages = new List<Page>();
                         foreach( Page thePage in Model.Site.Pages )
                         {
                             if(
@@ -131,6 +132,12 @@
                             )
                             {
                                 photoPages.Add( thePage );
+                            }
+                            else if(
+                                ( thePage.Bag.ContainsKey( "layout" ) && "eaglepage".Equals( thePage.Bag["layout"] ) )
+                            )
+                            {
+                                eaglePages.Add( thePage );
                             }
                             else if(
                                 ( thePage.Bag.ContainsKey( "layout" ) && "eventpage".Equals( thePage.Bag["layout"] ) )
@@ -171,6 +178,7 @@
                         aboutPages.Sort( Compare );
                         otherPages.Sort( Compare );
                         photoPages.Sort( Compare );
+                        eaglePages.Sort( Compare );
                     }
                     <li>
                         <a href="#"><i class="fa fa-question-circle"></i>About<span class="fa arrow"></span></a>
@@ -211,6 +219,22 @@
                         <a href="#"><i class="fa-solid fa-photo-film"></i>Photos<span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
                             @foreach( var thePage in photoPages )
+                            {
+                                if( thePage.Bag.ContainsKey( "icon" ) )
+                                {
+                                    @:<li><a href="@thePage.Url"><i class="fa @thePage.Bag["icon"]"></i>@thePage.Title</a></li>
+                                }
+                                else
+                                {
+                                    @:<li><a href="@thePage.Url"><i class="fa-regular fa-circle-dot"></i>@thePage.Title</a></li>
+                                }
+                            }
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-feather"></i>Eagle Scouts<span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            @foreach( var thePage in eaglePages )
                             {
                                 if( thePage.Bag.ContainsKey( "icon" ) )
                                 {

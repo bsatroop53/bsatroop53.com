@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageGallery ImageDir="static/img/galleries/t253_eagle_scouts" DefaultImage="DefaultImage.jpg" ThumbnailOutputDir="static/img/galleries/t253_eagle_scouts/thumbnails/" DefaultThumbnailScale="0.99">
+    <Image FileName="1972_Gary_Shields.jpg">
+        <Alt>Gary L. Shields</Alt>
+        <Caption>Gary L. Shields - 1972</Caption>
+    </Image>
+    <Image FileName="1973_Robert_Koss.jpg">
+        <Alt>Robert A. Koss</Alt>
+        <Caption>Robert A. Koss - 1973</Caption>
+    </Image>
+    <Image FileName="1974_Robert_Stone.jpg">
+        <Alt>Robert A. Stone</Alt>
+        <Caption>Robert A. Stone - 1974</Caption>
+    </Image>
+    <Image FileName="1975_Richard_Matters.jpg">
+        <Alt>Richard K. Matters, Jr.</Alt>
+        <Caption>Richard K. Matters, Jr. - 1975</Caption>
+    </Image>
+    <Image FileName="1978_Mark_Hudson.jpg">
+        <Alt>Mark V. Hudson</Alt>
+        <Caption>Mark V. Hudson - 1978</Caption>
+    </Image>
+    <Image FileName="1978_Phillip_Stone.jpg">
+        <Alt>Phillip K. Stone</Alt>
+        <Caption>Phillip K. Stone - 1978</Caption>
+    </Image>
+    <Image FileName="1978_William_Monty.jpg">
+        <Alt>William R. Monty, Jr.</Alt>
+        <Caption>William R. Monty, Jr. - 1978</Caption>
+    </Image>
+    <Image FileName="1979_Scott_Grannon">
+        <Alt>Scott C. Grannon</Alt>
+        <Caption>Scott C. Grannon - 1979</Caption>
+    </Image>
+    <Image FileName="1980_Scott_Simpson">
+        <Alt>Scott S. Simpson</Alt>
+        <Caption>Scott S. Simpson - 1980</Caption>
+    </Image>
+    <Image FileName="1981_Steven_Stockman">
+        <Alt>Steven J. Stockman</Alt>
+        <Caption>Steven J. Stockman - 1981</Caption>
+    </Image>
+    <Image FileName="1983_John_Hudson">
+        <Alt>John T. Hudson</Alt>
+        <Caption>John T. Hudson - 1983</Caption>
+    </Image>
+    <Image FileName="1983_Steven_Leonard">
+        <Alt>Steven R. Leonard</Alt>
+        <Caption>Steven R. Leonard - 1983</Caption>
+    </Image>
+</ImageGallery>

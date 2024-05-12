@@ -18,3 +18,7 @@ RewriteRule ^/?Press\sReleases/(.*)$ /News/$1 [L,R=301]
 
 RewriteEngine On
 RewriteRule ^/?category/?press-releases/(.*)$ /category/news/$1 [L,R=301]
+
+# Eagles were once their own page before we added the T253 eagles as well.
+RewriteEngine On
+RewriteRule ^/eagle_scouts.html /eagle_scouts/t53_eagle_scouts.html [L,R=301]

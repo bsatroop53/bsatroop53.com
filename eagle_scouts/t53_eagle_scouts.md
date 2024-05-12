@@ -1,11 +1,11 @@
 ---
-layout: imagegallerypage4
-title: Eagle Scouts
+layout: eaglepage
+title: Troop 53 Eagle Scouts
 description: Members of Troop 53 that achieved scouting's highest rank.
 tags: [eagle, list, names, scout]
-icon: fa-solid fa-feather
-image_gallery: "_gallerydata/eagle_scouts.xml"
-pageindex: 2
+icon: fa-solid fa-feather-pointed
+image_gallery: "_gallerydata/t53_eagle_scouts.xml"
+pageindex: 1
 ---
 
 Below are the scouts of Troop 53 that have achieved scouting's highest rank.
