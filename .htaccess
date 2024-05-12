@@ -16,7 +16,7 @@ ErrorDocument 404 /404/
 Redirect 301 "/eagle_scouts.html" "/eagle_scouts/t53_eagle_scouts.html"
 
 # Photos were once from the root, but moved to a sub-directory.
-Redirect 301 "/historical_photos.html" "/photos/historical_photos.html"
+Redirect 301 "/historical_photographs.html" "/photos/historical_photographs.html"
 Redirect 301 "/photos/AllPhotos.html" "/photos/all_photos.html"
 
 # News was once "Press Releases".  Change it to News.
