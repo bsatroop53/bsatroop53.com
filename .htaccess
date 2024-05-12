@@ -15,6 +15,10 @@ ErrorDocument 404 /404/
 # Eagles were once their own page before we added the T253 eagles as well.
 Redirect 301 "/eagle_scouts.html" "/eagle_scouts/t53_eagle_scouts.html"
 
+# Photos were once from the root, but moved to a sub-directory.
+Redirect 301 "/historical_photos.html" "/photos/historical_photos.html"
+Redirect 301 "/photos/AllPhotos.html" "/photos/all_photos.html"
+
 # News was once "Press Releases".  Change it to News.
 RewriteEngine On
 RewriteRule ^/?Press\sReleases/(.*)$ /News/$1 [L,R=301]
