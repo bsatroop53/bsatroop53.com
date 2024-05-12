@@ -5,28 +5,6 @@
 -->
 <Files>
     <File>
-        <DisplayName>Guide To Advancement</DisplayName>
-        <Category>Advancement</Category>
-        <Editions>
-            <Edition filename="BSA Guide To Advancement (2021 Edition).pdf">
-                <DisplayName>2021</DisplayName>
-                <OrignalUrl>https://filestore.scouting.org/filestore/pdf/33088.pdf</OrignalUrl>
-                <ArchiveOrgUrl>https://web.archive.org/web/20240430023118/https://filestore.scouting.org/filestore/pdf/33088.pdf</ArchiveOrgUrl>
-            </Edition>
-        </Editions>
-    </File>
-    <File>
-        <DisplayName>Eagle Project Workbook</DisplayName>
-        <Category>Advancement</Category>
-        <Editions>
-            <Edition filename="EagleProjectWorkbook2023a.pdf">
-                <DisplayName>2023a</DisplayName>
-                <OrignalUrl>https://www.scouting.org/wp-content/uploads/2023/01/EagleProjectWorkbook2023a.pdf</OrignalUrl>
-                <ArchiveOrgUrl>https://web.archive.org/web/20240117054212/https://www.scouting.org/wp-content/uploads/2023/01/EagleProjectWorkbook2023a.pdf</ArchiveOrgUrl>
-            </Edition>
-        </Editions>
-    </File>
-    <File>
         <DisplayName>Meeting Planning Form</DisplayName>
         <Category>Resources</Category>
         <Editions>
@@ -59,6 +37,63 @@
             </Edition>
         </Editions>
     </File>
+    <!-- Guides -->
+    <File>
+        <DisplayName>Guide To Safe Scouting</DisplayName>
+        <Category>Guides</Category>
+        <Editions>
+            <Edition filename="Guide to Safe Scouting (Feb 2022 Edition).pdf">
+                <DisplayName>February 2022</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/pdf/34416.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240224023526/https://filestore.scouting.org/filestore/pdf/34416.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <!-- Advancement -->
+    <File>
+        <DisplayName>Guide To Advancement</DisplayName>
+        <Category>Advancement</Category>
+        <Editions>
+            <Edition filename="BSA Guide To Advancement (2021 Edition).pdf">
+                <DisplayName>2021</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/pdf/33088.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240430023118/https://filestore.scouting.org/filestore/pdf/33088.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Eagle Project Workbook</DisplayName>
+        <Category>Advancement</Category>
+        <Editions>
+            <Edition filename="EagleProjectWorkbook2023a.pdf">
+                <DisplayName>2023a</DisplayName>
+                <OrignalUrl>https://www.scouting.org/wp-content/uploads/2023/01/EagleProjectWorkbook2023a.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240117054212/https://www.scouting.org/wp-content/uploads/2023/01/EagleProjectWorkbook2023a.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Eagle Scout Application</DisplayName>
+        <Category>Advancement</Category>
+        <Editions>
+            <Edition filename="Eagle Scout Application (June 2022 Edition).pdf">
+                <DisplayName>June 2022</DisplayName>
+                <OrignalUrl>https://trcscouting.org/wp-content/uploads/2022/07/EAGLE-SCOUT-APPLICATION-FORM-6-2022.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20220812025854/https://trcscouting.org/wp-content/uploads/2022/07/EAGLE-SCOUT-APPLICATION-FORM-6-2022.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Application For Merit Badge (Blue Card)</DisplayName>
+        <Category>Advancement</Category>
+        <Editions>
+            <Edition filename="Blue Card.pdf">
+                <DisplayName>Unknown</DisplayName>
+                <OrignalUrl>https://www.atlantabsa.org/files/35817/Fillable-Blue-Card-PDF</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20230321140713/https://www.atlantabsa.org/files/35817/Fillable-Blue-Card-PDF</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
     <!-- Merit Badge Requirements -->
     <File>
         <DisplayName>Archery Merit Badge Requirements</DisplayName>
@@ -75,12 +110,12 @@
         <DisplayName>Programming Merit Badge Requirements</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
-            <Edition filename="(24)_Programming_REQS.pdf">
+            <Edition filename="(24)_Programming_REQ.pdf">
                 <DisplayName>2024</DisplayName>
                 <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Programming_REQ.pdf</OrignalUrl>
                 <ArchiveOrgUrl>https://web.archive.org/web/20240506031041/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Programming_REQ.pdf</ArchiveOrgUrl>
             </Edition>
-            <Edition filename="35710(23)_Programming_REQS.pdf">
+            <Edition filename="35710(23)_Programming_REQ.pdf">
                 <DisplayName>2023</DisplayName>
                 <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35710(23)_Programming_REQ.pdf</OrignalUrl>
                 <ArchiveOrgUrl>https://web.archive.org/web/20240506030814/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35710(23)_Programming_REQ.pdf</ArchiveOrgUrl>
