@@ -96,6 +96,17 @@
     </File>
     <!-- Merit Badge Requirements -->
     <File>
+        <DisplayName>Animation Merit Badge Requirements</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35778(22)_Animation_REQS.pdf">
+                <DisplayName>2022</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35778(22)_Animation_REQS.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20220811144223/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35778(22)_Animation_REQS.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
         <DisplayName>Archery Merit Badge Requirements</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
@@ -103,6 +114,28 @@
                 <DisplayName>2023</DisplayName>
                 <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35856(23)_Archery_REQ.pdf</OrignalUrl>
                 <ArchiveOrgUrl>https://web.archive.org/web/20240506032047/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35856(23)_Archery_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Digital Technology Merit Badge Requirements</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35733(21)DigitalTechnology_REQ.pdf">
+                <DisplayName>2021</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35733(21)DigitalTechnology_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20220222070300/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35733(21)DigitalTechnology_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Mining In Society Badge Requirements</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35733(21)DigitalTechnology_REQ.pdf">
+                <DisplayName>2023</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35737(22)_Mining_in_Society_REQS.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240515025117/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35737(22)_Mining_in_Society_REQS.pdf</ArchiveOrgUrl>
             </Edition>
         </Editions>
     </File>
