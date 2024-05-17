@@ -107,6 +107,17 @@
         </Editions>
     </File>
     <File>
+        <DisplayName>Archaeology Merit Badge Requirements</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35855(21)Archaeology_REQ.pdf">
+                <DisplayName>2021</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35855(21)Archaeology_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240517022259/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35855(21)Archaeology_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
         <DisplayName>Archery Merit Badge Requirements</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
@@ -114,6 +125,50 @@
                 <DisplayName>2023</DisplayName>
                 <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35856(23)_Archery_REQ.pdf</OrignalUrl>
                 <ArchiveOrgUrl>https://web.archive.org/web/20240506032047/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35856(23)_Archery_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Astronomy Merit Badge Requirements</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35859(22)_Astronomy_REQS.pdf">
+                <DisplayName>2022</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35859(22)_Astronomy_REQS.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240517022520/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35859(22)_Astronomy_REQS.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Athletics Merit Badge Requirements</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35860(22)_Athletics_REQS.pdf">
+                <DisplayName>2022</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35860(22)_Athletics_REQS.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240517022718/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35860(22)_Athletics_REQS.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Canoeing Merit Badge Requirements</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35867(22)_Canoeing_REQS.pdf">
+                <DisplayName>2022</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35867(22)_Canoeing_REQS.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20220811150944/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35867(22)_Canoeing_REQS.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Citizenship in the Nation Merit Badge Requirements</DisplayName>
+        <Category>Eagle Required Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35871(22)_Citizenship_Nation_REQS.pdf">
+                <DisplayName>2022</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35871(22)_Citizenship_Nation_REQS.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20230523172132/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35871(22)_Citizenship_Nation_REQS.pdf</ArchiveOrgUrl>
             </Edition>
         </Editions>
     </File>
@@ -132,7 +187,7 @@
         <DisplayName>Mining In Society Badge Requirements</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
-            <Edition filename="35733(21)DigitalTechnology_REQ.pdf">
+            <Edition filename="35737(22)_Mining_in_Society_REQS.pdf">
                 <DisplayName>2023</DisplayName>
                 <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35737(22)_Mining_in_Society_REQS.pdf</OrignalUrl>
                 <ArchiveOrgUrl>https://web.archive.org/web/20240515025117/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35737(22)_Mining_in_Society_REQS.pdf</ArchiveOrgUrl>

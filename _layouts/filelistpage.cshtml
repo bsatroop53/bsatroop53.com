@@ -16,7 +16,7 @@ layout: page
         <div class="col-md-12">
         <h3>@fileCategory</h3>
             <ul>
-            @foreach( T53File file in fileList[fileCategory] )
+            @foreach( T53File file in fileList[fileCategory].OrderBy( f => f.get_DisplayName() ) )
             {
                 <li>
                     <strong>@file.get_DisplayName()</strong>
