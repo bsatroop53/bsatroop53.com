@@ -294,6 +294,39 @@
         </Editions>
     </File>
     <File>
+        <DisplayName>Fly Fishing Merit Badge Requirements</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35900(21)FlyFishing_REQ.pdf">
+                <DisplayName>2021</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35900(21)FlyFishing_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240518220026/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35900(21)FlyFishing_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Home Repairs</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35908(22)_Home_Repairs_REQS.pdf">
+                <DisplayName>2021</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35908(22)_Home_Repairs_REQS.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240310070944/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35908(22)_Home_Repairs_REQS.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Lifesaving Merit Badge Requirements</DisplayName>
+        <Category>Eagle Required Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35915(21)Lifesaving_REQ.pdf">
+                <DisplayName>2021</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35915(21)Lifesaving_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240518220449/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35915(21)Lifesaving_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
         <DisplayName>Mining In Society Badge Requirements</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
