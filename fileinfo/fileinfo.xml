@@ -173,6 +173,50 @@
         </Editions>
     </File>
     <File>
+        <DisplayName>Climbing Merit Badge Requirements</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35873(22)_Climbing_REQS.pdf">
+                <DisplayName>2022</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35873(22)_Climbing_REQS.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/2/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35873(22)_Climbing_REQS.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Coin Collecting Merit Badge Requirements</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35874(22)_Coin_Collecting_REQS.pdf">
+                <DisplayName>2022</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35874(22)_Coin_Collecting_REQS.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35874%2822%29_Coin_Collecting_REQS.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Collections Merit Badge Requirements</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35875(21)Collections_REQ.pdf">
+                <DisplayName>2021</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35875(21)Collections_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240518183525/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35875(21)Collections_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Dentistry Merit Badge Requirements</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35882(22)_Dentistry_REQS.pdf">
+                <DisplayName>2021</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35882(22)_Dentistry_REQS.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240518183700/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35882(22)_Dentistry_REQS.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
         <DisplayName>Digital Technology Merit Badge Requirements</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
@@ -180,6 +224,61 @@
                 <DisplayName>2021</DisplayName>
                 <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35733(21)DigitalTechnology_REQ.pdf</OrignalUrl>
                 <ArchiveOrgUrl>https://web.archive.org/web/20220222070300/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35733(21)DigitalTechnology_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Dentistry Merit Badge Requirements</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35883(21)DisabilityAwareness_REQ.pdf">
+                <DisplayName>2021</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35883(21)DisabilityAwareness_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240518183856/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35883(21)DisabilityAwareness_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Electricity Merit Badge Requirements</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35886(21)Electricity_REQ.pdf">
+                <DisplayName>2021</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35886(21)Electricity_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240518184013/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35886(21)Electricity_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Electronics Merit Badge Requirements</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35887(21)Electronics_REQ.pdf">
+                <DisplayName>2021</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35887(21)Electronics_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35887(21)Electronics_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>First Aid Merit Badge Requirements</DisplayName>
+        <Category>Eagle Required Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35897(22)_First_Aid_REQS.pdf">
+                <DisplayName>2022</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35897(22)_First_Aid_REQS.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20230608030524/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35897(22)_First_Aid_REQS.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Mining In Society Badge Requirements</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35737(22)_Mining_in_Society_REQS.pdf">
+                <DisplayName>2023</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35737(22)_Mining_in_Society_REQS.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240515025117/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35737(22)_Mining_in_Society_REQS.pdf</ArchiveOrgUrl>
             </Edition>
         </Editions>
     </File>
