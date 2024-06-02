@@ -96,7 +96,7 @@
     </File>
     <!-- Merit Badge Requirements -->
     <File>
-        <DisplayName>Animation Merit Badge Requirements</DisplayName>
+        <DisplayName>Animation</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
             <Edition filename="35778(22)_Animation_REQS.pdf">
@@ -107,7 +107,7 @@
         </Editions>
     </File>
     <File>
-        <DisplayName>Archaeology Merit Badge Requirements</DisplayName>
+        <DisplayName>Archaeology</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
             <Edition filename="35855(21)Archaeology_REQ.pdf">
@@ -118,7 +118,7 @@
         </Editions>
     </File>
     <File>
-        <DisplayName>Archery Merit Badge Requirements</DisplayName>
+        <DisplayName>Archery</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
             <Edition filename="35856(23)_Archery_REQ.pdf">
@@ -129,7 +129,7 @@
         </Editions>
     </File>
     <File>
-        <DisplayName>Astronomy Merit Badge Requirements</DisplayName>
+        <DisplayName>Astronomy</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
             <Edition filename="35859(22)_Astronomy_REQS.pdf">
@@ -140,7 +140,7 @@
         </Editions>
     </File>
     <File>
-        <DisplayName>Athletics Merit Badge Requirements</DisplayName>
+        <DisplayName>Athletics</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
             <Edition filename="35860(22)_Athletics_REQS.pdf">
@@ -151,7 +151,7 @@
         </Editions>
     </File>
     <File>
-        <DisplayName>Canoeing Merit Badge Requirements</DisplayName>
+        <DisplayName>Canoeing</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
             <Edition filename="35867(22)_Canoeing_REQS.pdf">
@@ -162,7 +162,7 @@
         </Editions>
     </File>
     <File>
-        <DisplayName>Citizenship in the Nation Merit Badge Requirements</DisplayName>
+        <DisplayName>Citizenship in the Nation</DisplayName>
         <Category>Eagle Required Merit Badge Requirements</Category>
         <Editions>
             <Edition filename="35871(22)_Citizenship_Nation_REQS.pdf">
@@ -173,7 +173,7 @@
         </Editions>
     </File>
     <File>
-        <DisplayName>Climbing Merit Badge Requirements</DisplayName>
+        <DisplayName>Climbing</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
             <Edition filename="35873(22)_Climbing_REQS.pdf">
@@ -184,7 +184,7 @@
         </Editions>
     </File>
     <File>
-        <DisplayName>Coin Collecting Merit Badge Requirements</DisplayName>
+        <DisplayName>Coin Collecting</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
             <Edition filename="35874(22)_Coin_Collecting_REQS.pdf">
@@ -195,7 +195,7 @@
         </Editions>
     </File>
     <File>
-        <DisplayName>Collections Merit Badge Requirements</DisplayName>
+        <DisplayName>Collections</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
             <Edition filename="35875(21)Collections_REQ.pdf">
@@ -206,7 +206,7 @@
         </Editions>
     </File>
     <File>
-        <DisplayName>Dentistry Merit Badge Requirements</DisplayName>
+        <DisplayName>Dentistry</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
             <Edition filename="35882(22)_Dentistry_REQS.pdf">
@@ -217,7 +217,7 @@
         </Editions>
     </File>
     <File>
-        <DisplayName>Digital Technology Merit Badge Requirements</DisplayName>
+        <DisplayName>Digital Technology</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
             <Edition filename="35733(21)DigitalTechnology_REQ.pdf">
@@ -228,7 +228,7 @@
         </Editions>
     </File>
     <File>
-        <DisplayName>Dentistry Merit Badge Requirements</DisplayName>
+        <DisplayName>Dentistry</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
             <Edition filename="35883(21)DisabilityAwareness_REQ.pdf">
@@ -239,7 +239,7 @@
         </Editions>
     </File>
     <File>
-        <DisplayName>Electricity Merit Badge Requirements</DisplayName>
+        <DisplayName>Electricity</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
             <Edition filename="35886(21)Electricity_REQ.pdf">
@@ -250,7 +250,7 @@
         </Editions>
     </File>
     <File>
-        <DisplayName>Electronics Merit Badge Requirements</DisplayName>
+        <DisplayName>Electronics</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
             <Edition filename="35887(21)Electronics_REQ.pdf">
@@ -261,7 +261,7 @@
         </Editions>
     </File>
     <File>
-        <DisplayName>First Aid Merit Badge Requirements</DisplayName>
+        <DisplayName>First Aid</DisplayName>
         <Category>Eagle Required Merit Badge Requirements</Category>
         <Editions>
             <Edition filename="35897(22)_First_Aid_REQS.pdf">
@@ -272,7 +272,7 @@
         </Editions>
     </File>
     <File>
-        <DisplayName>Fish and Wildlife Management Merit Badge Requirements</DisplayName>
+        <DisplayName>Fish and Wildlife Management</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
             <Edition filename="35898(21)FishWildlife_REQ.pdf">
@@ -283,7 +283,7 @@
         </Editions>
     </File>
     <File>
-        <DisplayName>Fishing Merit Badge Requirements</DisplayName>
+        <DisplayName>Fishing</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
             <Edition filename="35899(21)Fishing_REQ.pdf">
@@ -294,7 +294,7 @@
         </Editions>
     </File>
     <File>
-        <DisplayName>Fly Fishing Merit Badge Requirements</DisplayName>
+        <DisplayName>Fly Fishing</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
             <Edition filename="35900(21)FlyFishing_REQ.pdf">
@@ -316,7 +316,7 @@
         </Editions>
     </File>
     <File>
-        <DisplayName>Lifesaving Merit Badge Requirements</DisplayName>
+        <DisplayName>Lifesaving</DisplayName>
         <Category>Eagle Required Merit Badge Requirements</Category>
         <Editions>
             <Edition filename="35915(21)Lifesaving_REQ.pdf">
@@ -327,7 +327,7 @@
         </Editions>
     </File>
     <File>
-        <DisplayName>Mining In Society Badge Requirements</DisplayName>
+        <DisplayName>Mining In Society</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
             <Edition filename="35737(22)_Mining_in_Society_REQS.pdf">
@@ -338,7 +338,40 @@
         </Editions>
     </File>
     <File>
-        <DisplayName>Programming Merit Badge Requirements</DisplayName>
+        <DisplayName>Motor Boating</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35920(21)MotorBoating_REQ.pdf">
+                <DisplayName>2021</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35920(21)MotorBoating_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240602174455/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35920(21)MotorBoating_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Photograpy</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35930(21)Photography_REQ.pdf">
+                <DisplayName>2021</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35930(21)Photography_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20231021022328/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35930%2821%29Photography_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Pioneering</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35931(22)_Pioneering_REQS.pdf">
+                <DisplayName>2022</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35931(22)_Pioneering_REQS.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20231224070433/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35931(22)_Pioneering_REQS.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Programming</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
             <Edition filename="(24)_Programming_REQ.pdf">
@@ -355,6 +388,17 @@
                 <DisplayName>2022</DisplayName>
                 <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35710(22)_Programming_REQS.pdf</OrignalUrl>
                 <ArchiveOrgUrl>https://web.archive.org/web/2/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35710(22)_Programming_REQS.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Public Health</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35935(21)PublicHealth_REQ.pdf">
+                <DisplayName>2021</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35935(21)PublicHealth_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20220811153644/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35935(21)PublicHealth_REQ.pdf</ArchiveOrgUrl>
             </Edition>
         </Editions>
     </File>
