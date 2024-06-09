@@ -49,6 +49,28 @@
             </Edition>
         </Editions>
     </File>
+    <!-- Handbooks -->
+    <File>
+        <DisplayName>Boy Scouts Handbook The First Edition, 1911</DisplayName>
+        <Category>Handbooks</Category>
+        <Editions>
+            <Edition filename="pg29558-images.html">
+                <DisplayName>HTML (Read Online)</DisplayName>
+                <OrignalUrl>https://www.gutenberg.org/cache/epub/29558/pg29558-images.html</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240321220911/https://www.gutenberg.org/cache/epub/29558/pg29558-images.html</ArchiveOrgUrl>
+            </Edition>
+            <Edition filename="BSA Handbook 1st Edition, 1911.pdf">
+                <DisplayName>PDF</DisplayName>
+                <OrignalUrl>https://files.shendrick.net/bsa/BSA%20Handbook%201st%20Edition,%201911.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240609221312/https://files.shendrick.net/bsa/BSA%20Handbook%201st%20Edition,%201911.pdf</ArchiveOrgUrl>
+            </Edition>
+            <Edition filename="pg29558-images.epub">
+                <DisplayName>EPUB3</DisplayName>
+                <OrignalUrl>https://www.gutenberg.org/ebooks/29558.epub3.images</OrignalUrl>
+                <ArchiveOrgUrl>https://archive.org/download/boyscoutshandboo29558gut/pg29558-images.epub</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
     <!-- Advancement -->
     <File>
         <DisplayName>Guide To Advancement</DisplayName>
