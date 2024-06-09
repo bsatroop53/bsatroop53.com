@@ -184,6 +184,28 @@
         </Editions>
     </File>
     <File>
+        <DisplayName>Architecture</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35857(23)_Architecture_REQ.pdf">
+                <DisplayName>2023</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35857(23)_Architecture_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240527072740/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35857(23)_Architecture_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Art</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Art.pdf">
+                <DisplayName>2016</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Art.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240517173645/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Art.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
         <DisplayName>Astronomy</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
@@ -202,6 +224,33 @@
                 <DisplayName>2022</DisplayName>
                 <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35860(22)_Athletics_REQS.pdf</OrignalUrl>
                 <ArchiveOrgUrl>https://web.archive.org/web/20240517022718/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35860(22)_Athletics_REQS.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Automotive Maintenance</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Automotive_Maintenance.pdf">
+                <DisplayName>2017</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Automotive_Maintenance.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240310070945/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Automotive_Maintenance.pdf</ArchiveOrgUrl>
+            </Edition>
+            <Edition filename="(24)_Automotive-Maintenance_REQ.pdf">
+                <DisplayName>2024</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Automotive-Maintenance_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240310071000/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Automotive-Maintenance_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Aviation</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Aviation.pdf">
+                <DisplayName>2016</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Aviation.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240228164236/https://filestore.scouting.org/filestore/merit_badge_reqandres/aviation.pdf</ArchiveOrgUrl>
             </Edition>
         </Editions>
     </File>
@@ -371,6 +420,17 @@
         </Editions>
     </File>
     <File>
+        <DisplayName>Game Design</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35708(23)_Game_Design_REQ.pdf">
+                <DisplayName>2023</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35708(23)_Game_Design_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240529052506/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35708(23)_Game_Design_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
         <DisplayName>Health Care Professions</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
@@ -487,6 +547,22 @@
                 <DisplayName>2021</DisplayName>
                 <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35935(21)PublicHealth_REQ.pdf</OrignalUrl>
                 <ArchiveOrgUrl>https://web.archive.org/web/20220811153644/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35935(21)PublicHealth_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Radio</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Radio.pdf">
+                <DisplayName>2017</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Radio.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20230921181315/http://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Radio.pdf</ArchiveOrgUrl>
+            </Edition>
+            <Edition filename="(24)_Radio_REQ.pdf">
+                <DisplayName>2024</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Radio_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240219014721/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Radio_REQ.pdf</ArchiveOrgUrl>
             </Edition>
         </Editions>
     </File>
