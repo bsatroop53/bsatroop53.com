@@ -51,7 +51,23 @@
     </File>
     <!-- Handbooks -->
     <File>
-        <DisplayName>Boy Scouts Handbook The First Edition, 1911</DisplayName>
+        <DisplayName>1910 - Boy Scouts of America: A Handbook of Woodcraft, Scouting, and Life-craft</DisplayName>
+        <Category>Handbooks</Category>
+        <Editions>
+            <Edition filename="BSA Handbook Original Edition.pdf">
+                <DisplayName>PDF</DisplayName>
+                <OrignalUrl>https://files.shendrick.net/bsa/BSA%20Handbook%20Original%20Edition.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240609221312/https://files.shendrick.net/bsa/BSA%20Handbook%201st%20Edition,%201911.pdf</ArchiveOrgUrl>
+            </Edition>
+            <Edition filename="boyscoutsofameri00seto.epub">
+                <DisplayName>EPUB</DisplayName>
+                <OrignalUrl>https://files.shendrick.net/bsa/boyscoutsofameri00seto.epub</OrignalUrl>
+                <ArchiveOrgUrl>https://archive.org/download/boyscoutsofameri00seto/boyscoutsofameri00seto.epub</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>1911 - Boy Scouts Handbook: The First Edition</DisplayName>
         <Category>Handbooks</Category>
         <Editions>
             <Edition filename="pg29558-images.html">
