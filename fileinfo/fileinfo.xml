@@ -96,6 +96,61 @@
     </File>
     <!-- Merit Badge Requirements -->
     <File>
+        <DisplayName>American Business</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35850(23)_American Business_REQ.pdf">
+                <DisplayName>2023</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35850(23)_American%20Business_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240218071730/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35850(23)_American%20Business_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>American Cultures</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="American_Cultures.pdf">
+                <DisplayName>2014</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/American_Cultures.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20221206003220/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/American_Cultures.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>American Heritage</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="American_Heritage.pdf">
+                <DisplayName>2013</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/American_Heritage.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240329142536/https://filestore.scouting.org/filestore/merit_badge_reqandres/american_heritage.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>American Labor</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="American_Labor.pdf">
+                <DisplayName>2018</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/American_Labor.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240218025449/http://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/American_Labor.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Animal Science</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35854(23)_Animal Science_REQ.pdf">
+                <DisplayName>2022</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35854(23)_Animal%20Science_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240529165749/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35854(23)_Animal%20Science_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
         <DisplayName>Animation</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
@@ -228,7 +283,7 @@
         </Editions>
     </File>
     <File>
-        <DisplayName>Dentistry</DisplayName>
+        <DisplayName>Disability Awareness</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
             <Edition filename="35883(21)DisabilityAwareness_REQ.pdf">
@@ -257,6 +312,17 @@
                 <DisplayName>2021</DisplayName>
                 <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35887(21)Electronics_REQ.pdf</OrignalUrl>
                 <ArchiveOrgUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35887(21)Electronics_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Engineering</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="(24)_Engineering_REQ.pdf">
+                <DisplayName>2024</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Engineering_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240609205535/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Engineering_REQ.pdf</ArchiveOrgUrl>
             </Edition>
         </Editions>
     </File>
@@ -305,6 +371,17 @@
         </Editions>
     </File>
     <File>
+        <DisplayName>Health Care Professions</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35908(22)_Home_Repairs_REQS.pdf">
+                <DisplayName>2021</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35975(21)-HealthCare-WEB-Requirements.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240609211052/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35975(21)-HealthCare-WEB-Requirements.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
         <DisplayName>Home Repairs</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
@@ -345,6 +422,17 @@
                 <DisplayName>2021</DisplayName>
                 <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35920(21)MotorBoating_REQ.pdf</OrignalUrl>
                 <ArchiveOrgUrl>https://web.archive.org/web/20240602174455/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35920(21)MotorBoating_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Personal Fitness</DisplayName>
+        <Category>Eagle Required Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35927(24)_Personal_Fitness_REQ-update.pdf">
+                <DisplayName>2024</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/35927(24)_Personal_Fitness_REQ-update.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240609205853/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/35927(24)_Personal_Fitness_REQ-update.pdf</ArchiveOrgUrl>
             </Edition>
         </Editions>
     </File>
@@ -399,6 +487,83 @@
                 <DisplayName>2021</DisplayName>
                 <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35935(21)PublicHealth_REQ.pdf</OrignalUrl>
                 <ArchiveOrgUrl>https://web.archive.org/web/20220811153644/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35935(21)PublicHealth_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Railroading</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35939(22)_Railroading_REQS.pdf">
+                <DisplayName>2022</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35939(22)_Railroading_REQS.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20220811141001/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35939(22)_Railroading_REQS.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Reading</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35940(22)_Reading_REQS.pdf">
+                <DisplayName>2022</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35940(22)_Reading_REQS.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240310071133/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35940(22)_Reading_REQS.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Rowing</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35943(21)Rowing_REQ.pdf">
+                <DisplayName>2021</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35943(21)Rowing_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240609210337/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35943(21)Rowing_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Sports</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35954(21)Sports_REQ.pdf">
+                <DisplayName>2021</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35954(21)Sports_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240609210439/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35954(21)Sports_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Theater</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35959(21)Theater_REQ.pdf">
+                <DisplayName>2021</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35959(21)Theater_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240609210558/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35959(21)Theater_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Traffic Safety</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35960(22)_Traffic_Safety_REQS.pdf">
+                <DisplayName>2022</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35960(22)_Traffic_Safety_REQS.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20230331154306/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35960(22)_Traffic_Safety_REQS.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Woodwork</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35968(21)Woodwork_REQ.pdf">
+                <DisplayName>2020</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35968(21)Woodwork_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20220811145443/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35968(21)Woodwork_REQ.pdf</ArchiveOrgUrl>
             </Edition>
         </Editions>
     </File>
