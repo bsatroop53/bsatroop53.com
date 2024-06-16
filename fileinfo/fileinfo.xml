@@ -293,6 +293,76 @@
         </Editions>
     </File>
     <File>
+        <DisplayName>Backpacking</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="(24)_Backpacking_REQ.pdf">
+                <DisplayName>2024</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Backpacking_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240616214201/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Backpacking_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+            <Edition filename="Backpacking.pdf">
+                <DisplayName>2016</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Backpacking.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240222200306/http://filestore.scouting.org/filestore/merit_badge_reqandres/backpacking.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Basketry</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Basketry.pdf">
+                <DisplayName>2014</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Basketry.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20230420014202/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Basketry.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Bird Study</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="(24)_Bird-Study_REQ.pdf">
+                <DisplayName>2024</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Bird-Study_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240616214747/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Bird-Study_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+            <Edition filename="Bird_Study.pdf">
+                <DisplayName>2019</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Bird_Study.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20231202055147/https://filestore.scouting.org/filestore/merit_badge_reqandres/bird_study.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Bugling</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Bugling.pdf">
+                <DisplayName>2013</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Bugling.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240324100026/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Bugling.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Camping</DisplayName>
+        <Category>Eagle Required Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="(24)_Camping_REQ.pdf">
+                <DisplayName>2024</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Camping_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240229024221/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Camping_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+            <Edition filename="Camping.pdf">
+                <DisplayName>2019</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Camping.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20230825012609/https://filestore.scouting.org/filestore/merit_badge_reqandres/camping.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
         <DisplayName>Canoeing</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
@@ -667,6 +737,94 @@
                 <DisplayName>2022</DisplayName>
                 <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35960(22)_Traffic_Safety_REQS.pdf</OrignalUrl>
                 <ArchiveOrgUrl>https://web.archive.org/web/20230331154306/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35960(22)_Traffic_Safety_REQS.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Truck Transportation</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Truck_Transportation.pdf">
+                <DisplayName>2013</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Truck_Transportation.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240401004059/http://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Truck_Transportation.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Veterinary Medicine</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Veterinary_Medicine.pdf">
+                <DisplayName>2015</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Veterinary_Medicine.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240331094255/http://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Veterinary_Medicine.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Wather Sports</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Water_Sports.pdf">
+                <DisplayName>2019</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Water_Sports.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20221222084749/http://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Water_Sports.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Weather</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Weather.pdf">
+                <DisplayName>2019</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Weather.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20221203230417/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Weather.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Welding</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Welding.pdf">
+                <DisplayName>2016</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Welding.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240531175614/http://filestore.scouting.org/filestore/merit_badge_reqandres/welding.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Whitewater</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Whitewater.pdf">
+                <DisplayName>2019</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Whitewater.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20230921175908/https://filestore.scouting.org/filestore/merit_badge_reqandres/whitewater.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Wilderness Survival</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Wilderness_Survival.pdf">
+                <DisplayName>2019</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Wilderness_Survival.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20230425032202/https://filestore.scouting.org/filestore/merit_badge_reqandres/wilderness_survival.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Wood Carving</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Wood_Carving.pdf">
+                <DisplayName>2016</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Wood_Carving.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20230420045221/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Wood_Carving.pdf</ArchiveOrgUrl>
             </Edition>
         </Editions>
     </File>
