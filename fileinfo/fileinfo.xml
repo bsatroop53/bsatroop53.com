@@ -374,6 +374,60 @@
         </Editions>
     </File>
     <File>
+        <DisplayName>Chemistry</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="(24)_Chemistry_REQ.pdf">
+                <DisplayName>2024</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Chemistry_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240330120044/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Chemistry_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+            <Edition filename="Chemistry.pdf">
+                <DisplayName>2018</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Chemistry.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20221221020910/https://filestore.scouting.org/filestore/merit_badge_reqandres/chemistry.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Chess</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Chess.pdf">
+                <DisplayName>2016</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Chess.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20231020185030/http://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Chess.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Citizenship in Society</DisplayName>
+        <Category>Eagle Required Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="CitizenshipSociety_ScoutReqs.pdf">
+                <DisplayName>2021 Scout Requirements</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/merit_badge_reqandres/CitizenshipSociety_ScoutReqs.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240310062016/https://filestore.scouting.org/filestore/merit_badge_reqandres/CitizenshipSociety_ScoutReqs.pdf</ArchiveOrgUrl>
+            </Edition>
+            <Edition filename="CitizenshipSociety_Counselors.pdf">
+                <DisplayName>2021 Counselor Guide</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/merit_badge_reqandres/CitizenshipSociety_Counselors.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240507024724/http://filestore.scouting.org/filestore/merit_badge_reqandres/CitizenshipSociety_Counselors.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Citizenship in the Community</DisplayName>
+        <Category>Eagle Required Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Citizenship_in_the_Community.pdf">
+                <DisplayName>2015</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Citizenship_in_the_Community.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240302004249/http://filestore.scouting.org/filestore/merit_badge_reqandres/citizenship_in_the_community.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
         <DisplayName>Citizenship in the Nation</DisplayName>
         <Category>Eagle Required Merit Badge Requirements</Category>
         <Editions>
@@ -381,6 +435,17 @@
                 <DisplayName>2022</DisplayName>
                 <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35871(22)_Citizenship_Nation_REQS.pdf</OrignalUrl>
                 <ArchiveOrgUrl>https://web.archive.org/web/20230523172132/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35871(22)_Citizenship_Nation_REQS.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Citizenship in the World</DisplayName>
+        <Category>Eagle Required Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Citizenship_in_the_World.pdf">
+                <DisplayName>2015</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Citizenship_in_the_World.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240607012912/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Citizenship_in_the_World.pdf</ArchiveOrgUrl>
             </Edition>
         </Editions>
     </File>
@@ -414,6 +479,17 @@
                 <DisplayName>2021</DisplayName>
                 <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35875(21)Collections_REQ.pdf</OrignalUrl>
                 <ArchiveOrgUrl>https://web.archive.org/web/20240518183525/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35875(21)Collections_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Communication</DisplayName>
+        <Category>Eagle Required Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Communication.pdf">
+                <DisplayName>2013</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Communication.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/2/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Communication.pdf</ArchiveOrgUrl>
             </Edition>
         </Editions>
     </File>
