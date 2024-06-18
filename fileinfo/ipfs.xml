@@ -54,6 +54,12 @@
   <File name="35935(21)PublicHealth_REQ.pdf">
     <IpfsHash>QmXWoRTRX1ZrGT7CZ8d9ZgZ8x2LseSjz7SJu7s4uqDU4AT</IpfsHash>
   </File>
+  <File name="(24)_Chemistry_REQ.pdf">
+    <IpfsHash>QmdKPNPANHxu4CSY7JYDtT6fnRMZpQgvvv7p1DhK3ucGF2</IpfsHash>
+  </File>
+  <File name="CitizenshipSociety_ScoutReqs.pdf">
+    <IpfsHash>QmajLFgGb81nob3Brzc35xEXUPe4DhuXhXuqSxhuDvQtes</IpfsHash>
+  </File>
   <File name="Art.pdf">
     <IpfsHash>QmYBst9KxeYPZ3EkHhVuSjph4ngE3WWdsPhtv1dE7uxqPp</IpfsHash>
   </File>
@@ -86,6 +92,9 @@
   </File>
   <File name="Bugling.pdf">
     <IpfsHash>QmQQFq9rhJKZvyCjCfZVHtkpBeR62UMTVT9dzmk6sFZ3rh</IpfsHash>
+  </File>
+  <File name="Chemistry.pdf">
+    <IpfsHash>QmWfzZ3Ra7UxP7Y9aMTxdD6hK9tHoFAqoJRvePjAGz5Ppd</IpfsHash>
   </File>
   <File name="35899(21)Fishing_REQ.pdf">
     <IpfsHash>QmY9qnqUx1mx8XnwExqxyXvKa611gEhRX8FL7VvPjrznUW</IpfsHash>
@@ -132,11 +141,17 @@
   <File name="35710(22)_Programming_REQS.pdf">
     <IpfsHash>QmeF4NuE7sQLdDiVznp8fvkkRtkbL6MvsrmRohReSKLrf5</IpfsHash>
   </File>
+  <File name="Citizenship_in_the_Community.pdf">
+    <IpfsHash>QmQLonb5sr7mJ6MGgRUoaUTwsH9d1epvQVNs2D1rUyrrSx</IpfsHash>
+  </File>
   <File name="35875(21)Collections_REQ.pdf">
     <IpfsHash>QmbsFDs6MwVM7oUpocgtGGUpud65VrZRH6eoqfn2p6hEpZ</IpfsHash>
   </File>
   <File name="35850(23)_American Business_REQ.pdf">
     <IpfsHash>QmdsAuC4UzhFX7UBmV2xBaQV3BjxGi6zTB5URWehxd1Dfd</IpfsHash>
+  </File>
+  <File name="Communication.pdf">
+    <IpfsHash>QmdrbfwKejKd2ZkfBA68ByXq88yK5AKwQk6EVykEM462iq</IpfsHash>
   </File>
   <File name="35857(23)_Architecture_REQ.pdf">
     <IpfsHash>Qmaf1HnB3kw2qKPoRQpmPhS7c7xZmBMcsUaTKrjJYPUtcm</IpfsHash>
@@ -146,6 +161,9 @@
   </File>
   <File name="35939(22)_Railroading_REQS.pdf">
     <IpfsHash>Qmdda18NYXupMWaDrpUGo685zmmooDKQjgYQo2X3reStbu</IpfsHash>
+  </File>
+  <File name="CitizenshipSociety_Counselors.pdf">
+    <IpfsHash>QmPPdwnqGePd5p3pjtqcMoY2y8XWciCpj4w3USGgUno86P</IpfsHash>
   </File>
   <File name="Automotive_Maintenance.pdf">
     <IpfsHash>QmPdncovSDjPiNznDj41NkhoxJXhPPjZnHaQ5X7PHBjgcj</IpfsHash>
@@ -209,6 +227,12 @@
   </File>
   <File name="Welding.pdf">
     <IpfsHash>QmSLhDV81JH29oUUhipHnHTrfc5Vpp6THiF1Xi45eSBM5g</IpfsHash>
+  </File>
+  <File name="Citizenship_in_the_World.pdf">
+    <IpfsHash>QmS11AGoNhw7R7p7jWkwXzo73pBx3155KdPfLfjCiqnCzf</IpfsHash>
+  </File>
+  <File name="Chess.pdf">
+    <IpfsHash>QmbyBXZVBix4d8gbr1aoTkTLREFDDH4NKENZbZUUe54BA1</IpfsHash>
   </File>
   <File name="35855(21)Archaeology_REQ.pdf">
     <IpfsHash>QmbUkjgotMJPtxKSZ1YkkFwmp8FAp3GvyXr4uspPCxntiA</IpfsHash>
