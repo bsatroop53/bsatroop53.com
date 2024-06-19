@@ -48,6 +48,12 @@
   <File name="35873(22)_Climbing_REQS.pdf">
     <IpfsHash>Qmf6ZmhraFJZD6teJqPacTpYgBUEPkDXZLKpHx6wmrxDwY</IpfsHash>
   </File>
+  <File name="Metalwork.pdf">
+    <IpfsHash>QmSJstiC4WQSLHRtmG7Q8ScBr6UeCbggmqjLNRDGvVLXka</IpfsHash>
+  </File>
+  <File name="Indian_Lore.pdf">
+    <IpfsHash>QmNefAtG1AwgKtpLDESyY6mzYXy8dELci7pxe3N3tFhxrb</IpfsHash>
+  </File>
   <File name="35854(23)_Animal Science_REQ.pdf">
     <IpfsHash>QmNRg1zNugDkr66S6TQGzU8n1Nhq9MhQWDfYG111c2SCE8</IpfsHash>
   </File>
@@ -63,8 +69,17 @@
   <File name="Art.pdf">
     <IpfsHash>QmYBst9KxeYPZ3EkHhVuSjph4ngE3WWdsPhtv1dE7uxqPp</IpfsHash>
   </File>
+  <File name="35894(23)_Farm_Mechanics_REQ.pdf">
+    <IpfsHash>Qmdk91WRvZkHtyc9rpTNopk5jEcAJRDoDzUAxRc1FenTMJ</IpfsHash>
+  </File>
+  <File name="35833(23)_Inventing_REQ.pdf">
+    <IpfsHash>QmVijDfUvA6HvpZQJfRJQBYSi5Hqsjk2fVrUT3QZa97Btv</IpfsHash>
+  </File>
   <File name="35975(21)-HealthCare-WEB-Requirements.pdf">
     <IpfsHash>QmfYsVyiQsrTwMDWuFZpEpMaHXDEHH5zotQ2US4xQC3tD9</IpfsHash>
+  </File>
+  <File name="Entrepreneurship.pdf">
+    <IpfsHash>QmdHTjgrB9L1AN3bsj2GvFxCnDMdPUJsnbf4WNvm3WNVmt</IpfsHash>
   </File>
   <File name="(24)_Programming_REQ.pdf">
     <IpfsHash>QmQXqxzncc26BeKiYXvxDQ283a9m6XJomWcq6kZGo9jtvA</IpfsHash>
@@ -72,17 +87,38 @@
   <File name="(24)_Backpacking_REQ.pdf">
     <IpfsHash>QmcGvCPKbB4cPbTABSLgv9WvrgzwtDnQeWMBfeiRQCpLic</IpfsHash>
   </File>
+  <File name="Graphic_Arts.pdf">
+    <IpfsHash>QmcsC1t3umAcbp6jwNKtE628TykQjinLPE4W6k9deuMdz2</IpfsHash>
+  </File>
   <File name="35887(21)Electronics_REQ.pdf">
     <IpfsHash>QmScrzuLU5jr16JFx6bd7hMSTpjvc9PTBoKkTuTYH81P94</IpfsHash>
   </File>
+  <File name="Textile.pdf">
+    <IpfsHash>QmTBPzVG17dZTmUHRzPMg79YJQGF4yt3sR5W6Z2KViLPDg</IpfsHash>
+  </File>
   <File name="Bird_Study.pdf">
     <IpfsHash>QmdY4JCsCd8oe5E7vSiJBNia3Mus6i7t8RoDCuibDYh5U2</IpfsHash>
+  </File>
+  <File name="Leatherwork.pdf">
+    <IpfsHash>QmaWFBGpkTMq8UwYmG2b6rUhCqiXpxB5ADPubHNxZFniXU</IpfsHash>
   </File>
   <File name="35886(21)Electricity_REQ.pdf">
     <IpfsHash>QmZw1JrW3ueezRELQjYMdh4CmRV6PwcPQ7PAaxGMaeXo1c</IpfsHash>
   </File>
   <File name="Basketry.pdf">
     <IpfsHash>QmTHNCwkX2rmCMy5nun8F9XoedSE7iAQdTJPMZ4Pza1Bzw</IpfsHash>
+  </File>
+  <File name="Law.pdf">
+    <IpfsHash>QmfF4U1L78M6qpwPHxb57nJSn6N8N6MatVYPPURB8TL35T</IpfsHash>
+  </File>
+  <File name="35893(23)_Family_Life_REQ.pdf">
+    <IpfsHash>QmdYYREHzn2weiVc1Q5uhPTJ8zEmP6N2T1SHctZLxp3h4E</IpfsHash>
+  </File>
+  <File name="35892(23)_Environmental_Science_REQ.pdf">
+    <IpfsHash>QmNXgwcXu6Wus6kQoi4vHsMFoB2pYgk6kXRJe2qtgQswZ2</IpfsHash>
+  </File>
+  <File name="Fire_Safety.pdf">
+    <IpfsHash>QmVrsy2ARrCiohisew3cF3J1Tpjhy2zav8ARkvSfhjokrf</IpfsHash>
   </File>
   <File name="35908(22)_Home_Repairs_REQS.pdf">
     <IpfsHash>QmTcvZ11gqbUwgZNGd3yLVMaoQSbKxsNkaLPj41pyaftj9</IpfsHash>
@@ -93,11 +129,23 @@
   <File name="Bugling.pdf">
     <IpfsHash>QmQQFq9rhJKZvyCjCfZVHtkpBeR62UMTVT9dzmk6sFZ3rh</IpfsHash>
   </File>
+  <File name="Gardening.pdf">
+    <IpfsHash>QmcxZAQ8XfGcYGfjFm11QhAUbqReGQGcPunRnad6nu6s2o</IpfsHash>
+  </File>
   <File name="Chemistry.pdf">
     <IpfsHash>QmWfzZ3Ra7UxP7Y9aMTxdD6hK9tHoFAqoJRvePjAGz5Ppd</IpfsHash>
   </File>
+  <File name="(24)_Nuclear-Science_REQ.pdf">
+    <IpfsHash>QmVmTZUZBRLKmDRS7QoxPs3ywEQhzzXxL8XXh3VjMRtEnF</IpfsHash>
+  </File>
+  <File name="Exploration.pdf">
+    <IpfsHash>QmXM7MjmAN5Guwh7NW4BiYF1bvxEJjEcusi1D9P8u1b3eT</IpfsHash>
+  </File>
   <File name="35899(21)Fishing_REQ.pdf">
     <IpfsHash>QmY9qnqUx1mx8XnwExqxyXvKa611gEhRX8FL7VvPjrznUW</IpfsHash>
+  </File>
+  <File name="35904(23)_Geology_REQ.pdf">
+    <IpfsHash>QmWQmbA8G2GKNKiVppth6ph1dN7oTrQ4N3RCwNp6LK7W2g</IpfsHash>
   </File>
   <File name="35943(21)Rowing_REQ.pdf">
     <IpfsHash>QmVXWJki67RRzGDaj8LFTgmDZFrPe5CDoMPb5jV3y81n1y</IpfsHash>
@@ -111,6 +159,15 @@
   <File name="35733(21)DigitalTechnology_REQ.pdf">
     <IpfsHash>QmPmugidBqCRaRxtXWzNSfjTwnX458UjxFuWTKccFxUjoX</IpfsHash>
   </File>
+  <File name="35881(23)_Cycling_REQ.pdf">
+    <IpfsHash>QmZf1cSQQwEAy7rNJQ8hPT43GFiZSSZnGNSYw1V8dC74Yn</IpfsHash>
+  </File>
+  <File name="35905(23)_Golf_REQ.pdf">
+    <IpfsHash>QmXqVc92AGYDj2VcSrwzYwhFXcyoPe9mLAkgZS5j6xuT8W</IpfsHash>
+  </File>
+  <File name="35922(23)_Nature_REQ.pdf">
+    <IpfsHash>QmTQHstddYtZSq3hg8rnyPQL6YHjWqv5JBJRRD3wEzBZqx</IpfsHash>
+  </File>
   <File name="35900(21)FlyFishing_REQ.pdf">
     <IpfsHash>QmNo11QU3LzwenhnboV7xzX1F5CxCnEHbhPpAn6PqCmxTo</IpfsHash>
   </File>
@@ -122,6 +179,9 @@
   </File>
   <File name="Aviation.pdf">
     <IpfsHash>QmaFX7TfcQoKWtZLfp2UWNEmTCocW9T6oJAaWRDZkYXdyy</IpfsHash>
+  </File>
+  <File name="Crime_Prevention.pdf">
+    <IpfsHash>QmdJaVS6bU1NWNQQYuoe8i5QwD9rCbaHdSyanbBize7ZLX</IpfsHash>
   </File>
   <File name="35859(22)_Astronomy_REQS.pdf">
     <IpfsHash>QmTU4MeWSs7QRg9CxfkQaqWgtaJMXXqwwBroUHdYXrNQs8</IpfsHash>
@@ -135,14 +195,23 @@
   <File name="35968(21)Woodwork_REQ.pdf">
     <IpfsHash>QmeG5xhuwiQzNLX2eYcpyuZnDG6F5jsPJo3R21HAEatAhD</IpfsHash>
   </File>
+  <File name="35879(23)_Cooking_REQ.pdf">
+    <IpfsHash>Qmerymi4W9DWsNo1pgTvbWdxBQr9RTetTi2WQWJt8yXyUn</IpfsHash>
+  </File>
   <File name="(24)_Radio_REQ.pdf">
     <IpfsHash>QmaLd4bPfK2VV2GUVJYmZsVqkTPDbeDNTndjE4D4Zz7K6x</IpfsHash>
   </File>
   <File name="35710(22)_Programming_REQS.pdf">
     <IpfsHash>QmeF4NuE7sQLdDiVznp8fvkkRtkbL6MvsrmRohReSKLrf5</IpfsHash>
   </File>
+  <File name="35879(24)_Cooking_REQ-approved.pdf">
+    <IpfsHash>QmRMGxrdboHs4dAk7xmfRWWwmschNKPPiHxgkovjEAXmnb</IpfsHash>
+  </File>
   <File name="Citizenship_in_the_Community.pdf">
     <IpfsHash>QmQLonb5sr7mJ6MGgRUoaUTwsH9d1epvQVNs2D1rUyrrSx</IpfsHash>
+  </File>
+  <File name="Moviemaking.pdf">
+    <IpfsHash>QmUSJxTyEkGq7dA6TfHRHQV73jMCJSVRpCLjr7a95LKsNZ</IpfsHash>
   </File>
   <File name="35875(21)Collections_REQ.pdf">
     <IpfsHash>QmbsFDs6MwVM7oUpocgtGGUpud65VrZRH6eoqfn2p6hEpZ</IpfsHash>
@@ -159,6 +228,9 @@
   <File name="(24)_Bird-Study_REQ.pdf">
     <IpfsHash>QmQq4PYAFjpCvaqyjwCDXXHcNkQ55HhLaooXYC42cwRH6y</IpfsHash>
   </File>
+  <File name="(24)_Law_REQ.pdf">
+    <IpfsHash>QmUPHBR7DqfebXSwzskw8HfrCa89uvABHawH35Dpeqqqr4</IpfsHash>
+  </File>
   <File name="35939(22)_Railroading_REQS.pdf">
     <IpfsHash>Qmdda18NYXupMWaDrpUGo685zmmooDKQjgYQo2X3reStbu</IpfsHash>
   </File>
@@ -167,6 +239,9 @@
   </File>
   <File name="Automotive_Maintenance.pdf">
     <IpfsHash>QmPdncovSDjPiNznDj41NkhoxJXhPPjZnHaQ5X7PHBjgcj</IpfsHash>
+  </File>
+  <File name="(24)_Fire-Safety_REQ.pdf">
+    <IpfsHash>QmbzjVrwHdaiVMWHk6J4XqJNHQqtFkXKCc335nyeSGNVMv</IpfsHash>
   </File>
   <File name="Weather.pdf">
     <IpfsHash>QmfFHVyLEJhEawH1hKfoZUszBZCxwgJGqoEY5BzvQpHaJd</IpfsHash>
@@ -177,6 +252,12 @@
   <File name="35860(22)_Athletics_REQS.pdf">
     <IpfsHash>QmYbQDHZURZc3BMFARNeCqNwpW5W4ARcpmRqLbhFs5KyiP</IpfsHash>
   </File>
+  <File name="Dog_Care.pdf">
+    <IpfsHash>QmYam4u87rWnzX9qsW9Ju8LHH1ruAfvGrasUNKwSgu1evM</IpfsHash>
+  </File>
+  <File name="Energy.pdf">
+    <IpfsHash>QmdqSSecsaCxzSeMT7UNYwxTmuRrtXq8bH9atkh5PYKgtt</IpfsHash>
+  </File>
   <File name="35931(22)_Pioneering_REQS.pdf">
     <IpfsHash>QmdbiY1mvYMh5keUASKHWBCyWSHbk7r2M5dvgpgwZNMf3c</IpfsHash>
   </File>
@@ -186,8 +267,20 @@
   <File name="35920(21)MotorBoating_REQ.pdf">
     <IpfsHash>QmZC4Dgqqz2o1xqRreiLkoCdGL7f9aPBxinjLJ1F7PKCrJ</IpfsHash>
   </File>
+  <File name="Forestry.pdf">
+    <IpfsHash>QmQriGxwyGkLUAee8BUUoGrmBT2vNBNJvuhoH2QBh5zjMK</IpfsHash>
+  </File>
   <File name="American_Heritage.pdf">
     <IpfsHash>QmUeGmn49EXbikVWQdYyvDTYhqYSZdKcJDYhQ7svajPgsq</IpfsHash>
+  </File>
+  <File name="35907(23)_Hiking_REQ.pdf">
+    <IpfsHash>QmWfDch1nfRHAz9UsjJ5fnw8u9u9z7HF6UNYvarET7LHwe</IpfsHash>
+  </File>
+  <File name="Nuclear_Science.pdf">
+    <IpfsHash>QmWBbuLr3ffmGJcjvLUR14ZDM1Wq1tfLHXEKWS2vTN86rc</IpfsHash>
+  </File>
+  <File name="Kayaking.pdf">
+    <IpfsHash>QmbQ4eQb1MvJ1PZMHA4FMh9neJyfSgYPjxGfvG4vGsw3Kd</IpfsHash>
   </File>
   <File name="American_Labor.pdf">
     <IpfsHash>QmUn8sSJ2BED1qmLCbN2H5S9qnYv8auz8qccnXpY8kiyts</IpfsHash>
@@ -195,20 +288,38 @@
   <File name="35708(23)_Game_Design_REQ.pdf">
     <IpfsHash>Qmcr1G7CfkqpF5ZFUNigK4NAFTR9j7273LaK823r7pviNa</IpfsHash>
   </File>
+  <File name="35903(23)_Genealogy_REQ.pdf">
+    <IpfsHash>QmSJmu4bj4KDKuQBeFtr5P8ScVu54knrXomRuzc2a8NECJ</IpfsHash>
+  </File>
   <File name="(24)_Camping_REQ.pdf">
     <IpfsHash>QmUsTx2ywPz3jdQKXPyM8qA4cmxjc7FL4qv3XPTVvASsPg</IpfsHash>
   </File>
   <File name="35710(23)_Programming_REQ.pdf">
     <IpfsHash>QmPyV518SiLSWgMbJ2dhCGTpjYmc2YxNAToPy8nhwYSD4v</IpfsHash>
   </File>
+  <File name="(24)_Journalism_REQ.pdf">
+    <IpfsHash>Qme7VQNtT8q84rKTm7jE4TcPPcTwPKz4dBEYNGv8r8RFe9</IpfsHash>
+  </File>
   <File name="35871(22)_Citizenship_Nation_REQS.pdf">
     <IpfsHash>Qmb2iYwE259ScfVCrNw549irvaYgDwUfoaow6GJmCRfBJX</IpfsHash>
+  </File>
+  <File name="Music.pdf">
+    <IpfsHash>QmUAhfVPPp96D5HUkGpaB7pnfiUuiyTh9dxdw3EJZFSVbg</IpfsHash>
+  </File>
+  <File name="35916(23)_Mammal_Study_REQ.pdf">
+    <IpfsHash>QmTFoP4sQshXdasKouqojH2d7X3FRWWekHYYM3SXk9SNCL</IpfsHash>
   </File>
   <File name="(24)_Engineering_REQ.pdf">
     <IpfsHash>QmcPDQgYRvDUuehusKnVuCKp7MV9mJaA6T9pWCvCGTqCds</IpfsHash>
   </File>
+  <File name="35888(23)_Emergency_Preparedness_REQ.pdf">
+    <IpfsHash>QmbVDx33rtbkdk3834AzQXfqsBmmf4LbJ1W6MiZZCbGwtB</IpfsHash>
+  </File>
   <File name="35940(22)_Reading_REQS.pdf">
     <IpfsHash>Qmc1vQrxQ87BDbHpUNfLKvadMoHsEXLTxXdPcpKUhwSs24</IpfsHash>
+  </File>
+  <File name="Horsemanship.pdf">
+    <IpfsHash>QmePvTxGWf38wW3uxEnwPcDNLXyBYhC2wSY5L6VifLCo22</IpfsHash>
   </File>
   <File name="35883(21)DisabilityAwareness_REQ.pdf">
     <IpfsHash>Qma6eYpMRRJSqK51d6fK8AMo3UMxbEBDG9MfNqkFGqJJBP</IpfsHash>
@@ -225,8 +336,26 @@
   <File name="35930(21)Photography_REQ.pdf">
     <IpfsHash>Qma8qDTfGiTJe25TcgH2k9H5v5VQzS12Cm5b3fpu2hjrGc</IpfsHash>
   </File>
+  <File name="35877(23)_Composite_Materials_REQ.pdf">
+    <IpfsHash>QmRt9eTkCwXADuDznuWdcj9cP2eReB3iPXfo4dEXnwKRsg</IpfsHash>
+  </File>
+  <File name="Journalism.pdf">
+    <IpfsHash>QmX83smsGZu51skk4aETsFoj9B2Mt8XvE2f6ZWUTusLDFb</IpfsHash>
+  </File>
+  <File name="(24)_Insect-Study_REQ.pdf">
+    <IpfsHash>QmUY7tyV7phNBdUBbmeWUpoBqmwDcps9b36PbUjtDbXKqa</IpfsHash>
+  </File>
   <File name="Welding.pdf">
     <IpfsHash>QmSLhDV81JH29oUUhipHnHTrfc5Vpp6THiF1Xi45eSBM5g</IpfsHash>
+  </File>
+  <File name="(24)_Golf_REQ.pdf">
+    <IpfsHash>QmTSd5sVGKfriZsr52KvaD5jZENXd3UexdurQAZbY5BeQd</IpfsHash>
+  </File>
+  <File name="Landscape_Arch.pdf">
+    <IpfsHash>QmfMtysFfd8Fu2fBKea17rFEYLB1cvPAs6uMD93DL7dypY</IpfsHash>
+  </File>
+  <File name="Geocaching.pdf">
+    <IpfsHash>QmYhDJE1QXrNPF1UpxzbsjjtiTvm24T46z129uRjW1a54e</IpfsHash>
   </File>
   <File name="Citizenship_in_the_World.pdf">
     <IpfsHash>QmS11AGoNhw7R7p7jWkwXzo73pBx3155KdPfLfjCiqnCzf</IpfsHash>
@@ -240,14 +369,26 @@
   <File name="35927(24)_Personal_Fitness_REQ-update.pdf">
     <IpfsHash>Qmb5mp8spiMzQHrv3i7ccwhMuWtEKGrsUJNH9wXbbZsmyG</IpfsHash>
   </File>
+  <File name="Insect_Study.pdf">
+    <IpfsHash>QmUD1GpA5BLNb77N1menrZDgUEVbcs9th3RPYiPnyEcDEK</IpfsHash>
+  </File>
   <File name="35737(22)_Mining_in_Society_REQS.pdf">
     <IpfsHash>QmSD9Md48Sn1giZJw2Um8bkmAiy6JQwjnkMSQm96JDGsUj</IpfsHash>
+  </File>
+  <File name="Drafting.pdf">
+    <IpfsHash>QmStCn785dYzjLg4o97D7DxGrTJuFWzhdY6LmaWnao26ef</IpfsHash>
   </File>
   <File name="35959(21)Theater_REQ.pdf">
     <IpfsHash>Qmaobf4QpYonZL4dGDhoc68ZQ7SfCwRdcC9fU9TJyQnBpY</IpfsHash>
   </File>
   <File name="Wood_Carving.pdf">
     <IpfsHash>QmcPwUVrnRBVBubWwpd5NcS2nAVwfnqJk5z6W9b6rP7Lqg</IpfsHash>
+  </File>
+  <File name="(24)_Indian-Lore_REQ.pdf">
+    <IpfsHash>QmZdhWUK8pRR3yD5Z7buCaA6XuFidn5RVBfzwLJ11dyku3</IpfsHash>
+  </File>
+  <File name="Fingerprinting.pdf">
+    <IpfsHash>QmRFSsaNNMNKy9xeTYgXiSZMwx6bmKqE8hxXRSBbxNXUBS</IpfsHash>
   </File>
   <File name="35915(21)Lifesaving_REQ.pdf">
     <IpfsHash>QmTFZbhmhdDoYCXbJbHaBgvZbP1HtJWSysLA5Gi5hi2Nem</IpfsHash>
