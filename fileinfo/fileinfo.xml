@@ -905,6 +905,125 @@
         </Editions>
     </File>
     <File>
+        <DisplayName>Horsemanship</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Horsemanship.pdf">
+                <DisplayName>2015</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Horsemanship.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240331094337/http://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Horsemanship.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Indian Lore</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="(24)_Indian-Lore_REQ.pdf">
+                <DisplayName>2024</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Indian-Lore_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240619180427/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Indian-Lore_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+            <Edition filename="Indian_Lore.pdf">
+                <DisplayName>2017</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Indian_Lore.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240616165753/https://filestore.scouting.org/filestore/merit_badge_reqandres/indian_lore.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Insect Study</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="(24)_Insect-Study_REQ.pdf">
+                <DisplayName>2024</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Insect-Study_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240513205034/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Insect-Study_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+            <Edition filename="Insect_Study.pdf">
+                <DisplayName>2019</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Insect_Study.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20221206000456/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Insect_Study.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Inventing</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35833(23)_Inventing_REQ.pdf">
+                <DisplayName>2023</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35833(23)_Inventing_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20230403130131/http://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35833(23)_Inventing_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Journalism</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="(24)_Journalism_REQ.pdf">
+                <DisplayName>2024</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Journalism_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240514140632/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Journalism_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+            <Edition filename="Journalism.pdf">
+                <DisplayName>2019</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Journalism.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20230407180259/http://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Journalism.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Kayaking</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Kayaking.pdf">
+                <DisplayName>2019</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Kayaking.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240222203740/http://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Kayaking.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Landscape Architecture</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Landscape_Arch.pdf">
+                <DisplayName>2014</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Landscape_Arch.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240331094309/http://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Landscape_Arch.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Law</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="(24)_Law_REQ.pdf">
+                <DisplayName>2024</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Law_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240619182002/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Law_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+            <Edition filename="Law.pdf">
+                <DisplayName>2019</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Law.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240329210557/https://filestore.scouting.org/filestore/merit_badge_reqandres/law.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Leatherwork</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Leatherwork.pdf">
+                <DisplayName>2016</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Leatherwork.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20230610082106/https://filestore.scouting.org/filestore/merit_badge_reqandres/leatherwork.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
         <DisplayName>Lifesaving</DisplayName>
         <Category>Eagle Required Merit Badge Requirements</Category>
         <Editions>
