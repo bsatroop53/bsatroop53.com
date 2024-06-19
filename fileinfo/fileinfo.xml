@@ -1035,6 +1035,28 @@
         </Editions>
     </File>
     <File>
+        <DisplayName>Mammal Study</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35916(23)_Mammal_Study_REQ.pdf">
+                <DisplayName>2023</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35916(23)_Mammal_Study_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20230417215408/http://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35916(23)_Mammal_Study_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Metalwork</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Metalwork.pdf">
+                <DisplayName>2012</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Metalwork.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240530040826/https://filestore.scouting.org/filestore/merit_badge_reqandres/metalwork.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
         <DisplayName>Mining In Society</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
@@ -1046,6 +1068,17 @@
         </Editions>
     </File>
     <File>
+        <DisplayName>Model Design and Building</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="ModelDesign_and_Building.pdf">
+                <DisplayName>2010</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/ModelDesign_and_Building.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240310073410/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/ModelDesign_and_Building.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
         <DisplayName>Motor Boating</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
@@ -1053,6 +1086,55 @@
                 <DisplayName>2021</DisplayName>
                 <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35920(21)MotorBoating_REQ.pdf</OrignalUrl>
                 <ArchiveOrgUrl>https://web.archive.org/web/20240602174455/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35920(21)MotorBoating_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Moviemaking</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Moviemaking.pdf">
+                <DisplayName>2014</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Moviemaking.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240225222107/http://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Moviemaking.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Music</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Music.pdf">
+                <DisplayName>2013</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Music.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240405144820/https://filestore.scouting.org/filestore/merit_badge_reqandres/music.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Nature</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35922(23)_Nature_REQ.pdf">
+                <DisplayName>2023</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35922(23)_Nature_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35922(23)_Nature_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Nuclear Science</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="(24)_Nuclear-Science_REQ.pdf">
+                <DisplayName>2024</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Nuclear-Science_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240518120549/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Nuclear-Science_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+            <Edition filename="Nuclear_Science.pdf">
+                <DisplayName>2019</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Nuclear_Science.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240331094341/http://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Nuclear_Science.pdf</ArchiveOrgUrl>
             </Edition>
         </Editions>
     </File>
@@ -1178,6 +1260,17 @@
                 <DisplayName>2021</DisplayName>
                 <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35954(21)Sports_REQ.pdf</OrignalUrl>
                 <ArchiveOrgUrl>https://web.archive.org/web/20240609210439/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35954(21)Sports_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Textile</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Textile.pdf">
+                <DisplayName>2015</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Textile.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/2/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Textile.pdf</ArchiveOrgUrl>
             </Edition>
         </Editions>
     </File>
