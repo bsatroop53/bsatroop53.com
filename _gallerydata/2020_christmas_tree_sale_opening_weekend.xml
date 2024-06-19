@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/2020_christmas_tree_sale_opening_weekend" ThumbnailOutputDir="static/img/galleries/2020_christmas_tree_sale_opening_weekend/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="2020treesales0_1.jpg">
+    <Alt>A sign that says "Maple Hill Trees, Premium Christmas Trees".  There is a closed sign to the right.</Alt>
+    <Caption>The day before opening.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="2020treesales01_2.jpg">
+    <Alt>3 empty Christmas tree racks.  Also 3 empty wreath racks made of wooden pallets.</Alt>
+    <Caption>Racks are setup, waiting for the trees and wreaths.</Caption>
+    <ThumbnailScale>0.9788432097382472</ThumbnailScale>
+  </Image>
+  <Image FileName="2020treesales2_4.jpg">
+    <Alt>One white truck and a white car next to it.  A man is standing in the bed of the truck, while a scout helps lift the tree up in the bed.</Alt>
+    <Caption></Caption>
+    <ThumbnailScale>0.9254275103435615</ThumbnailScale>
+  </Image>
+  <Image FileName="2020treesales1_3.jpg">
+    <Alt>A white truck with a man in the bed tying down a tree.</Alt>
+    <Caption></Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="2020treesales3_5.jpg">
+    <Alt>Three people stand </Alt>
+    <Caption />
+    <ThumbnailScale>0.8993303326380503</ThumbnailScale>
+  </Image>
+</ImageGallery>
