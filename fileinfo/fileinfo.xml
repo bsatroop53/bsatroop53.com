@@ -494,6 +494,55 @@
         </Editions>
     </File>
     <File>
+        <DisplayName>Composite Materials</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35877(23)_Composite_Materials_REQ.pdf">
+                <DisplayName>2023</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35877(23)_Composite_Materials_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240527231603/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35877(23)_Composite_Materials_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Cooking</DisplayName>
+        <Category>Eagle Required Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35879(24)_Cooking_REQ-approved.pdf">
+                <DisplayName>2024</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/35879(24)_Cooking_REQ-approved.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240618234728/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/35879(24)_Cooking_REQ-approved.pdf</ArchiveOrgUrl>
+            </Edition>
+            <Edition filename="35879(23)_Cooking_REQ.pdf">
+                <DisplayName>2023</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35879(23)_Cooking_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240507024553/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35879(23)_Cooking_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Crime Prevention</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Crime_Prevention.pdf">
+                <DisplayName>2012</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Crime_Prevention.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20230331161313/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Crime_Prevention.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Cycling</DisplayName>
+        <Category>Eagle Required Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35881(23)_Cycling_REQ.pdf">
+                <DisplayName>2023</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35881(23)_Cycling_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240514012948/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35881(23)_Cycling_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
         <DisplayName>Dentistry</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
@@ -527,6 +576,28 @@
         </Editions>
     </File>
     <File>
+        <DisplayName>Dog Care</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Dog_Care.pdf">
+                <DisplayName>2016</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Dog_Care.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240331094417/http://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Dog_Care.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Drafting</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Drafting.pdf">
+                <DisplayName>2014</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Drafting.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240411085459/https://filestore.scouting.org/filestore/merit_badge_reqandres/drafting.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
         <DisplayName>Electricity</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
@@ -549,6 +620,28 @@
         </Editions>
     </File>
     <File>
+        <DisplayName>Emergency Preparedness</DisplayName>
+        <Category>Eagle Required Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35888(23)_Emergency_Preparedness_REQ.pdf">
+                <DisplayName>2022</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35888(23)_Emergency_Preparedness_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240218025310/http://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35888(23)_Emergency_Preparedness_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Energy</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Energy.pdf">
+                <DisplayName>2014</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Energy.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20231202054224/https://filestore.scouting.org/filestore/merit_badge_reqandres/energy.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
         <DisplayName>Engineering</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
@@ -556,6 +649,39 @@
                 <DisplayName>2024</DisplayName>
                 <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Engineering_REQ.pdf</OrignalUrl>
                 <ArchiveOrgUrl>https://web.archive.org/web/20240609205535/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Engineering_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Entrepreneurship</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Entrepreneurship.pdf">
+                <DisplayName>2013</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Entrepreneurship.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240517173644/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Entrepreneurship.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Environmental Science</DisplayName>
+        <Category>Eagle Required Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35892(23)_Environmental_Science_REQ.pdf">
+                <DisplayName>2023</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35892(23)_Environmental_Science_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240514003933/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35892(23)_Environmental_Science_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Exploration</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Exploration.pdf">
+                <DisplayName>2016</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Exploration.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240331094305/http://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Exploration.pdf</ArchiveOrgUrl>
             </Edition>
         </Editions>
     </File>
