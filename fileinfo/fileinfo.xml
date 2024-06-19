@@ -719,6 +719,22 @@
         </Editions>
     </File>
     <File>
+        <DisplayName>Fire Safety</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="(24)_Fire-Safety_REQ.pdf">
+                <DisplayName>2024</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Fire-Safety_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240619171946/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Fire-Safety_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+            <Edition filename="Fire_Safety.pdf">
+                <DisplayName>2019</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Fire_Safety.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240217161810/https://filestore.scouting.org/filestore/merit_badge_reqandres/fire_safety.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
         <DisplayName>First Aid</DisplayName>
         <Category>Eagle Required Merit Badge Requirements</Category>
         <Editions>
@@ -763,6 +779,17 @@
         </Editions>
     </File>
     <File>
+        <DisplayName>Forestry</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Forestry.pdf">
+                <DisplayName>2021</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Forestry.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/2/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Forestry.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
         <DisplayName>Game Design</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
@@ -774,6 +801,77 @@
         </Editions>
     </File>
     <File>
+        <DisplayName>Gardening</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Gardening.pdf">
+                <DisplayName>2013</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Gardening.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240310071021/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Gardening.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Genealogy</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35903(23)_Genealogy_REQ.pdf">
+                <DisplayName>2022</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35903(23)_Genealogy_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240310071016/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35903(23)_Genealogy_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Geocaching</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Geocaching.pdf">
+                <DisplayName>2019</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Geocaching.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240310101652/http://filestore.scouting.org/filestore/merit_badge_reqandres/geocaching.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Geology</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35904(23)_Geology_REQ.pdf">
+                <DisplayName>2022</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35904(23)_Geology_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240518215840/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35904(23)_Geology_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Golf</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="(24)_Golf_REQ.pdf">
+                <DisplayName>2024</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Golf_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240526164500/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Golf_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+            <Edition filename="35905(23)_Golf_REQ.pdf">
+                <DisplayName>2022</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35905(23)_Golf_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240526164450/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35905(23)_Golf_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Graphic Arts</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Graphic_Arts.pdf">
+                <DisplayName>2017</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Graphic_Arts.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20230407132437/http://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Graphic_Arts.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
         <DisplayName>Health Care Professions</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
@@ -781,6 +879,17 @@
                 <DisplayName>2021</DisplayName>
                 <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35975(21)-HealthCare-WEB-Requirements.pdf</OrignalUrl>
                 <ArchiveOrgUrl>https://web.archive.org/web/20240609211052/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35975(21)-HealthCare-WEB-Requirements.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Hiking</DisplayName>
+        <Category>Eagle Required Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35907(23)_Hiking_REQ.pdf">
+                <DisplayName>2023</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35907(23)_Hiking_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240514000443/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35907(23)_Hiking_REQ.pdf</ArchiveOrgUrl>
             </Edition>
         </Editions>
     </File>
