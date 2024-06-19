@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/2008_assorted_photos" ThumbnailOutputDir="static/img/galleries/2008_assorted_photos/thumbnails/" DefaultThumbnailScale="0.70">
+  <!--
+    These 2 photos are from a troop meeting most likely in fall or winter 2008.
+    Seth's uniform has an OA patch, which he got summer 2008.  Photo was taken
+    by Jim Gutta, who aged out in 2009.
+  -->
+  <Image FileName="20230408_115600_4.jpg">
+    <Alt>2 scouts in class A uniforms standing behind a table.  The scout on the left is holding on to something, while the scout on the right is looking at it.</Alt>
+    <Caption>Scouts John Dowling (middle left) and Seth Hendrick (middle right) teach first aid at a troop meeting.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="20230408_115605_5.jpg">
+    <Alt>A scout in a class A uniform is lying on the floor on his side, pretending to be hurt.</Alt>
+    <Caption>Seth Hendrick pretending to be a victim in a first aid demonstration at a troop meeting.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+</ImageGallery>
