@@ -1139,6 +1139,39 @@
         </Editions>
     </File>
     <File>
+        <DisplayName>Oceanography</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Oceanography.pdf">
+                <DisplayName>2015</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Oceanography.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20231202062049/https://filestore.scouting.org/filestore/merit_badge_reqandres/oceanography.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Orienteering</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Orienteering.pdf">
+                <DisplayName>2014</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Orienteering.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240511153936/https://filestore.scouting.org/filestore/merit_badge_reqandres/orienteering.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Painting</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Painting.pdf">
+                <DisplayName>2016</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Painting.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240406004313/https://filestore.scouting.org/filestore/merit_badge_reqandres/painting.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
         <DisplayName>Personal Fitness</DisplayName>
         <Category>Eagle Required Merit Badge Requirements</Category>
         <Editions>
@@ -1146,6 +1179,28 @@
                 <DisplayName>2024</DisplayName>
                 <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/35927(24)_Personal_Fitness_REQ-update.pdf</OrignalUrl>
                 <ArchiveOrgUrl>https://web.archive.org/web/20240609205853/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/35927(24)_Personal_Fitness_REQ-update.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Personal Management</DisplayName>
+        <Category>Eagle Required Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Personal_Management.pdf">
+                <DisplayName>2019</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Personal_Management.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240213044846/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Personal_Management.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Pets</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Pets.pdf">
+                <DisplayName>2015</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pets.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240331094321/http://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pets.pdf</ArchiveOrgUrl>
             </Edition>
         </Editions>
     </File>
@@ -1168,6 +1223,44 @@
                 <DisplayName>2022</DisplayName>
                 <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35931(22)_Pioneering_REQS.pdf</OrignalUrl>
                 <ArchiveOrgUrl>https://web.archive.org/web/20231224070433/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35931(22)_Pioneering_REQS.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Plant Science</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="(24)_Plant-Science_REQ.pdf">
+                <DisplayName>2024</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Plant-Science_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240529163653/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Plant-Science_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+            <Edition filename="35932(23)_Plant_Science_REQ.pdf">
+                <DisplayName>2023</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35932(23)_Plant_Science_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240530143148/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35932(23)_Plant_Science_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Plumbing</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Plumbing.pdf">
+                <DisplayName>2017</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Plumbing.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20220818000906/http://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Plumbing.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Pottery</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Pottery.pdf">
+                <DisplayName>2015</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pottery.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240331094310/http://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pottery.pdf</ArchiveOrgUrl>
             </Edition>
         </Editions>
     </File>
