@@ -1297,6 +1297,28 @@
         </Editions>
     </File>
     <File>
+        <DisplayName>Public Speaking</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Public_Speaking.pdf">
+                <DisplayName>2016</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Public_Speaking.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240301130412/http://filestore.scouting.org/filestore/merit_badge_reqandres/public_speaking.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Pulp and Paper</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Pulp_and_Paper.pdf">
+                <DisplayName>2019</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pulp_and_Paper.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20221203212811/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pulp_and_Paper.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
         <DisplayName>Radio</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
@@ -1335,6 +1357,39 @@
         </Editions>
     </File>
     <File>
+        <DisplayName>Reptile and Amphibian</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35941(23)_Reptile_Amphibian_REQ.pdf">
+                <DisplayName>2023</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35941(23)_Reptile_Amphibian_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240514190827/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35941(23)_Reptile_Amphibian_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Rifle Shooting</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Rifle_Shooting.pdf">
+                <DisplayName>2012</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Rifle_Shooting.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20231218123632/https://filestore.scouting.org/filestore/merit_badge_reqandres/rifle_shooting.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Robotics</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Robotics.pdf">
+                <DisplayName>2016</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Robotics.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240331094322/http://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Robotics.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
         <DisplayName>Rowing</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
@@ -1342,6 +1397,44 @@
                 <DisplayName>2021</DisplayName>
                 <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35943(21)Rowing_REQ.pdf</OrignalUrl>
                 <ArchiveOrgUrl>https://web.archive.org/web/20240609210337/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35943(21)Rowing_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Safety</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="(24)_Safety_REQ.pdf">
+                <DisplayName>2024</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Safety_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240623160107/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Safety_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+            <Edition filename="Safety.pdf">
+                <DisplayName>2016</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Safety.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20231202060142/https://filestore.scouting.org/filestore/merit_badge_reqandres/safety.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Salesmanship</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35945(23)_Salesmanship_REQ.pdf">
+                <DisplayName>2023</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35945(23)_Salesmanship_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240226203334/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35945(23)_Salesmanship_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Scholarship</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Scholarship.pdf">
+                <DisplayName>2014</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Scholarship.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240331094325/http://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Scholarship.pdf</ArchiveOrgUrl>
             </Edition>
         </Editions>
     </File>
