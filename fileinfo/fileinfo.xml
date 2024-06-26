@@ -1439,6 +1439,126 @@
         </Editions>
     </File>
     <File>
+        <DisplayName>Scouting Heritage</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="(24)_Scouting-Heritage_REQ.pdf">
+                <DisplayName>2024</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Scouting-Heritage_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240626000417/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Scouting-Heritage_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+            <Edition filename="Scouting_Heritage.pdf">
+                <DisplayName>2019</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Scouting_Heritage.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240319051217/http://filestore.scouting.org/filestore/merit_badge_reqandres/scouting_heritage.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Scuba Diving</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Scuba_Diving.pdf">
+                <DisplayName>2009</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Scuba_Diving.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20221203223318/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Scuba_Diving.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Sculpture</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Sculpture.pdf">
+                <DisplayName>2019</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Sculpture.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240622122718/https://filestore.scouting.org/filestore/merit_badge_reqandres/sculpture.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Search and Rescue</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Search_and_Rescue.pdf">
+                <DisplayName>2014</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Search_and_Rescue.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240331094313/http://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Search_and_Rescue.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Shotgun Shooting</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Shotgun_Shooting.pdf">
+                <DisplayName>2013</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Shotgun_Shooting.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20230420014201/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Shotgun_Shooting.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Signs, Signals, and Codes</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="SignsSignals_and_Codes.pdf">
+                <DisplayName>2015</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/SignsSignals_and_Codes.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20230314203907/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/SignsSignals_and_Codes.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Skating</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="(24)_Skating_REQ.pdf">
+                <DisplayName>2024</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Skating_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240626001420/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Skating_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+            <Edition filename="Skating.pdf">
+                <DisplayName>2015</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Skating.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240331094306/http://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Skating.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Small-Boat Sailing</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35950(23)_Small Boat_Sailing_REQ.pdf">
+                <DisplayName>2023</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35950(23)_Small%20Boat_Sailing_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240514214035/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35950(23)_Small%20Boat_Sailing_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Snow Sports</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="35951(23)_Snow_Sports_REQ.pdf">
+                <DisplayName>2023</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35951(23)_Snow_Sports_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240527072733/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35951(23)_Snow_Sports_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Soil and Water Conservation</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Soil_and_WaterConservation.pdf">
+                <DisplayName>2019</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Soil_and_WaterConservation.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20231202050718/http://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Soil_and_WaterConservation.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
         <DisplayName>Sports</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
