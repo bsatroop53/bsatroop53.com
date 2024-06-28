@@ -1559,6 +1559,17 @@
         </Editions>
     </File>
     <File>
+        <DisplayName>Space Exploration</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Space_Exploration.pdf">
+                <DisplayName>2016</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Space_Exploration.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20230921200758/http://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Space_Exploration.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
         <DisplayName>Sports</DisplayName>
         <Category>Merit Badge Requirements</Category>
         <Editions>
@@ -1566,6 +1577,65 @@
                 <DisplayName>2021</DisplayName>
                 <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35954(21)Sports_REQ.pdf</OrignalUrl>
                 <ArchiveOrgUrl>https://web.archive.org/web/20240609210439/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/35954(21)Sports_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Stamp Collecting</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="Stamp_Collecting.pdf">
+                <DisplayName>2013</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Stamp_Collecting.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240411095843/https://filestore.scouting.org/filestore/merit_badge_reqandres/stamp_collecting.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Surveying</DisplayName>
+        <Category>Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="(24)_Surveying_REQ.pdf">
+                <DisplayName>2024</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Surveying_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240628004726/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Surveying_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+            <Edition filename="Surveying.pdf">
+                <DisplayName>2010</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Surveying.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240331094446/http://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Surveying.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Sustainability</DisplayName>
+        <Category>Eagle Required Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="(24)_Sustainability_REQ.pdf">
+                <DisplayName>2024</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Sustainability_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240628004944/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Sustainability_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+            <Edition filename="Sustainability.pdf">
+                <DisplayName>2013</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Sustainability.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240316060821/http://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Sustainability.pdf</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>Swimming</DisplayName>
+        <Category>Eagle Required Merit Badge Requirements</Category>
+        <Editions>
+            <Edition filename="(24)_Swimming_REQ.pdf">
+                <DisplayName>2024</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Swimming_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240628005140/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2024_Updates/(24)_Swimming_REQ.pdf</ArchiveOrgUrl>
+            </Edition>
+            <Edition filename="35957(23)_Swimming_REQ.pdf">
+                <DisplayName>2023</DisplayName>
+                <OrignalUrl>https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35957(23)_Swimming_REQ.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240513232320/https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/2023_Updates/35957(23)_Swimming_REQ.pdf</ArchiveOrgUrl>
             </Edition>
         </Editions>
     </File>
