@@ -72,6 +72,9 @@
   <File name="CitizenshipSociety_ScoutReqs.pdf">
     <IpfsHash>QmajLFgGb81nob3Brzc35xEXUPe4DhuXhXuqSxhuDvQtes</IpfsHash>
   </File>
+  <File name="(24)_Sustainability_REQ.pdf">
+    <IpfsHash>QmXHhcBAAMozAkd8e81C9MVL5uvNyPcLoDFdqszAoW2EoG</IpfsHash>
+  </File>
   <File name="ModelDesign_and_Building.pdf">
     <IpfsHash>QmaWPaCF6Rf66X4hArUaBuPvQoUPQsL9UKMsKYJasbq4Wx</IpfsHash>
   </File>
@@ -114,6 +117,9 @@
   <File name="Bird_Study.pdf">
     <IpfsHash>QmdY4JCsCd8oe5E7vSiJBNia3Mus6i7t8RoDCuibDYh5U2</IpfsHash>
   </File>
+  <File name="Surveying.pdf">
+    <IpfsHash>QmXAKBMJsBZNznNpbMDgEh6M6wtwQMiZhq5ayTJegcmG9P</IpfsHash>
+  </File>
   <File name="Leatherwork.pdf">
     <IpfsHash>QmaWFBGpkTMq8UwYmG2b6rUhCqiXpxB5ADPubHNxZFniXU</IpfsHash>
   </File>
@@ -143,6 +149,12 @@
   </File>
   <File name="Bugling.pdf">
     <IpfsHash>QmQQFq9rhJKZvyCjCfZVHtkpBeR62UMTVT9dzmk6sFZ3rh</IpfsHash>
+  </File>
+  <File name="Sustainability.pdf">
+    <IpfsHash>QmT7XU3NYWDzFs4YgYrtKo3TfW7oz1MKbUVudrS5wmt84R</IpfsHash>
+  </File>
+  <File name="(24)_Surveying_REQ.pdf">
+    <IpfsHash>Qmd3gJTc2xuXPze4YDeiAyww6C4Mk4evwgkqMoiWguzirP</IpfsHash>
   </File>
   <File name="Gardening.pdf">
     <IpfsHash>QmcxZAQ8XfGcYGfjFm11QhAUbqReGQGcPunRnad6nu6s2o</IpfsHash>
@@ -327,11 +339,17 @@
   <File name="Forestry.pdf">
     <IpfsHash>QmQriGxwyGkLUAee8BUUoGrmBT2vNBNJvuhoH2QBh5zjMK</IpfsHash>
   </File>
+  <File name="Space_Exploration.pdf">
+    <IpfsHash>QmVZFTjwunDGebUPhTmfBNu7R5qUC3W6jVHBYNzCtGFpbP</IpfsHash>
+  </File>
   <File name="American_Heritage.pdf">
     <IpfsHash>QmUeGmn49EXbikVWQdYyvDTYhqYSZdKcJDYhQ7svajPgsq</IpfsHash>
   </File>
   <File name="35907(23)_Hiking_REQ.pdf">
     <IpfsHash>QmWfDch1nfRHAz9UsjJ5fnw8u9u9z7HF6UNYvarET7LHwe</IpfsHash>
+  </File>
+  <File name="Stamp_Collecting.pdf">
+    <IpfsHash>QmRL2gcUm6xtuvkhWvRsbBzX5qxsMVNLjTDDCk3nrZeSZN</IpfsHash>
   </File>
   <File name="Pulp_and_Paper.pdf">
     <IpfsHash>QmSAK5wNeUgQY1xUCdrf1qqkJqjaGneibw4jXRr1fVPRGb</IpfsHash>
@@ -360,6 +378,9 @@
   <File name="35932(23)_Plant_Science_REQ.pdf">
     <IpfsHash>QmRe9zSP5UWayqDVvSTJQnTipNy3MgBSZgB2hGaBFJENBt</IpfsHash>
   </File>
+  <File name="(24)_Swimming_REQ.pdf">
+    <IpfsHash>QmeaLZ7TTAjn5TmJQgAn6NQWnuzCE8mRRPLp79gEDfGZ3H</IpfsHash>
+  </File>
   <File name="35710(23)_Programming_REQ.pdf">
     <IpfsHash>QmPyV518SiLSWgMbJ2dhCGTpjYmc2YxNAToPy8nhwYSD4v</IpfsHash>
   </File>
@@ -374,6 +395,9 @@
   </File>
   <File name="35916(23)_Mammal_Study_REQ.pdf">
     <IpfsHash>QmTFoP4sQshXdasKouqojH2d7X3FRWWekHYYM3SXk9SNCL</IpfsHash>
+  </File>
+  <File name="35957(23)_Swimming_REQ.pdf">
+    <IpfsHash>QmbGLsKjq2iqyiVajP3HPPxusq6pc9Z3QhyerKismbemZw</IpfsHash>
   </File>
   <File name="(24)_Engineering_REQ.pdf">
     <IpfsHash>QmcPDQgYRvDUuehusKnVuCKp7MV9mJaA6T9pWCvCGTqCds</IpfsHash>
