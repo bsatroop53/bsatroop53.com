@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/2024_memorial_day_parade" ThumbnailOutputDir="static/img/galleries/2024_memorial_day_parade/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="2024_parade_1_6.jpg">
+    <Alt />
+    <Caption />
+    <ThumbnailScale>0.9062996440752092</ThumbnailScale>
+  </Image>
+  <Image FileName="2024_parade_2_5.jpg">
+    <Alt>Scouts in Class A uniforms showing off the troop flag.  It is red on the top half and white on the bottom half.  It says "Troop 53, Castleton On Hudson, NY".  There are six gold stars on the flag.</Alt>
+    <Caption>The gold stars of the troop flag represent the scouts who lost their lives in the military,</Caption>
+    <ThumbnailScale>0.9695355812723527</ThumbnailScale>
+  </Image>
+  <Image FileName="2024_parade_3_4.jpg">
+    <Alt />
+    <Caption />
+    <ThumbnailScale>0.917705665820064</ThumbnailScale>
+  </Image>
+  <Image FileName="2024_parade_5_2.jpg">
+    <Alt />
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="2024_parade_6_1.jpg">
+    <Alt>A sign hanging from a bar that says "Castleton Troop 53.  100 Years 1924-2024".  The right half is an American flag.  The left half is a camping scene with a campfire surrounded by 7 gold stars.</Alt>
+    <Caption>The centennial patch design by one of the scouts!  The gold stars represent the scouts who lost their lives in the military.  Photo taken by Renee Boardway.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="2024_parade_4_3.jpg">
+    <Alt>A purple neckerchief with a white border.  The text says "Troop 53, Castleton, NY Centennial 1924-2024.  BSA"  There is a BSA logo in the middle.</Alt>
+    <Caption>Closeup of the centennial neckerchiefs!</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+</ImageGallery>
