@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/2024_spring_highway_clean_up" ThumbnailOutputDir="static/img/galleries/2024_spring_highway_clean_up/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="adpot24_4_1.jpg">
+    <Alt>Two scouts wearing reflective yellow bests sitting at a picnic table.  Three scouts are standing around the table.</Alt>
+    <Caption />
+    <ThumbnailScale>0.7572673620840568</ThumbnailScale>
+  </Image>
+  <Image FileName="adpot24_2_3.jpg">
+    <Alt>Five scouts cleaning up trash.  Two are hidden being the other three.  All are wearing reflective yellow vests.  There is a sign that says "Adopt A Highway Program Next 2 Miles.  Boy Scout Troop 53".</Alt>
+    <Caption />
+    <ThumbnailScale>0.914003594733071</ThumbnailScale>
+  </Image>
+  <Image FileName="adpot24_3_2.jpg">
+    <Alt>Six scouts picking up trash on the side of the road.  All are wearing reflective yellow vests.  There is a sign that says "Adopt A Highway Program Next 2 Miles.  Boy Scout Troop 53".</Alt>
+    <Caption />
+    <ThumbnailScale>0.733584909884384</ThumbnailScale>
+  </Image>
+  <Image FileName="adopt24_1_4.jpg">
+    <Alt>Fourteen people standing along the side of the road.  All but one are wearing yellow reflective vests.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+</ImageGallery>
