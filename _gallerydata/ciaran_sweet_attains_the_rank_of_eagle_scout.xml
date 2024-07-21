@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/ciaran_sweet_attains_the_rank_of_eagle_scout" ThumbnailOutputDir="static/img/galleries/ciaran_sweet_attains_the_rank_of_eagle_scout/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="sweet_2_2.jpg">
+    <Alt>Six people sitting around a table, talking.  Four are wearing Class A uniforms.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="sweet_1_3.jpg">
+    <Alt>Five people sitting around a table.  Ciaran is standing in front of them with, holding the scout sign.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="sweet_3_1.jpg">
+    <Alt>Three people in Class A uniforms smiling at the camera.  Ciaran is in the middle.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+</ImageGallery>
