@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/2023_christmas_tree_sale_setup_and_campout" ThumbnailOutputDir="static/img/galleries/2023_christmas_tree_sale_setup_and_campout/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="tree_2024_4_1.jpg">
+    <Alt>A group of scouts setting up Christmas Tree racks.  The racks are lashed together, and have two A-frame supports on each end, with a thick tree branch going between the two.</Alt>
+    <Caption>Scouts setting up the Christmas Tree racks.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="tree_2023_3_2.jpg">
+    <Alt>Four scouts unloading a wrapped Christmas tree off the back of a flat-bed trailer behind a black pick-up truck.</Alt>
+    <Caption>Scouts unloading Christmas Trees.</Caption>
+    <ThumbnailScale>0.8422243069924049</ThumbnailScale>
+  </Image>
+  <Image FileName="tree_2023_2_3.jpg">
+    <Alt>A handful of scouts start among a few green dome-shaped tents.</Alt>
+    <Caption>Scouts preparing the Campsite.</Caption>
+    <ThumbnailScale>0.65</ThumbnailScale>
+  </Image>
+  <Image FileName="tree_2023_1_4.jpg">
+    <Alt>A group photo of the troop, everyone is looking at the camera, smiling!</Alt>
+    <Caption>Group Photo!</Caption>
+    <ThumbnailScale>0.8162741672816498</ThumbnailScale>
+  </Image>
+</ImageGallery>
