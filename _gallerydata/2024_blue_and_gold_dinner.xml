@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/2024_blue_and_gold_dinner" ThumbnailOutputDir="static/img/galleries/2024_blue_and_gold_dinner/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="bgd_5_3.jpg">
+    <Alt>Two scouts serving a table food.  One is holding a tray of food, another is putting a plate on the table.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="bgd_4_4.jpg">
+    <Alt>Two scouts serving a table food.  One is holding a tray of food, another is putting a plate on the table.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="bgd_3_5.jpg">
+    <Alt>One scout is holding a platter of food, while another one seems to guiding him where to go.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="bgd_2_6.jpg">
+    <Alt>Several people sitting at a table, while two scouts serve them dinner.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="bgd_1_7.jpg">
+    <Alt>One scout carries a platter of food, while another scout is pointing towards a table.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="bdg_6_2.jpg">
+    <Alt>Two scouts washing dishes in Class A uniforms in front on an industrial dishwasher.  There is a man in glasses to their left helping.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="bgd_7_1.jpg">
+    <Alt>A group of scouts and adult leaders in Class A uniforms are standing around a wooden bridge indoors.  The left side of the bridge is blue, the right side is gold.  There is a single cub scout standing on the blue side, ready to cross over.</Alt>
+    <Caption>Cross-over ceremony.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+</ImageGallery>
