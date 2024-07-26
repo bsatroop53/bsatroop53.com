@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/1973_assorted_photos" ThumbnailOutputDir="static/img/galleries/1973_assorted_photos/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="9j_flowers_1.jpg">
+    <Alt>Six people standing in the grass on the side of a two-lane road.  One of them is holding a shovel.</Alt>
+    <Caption>Planting the flowering trees on route 9J in November, 1973.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+</ImageGallery>
