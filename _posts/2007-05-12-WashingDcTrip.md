@@ -4,7 +4,7 @@ title: "Trip to Washington DC"
 author: "Seth Hendrick"
 category: "Camping Trips"
 description: "In May 2007, a handful of scouts visited our nation's capital."
-tags: [brett wagner, corey haughton, dave haughton, kevin shaw, rob shaw, seth hendrick, washington dc, william noll]
+tags: [washington dc]
 image_gallery: "_gallerydata/2007_washington_dc_trip.xml"
 ---
 
