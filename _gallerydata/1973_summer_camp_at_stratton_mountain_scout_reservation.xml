@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/1973_summer_camp_at_stratton_mountain_scout_reservation" ThumbnailOutputDir="static/img/galleries/1973_summer_camp_at_stratton_mountain_scout_reservation/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="straton_1.jpg">
+    <Alt>15 people in Class A uniforms smiling for the camera.  There is text in the lower right corner that says "Stratton 1973".</Alt>
+    <Caption />
+    <ThumbnailScale>0.997323543119109</ThumbnailScale>
+  </Image>
+</ImageGallery>
