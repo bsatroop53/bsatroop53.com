@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/thurston_paul_attains_the_rank_of_eagle_scout" ThumbnailOutputDir="static/img/galleries/thurston_paul_attains_the_rank_of_eagle_scout/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="4apr1931_newspaper_thurstonpauleagle_1.jpg">
+    <Alt>To the left is the text of the article posted above.  To the right is a picture of a scout having his Eagle medal pinned on him.  Above is a scout seemingly having a scoutmaster conference.</Alt>
+    <Caption>Newspaper clipping from April 4th, 1931.  The newspaper that published the article is unknown.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+</ImageGallery>
