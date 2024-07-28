@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/cub_pack_253_celebrates_50_years_of_service" ThumbnailOutputDir="static/img/galleries/cub_pack_253_celebrates_50_years_of_service/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="253_50years_1.jpg">
+    <Alt>Picture of the newspaper article.  The full text is in the post above!</Alt>
+    <Caption>The Independent, Thursday, March 3rd, 1994.  Page 31.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+</ImageGallery>
