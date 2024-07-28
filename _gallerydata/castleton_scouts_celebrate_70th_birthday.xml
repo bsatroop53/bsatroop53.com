@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/castleton_scouts_celebrate_70th_birthday" ThumbnailOutputDir="static/img/galleries/castleton_scouts_celebrate_70th_birthday/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="70thbirthday_2.jpg">
+    <Alt>Picture of the newspaper article.  The full text is in the post above!</Alt>
+    <Caption>The Independent, Monday, May 16, 1994.  Page 30.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+</ImageGallery>
