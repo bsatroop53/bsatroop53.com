@@ -18,8 +18,9 @@
 
 using System.Collections.ObjectModel;
 using System.Composition;
+using System.Globalization;
 using System.Xml.Linq;
-using dotless.Core.Parser.Tree;
+using LumenWorks.Framework.IO.Csv;
 using Pretzel.Logic.Extensibility;
 using Pretzel.Logic.Templating.Context;
 
@@ -38,23 +39,38 @@ namespace SitePlugin
 
         static FileGallery()
         {
-            var emptyDict = new Dictionary<string, IReadOnlyList<T53File>>();
-            FileData = new ReadOnlyDictionary<string, IReadOnlyList<T53File>>( emptyDict );
+            var emptyT53FileDict = new Dictionary<string, IReadOnlyList<T53File>>();
+            FileData = new ReadOnlyDictionary<string, IReadOnlyList<T53File>>( emptyT53FileDict );
+
+            var emptyArchivedFileDict = new Dictionary<string, IReadOnlyList<ArchivedFile>>();
+            ArchivedFileData = new ReadOnlyDictionary<string, IReadOnlyList<ArchivedFile>>( emptyArchivedFileDict );
         }
 
         // ---------------- Properties ----------------
 
         public static IReadOnlyDictionary<string, IReadOnlyList<T53File>> FileData { get; private set; }
 
+        public static IReadOnlyDictionary<string, IReadOnlyList<ArchivedFile>> ArchivedFileData { get; private set; }
+
         // ---------------- Functions ----------------
 
         public void Transform( SiteContext context )
         {
             Console.WriteLine( "Parsing BSA T53 file info list..." );
-            Dictionary<string, string> ipfsData = ParseIpfsFile( context );
-            IReadOnlyDictionary<string, IReadOnlyList<T53File>> fileData = ParseFileInfo( context, ipfsData );
-            FileData = fileData;
+            {
+                Dictionary<string, string> ipfsData = ParseIpfsFile( new FileInfo( Path.Combine( context.SourceFolder, "fileinfo", "ipfs.xml" ) ) );
+                IReadOnlyDictionary<string, IReadOnlyList<T53File>> fileData = ParseFileInfo( context, ipfsData );
+                FileData = fileData;
+            }
             Console.WriteLine( "Parsing BSA T53 file info list... Done!" );
+
+            Console.WriteLine( "Parsing Archived T53 file info list..." );
+            {
+                Dictionary<string, string> ipfsData = ParseIpfsFile( new FileInfo( Path.Combine( context.SourceFolder, "fileinfo", "archive_ipfs.xml" ) ) );
+                IReadOnlyDictionary<string, IReadOnlyList<ArchivedFile>> archiveFileData = ParseArchivedFileInfo( context, ipfsData );
+                ArchivedFileData = archiveFileData;
+            }
+            Console.WriteLine( "Parsing Archived T53 file info list...Done!" );
         }
 
         private static IReadOnlyDictionary<string, IReadOnlyList<T53File>> ParseFileInfo(
@@ -190,11 +206,79 @@ namespace SitePlugin
             );
         }
 
-        private static Dictionary<string, string> ParseIpfsFile( SiteContext context )
+        private static IReadOnlyDictionary<string, IReadOnlyList<ArchivedFile>> ParseArchivedFileInfo(
+                    SiteContext context,
+                    Dictionary<string, string> ipfsInfo
+                )
+        {
+            var dict = new Dictionary<string, List<ArchivedFile>>();
+
+            TextInfo textInfo = new CultureInfo( "en-US", false ).TextInfo;
+
+            using( var csv = new CsvReader( new StreamReader( Path.Combine( context.SourceFolder, "fileinfo", "archivedfiledata.csv" ), true ) ) )
+            {
+                int fieldCount = csv.FieldCount;
+                string[] headers = csv.GetFieldHeaders();
+
+                while( csv.ReadNextRecord() )
+                {
+                    bool dateIsEstimate = false;
+                    int year = int.Parse( csv[Array.IndexOf( headers, "year" )] );
+                    int month;
+                    int day;
+
+                    if( int.TryParse( csv[Array.IndexOf( headers, "month" )], out month ) == false )
+                    {
+                        month = 1;
+                        dateIsEstimate = true;
+                    }
+
+                    if( int.TryParse( csv[Array.IndexOf( headers, "day" )], out day ) == false )
+                    {
+                        day = 1;
+                        dateIsEstimate = true;
+                    }
+
+                    var file = new ArchivedFile
+                    {
+                        ArchiveOrgLink = csv[Array.IndexOf( headers, "archive.org url" )],
+                        AuthorFirstName = csv[Array.IndexOf( headers, "author first name" )],
+                        AuthorLastName = csv[Array.IndexOf( headers, "author last name" )],
+                        Category = csv[Array.IndexOf( headers, "category" )],
+                        Crew153Mentioned = string.IsNullOrWhiteSpace( csv[Array.IndexOf( headers, "crew 153" )] ) == false,
+                        Database = csv[Array.IndexOf( headers, "database" )],
+                        Date = new DateTime( year, month, day ),
+                        IsDateEstimate = dateIsEstimate,
+                        FileName = csv[Array.IndexOf( headers, "filename" )],
+                        OriginalSource = csv[Array.IndexOf( headers, "original source" )],
+                        Pack253Mentioned = string.IsNullOrWhiteSpace( csv[Array.IndexOf( headers, "pack 253" )] ) == false,
+                        PageNumber = csv[Array.IndexOf( headers, "page number" )],
+                        Tags = csv[Array.IndexOf( headers, "tags" )].Split( ',', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries ),
+                        Title = csv[Array.IndexOf( headers, "title" )],
+                        Troop253Mentioned = string.IsNullOrWhiteSpace( csv[Array.IndexOf( headers, "troop 253" )] ) == false,
+                        Troop53Mentioned = string.IsNullOrWhiteSpace( csv[Array.IndexOf( headers, "troop 53" )] ) == false,
+                    };
+
+                    string categoryTitle = textInfo.ToTitleCase( file.Category );
+                    if( dict.ContainsKey( categoryTitle ) == false )
+                    {
+                        dict[categoryTitle] = new List<ArchivedFile>();
+                    }
+                    dict[categoryTitle].Add( file );
+                }
+            }
+
+            Console.WriteLine( $"\t- Total files found: " + dict.Values.Select( l => l.Count ).Sum() );
+
+            return new ReadOnlyDictionary<string, IReadOnlyList<ArchivedFile>>(
+                new Dictionary<string, IReadOnlyList<ArchivedFile>>( dict.Select( d => new KeyValuePair<string, IReadOnlyList<ArchivedFile>>( d.Key, d.Value ) ) )
+            );
+        }
+
+        private static Dictionary<string, string> ParseIpfsFile( FileInfo ipfsInfoFile )
         {
             var dict = new Dictionary<string, string>();
             
-            var ipfsInfoFile = new FileInfo( Path.Combine( context.SourceFolder, "fileinfo", "ipfs.xml" ) );
             if( ipfsInfoFile.Exists == false )
             {
                 Console.WriteLine( "\t- WARNING!  Can not read IPFS file, no IPFS CIDs will be included." );
