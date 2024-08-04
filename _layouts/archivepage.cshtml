@@ -59,7 +59,7 @@ layout: aboutpage
                             {
                                 <span><a href="@file.GetDirectLink()" target="_blank" rel="@SethHtmlFormatter.ATagRelProperties">Direct Link</a></span>
                             }
-                            @if( file.get_ArchiveOrgLink() != null )
+                            @if( string.IsNullOrWhiteSpace( file.get_ArchiveOrgLink() ) == false )
                             {
                                 <span>|  <a href="@file.get_ArchiveOrgLink()" target="_blank" rel="@SethHtmlFormatter.ATagRelProperties">archive.org Link</a></span>
                             }
