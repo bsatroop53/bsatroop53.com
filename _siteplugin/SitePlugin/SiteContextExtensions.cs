@@ -26,5 +26,22 @@ namespace SitePlugin
         {
             return Path.Combine( siteContext.OutputFolder, "static", "img" );
         }
+
+        public static string GetIpfsServerUrl( this SiteContext siteContext )
+        {
+            const string key = "ipfs_url";
+            if( siteContext.Config.ContainsKey( key ) == false )
+            {
+                throw new ArgumentException(
+                    $"{key} not in the site config.  Please add it.",
+                    key
+                );
+            }
+
+            return siteContext.Config[key].ToString() ?? throw new ArgumentException(
+                $"{key} is null in the site config.  Please fix it.",
+                key
+            );
+        }
     }
 }

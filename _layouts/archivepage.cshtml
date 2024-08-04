@@ -5,7 +5,7 @@ layout: aboutpage
 @using Pretzel.SethExtensions;
 @using SitePlugin;
 @{
-    const string ipfsUrlPrefix = "https://gateway.pinata.cloud/ipfs";
+    string ipfsUrlPrefix = Model.Site.GetIpfsServerUrl();
     var fileList = FileGallery.ArchivedFileData; 
 }
 @Raw( Model.Content )
