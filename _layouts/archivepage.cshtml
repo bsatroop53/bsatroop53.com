@@ -1,0 +1,76 @@
+---
+layout: aboutpage
+---
+@using Pretzel.Logic.Templating.Context;
+@using Pretzel.SethExtensions;
+@using SitePlugin;
+@{
+    string ipfsUrlPrefix = Model.Site.GetIpfsServerUrl();
+    var fileList = FileGallery.ArchivedFileData; 
+}
+@Raw( Model.Content )
+@foreach( string fileCategory in fileList.Keys.OrderBy( c => c ) )
+{
+    <div class="row">
+        <div class="col-md-12">
+            <h3>@fileCategory</h3>
+            <ul>
+                @foreach( ArchivedFile file in fileList[fileCategory].OrderBy( f => f.get_Date().Value ) )
+                {
+                    // MLA format uses the following:
+                    // Author last name, First name. “Article Title.” _Newspaper Name_, Day Month Year, p. Page number. Database Name.
+                    <li>
+                        <p>
+                            @if( string.IsNullOrWhiteSpace( file.get_AuthorLastName() ) == false )
+                            {
+                                <span>@file.get_AuthorLastName()</span>
+                            }
+                            @if( string.IsNullOrWhiteSpace( file.get_AuthorFirstName() ) == false )
+                            {
+                                <span>, @(file.get_AuthorLastName()).</span>
+                            }
+                            @if( string.IsNullOrWhiteSpace( file.get_Title() ) == false )
+                            {
+                                <span>&quot;@(file.get_Title()).&quot;</span>
+                            }
+                            @if( string.IsNullOrWhiteSpace( file.get_OriginalSource() ) == false )
+                            {
+                                <span><em>@(file.get_OriginalSource()), </em></span>
+                            }
+                            @if( file.get_IsDateEstimate() )
+                            {
+                                <span>@file.get_Date().Value.ToString( "yyyy" )</span>
+                            }
+                            else
+                            {
+                                <span>@file.get_Date().Value.ToString( "dd MMM yyyy" )</span>
+                            }
+                            @if( string.IsNullOrWhiteSpace( file.get_PageNumber() ) == false )
+                            {
+                                <span>, p. @(file.get_PageNumber()).</span>
+                            }
+                            @if( string.IsNullOrWhiteSpace( file.get_Database() ) == false )
+                            {
+                                <span>  <em>@(file.get_Database())</em>.</span>
+                            }
+                        </p>
+                        <p>
+                            @if( file.GetDirectLink() != null )
+                            {
+                                <span><a href="@file.GetDirectLink()" target="_blank" rel="@SethHtmlFormatter.ATagRelProperties">Direct Link</a></span>
+                            }
+                            @if( string.IsNullOrWhiteSpace( file.get_ArchiveOrgLink() ) == false )
+                            {
+                                <span>|  <a href="@file.get_ArchiveOrgLink()" target="_blank" rel="@SethHtmlFormatter.ATagRelProperties">archive.org Link</a></span>
+                            }
+                            @if( string.IsNullOrWhiteSpace( file.get_IpfsCid() ) == false )
+                            {
+                                <span>|  <a href="@ipfsUrlPrefix/@file.get_IpfsCid()" target="_blank" rel="@SethHtmlFormatter.ATagRelProperties">IPFS Link</a></span>
+                            }
+                        </p>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+}

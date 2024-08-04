@@ -209,12 +209,23 @@ namespace DevOps
             this.DotNetPublish( this.SitePluginCsProj.ToString(), settings );
 
             this.EnsureDirectoryExists( this.PluginsDir );
-            FilePathCollection files = this.GetFiles(
-                this.SitePluginDir.CombineWithFilePath(
-                    $"SitePlugin/bin/Debug/{dotnetVersion}/publish/SitePlugin.*"
-                ).ToString()
-             );
-            this.CopyFiles( files, this.PluginsDir );
+            {
+                FilePathCollection files = this.GetFiles(
+                    this.SitePluginDir.CombineWithFilePath(
+                        $"SitePlugin/bin/Debug/{dotnetVersion}/publish/SitePlugin.*"
+                    ).ToString()
+                );
+                this.CopyFiles( files, this.PluginsDir );
+            }
+
+            {
+                FilePathCollection files = this.GetFiles(
+                    this.SitePluginDir.CombineWithFilePath(
+                        $"SitePlugin/bin/Debug/{dotnetVersion}/publish/LumenWorks.Framework.IO.*"
+                    ).ToString()
+                );
+                this.CopyFiles( files, this.PluginsDir );
+            }
 
             this.Information( "Building Plugin... Done!" );
         }
