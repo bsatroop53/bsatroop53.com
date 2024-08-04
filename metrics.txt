@@ -8,6 +8,9 @@ exclude_from_navbar: true
     string rootDir = Model.Site.SourceFolder;
     var staticDir = new DirectoryInfo( Path.Combine( rootDir, "static" ) );
 
+    long totalFilesMirrored = FileGallery.FileData.Values.Sum( l => l.Count );
+    long totalFilesArchived = FileGallery.ArchivedFileData.Values.Sum( l => l.Count );
+
     long staticSize = Directory.EnumerateFiles( staticDir.FullName, "*.*", SearchOption.AllDirectories )
         .Sum( t => ( new FileInfo( t ).Length ) );
 
@@ -64,3 +67,9 @@ bsatroop53_photo_total @T53AllImageGallery.TotalImages
 {
 @:bsatroop53_posts_in_tag{tag="@tagCount.Key"} @tagCount.Value
 }
+# HELP bsatroop53_mirrored_files_total Total number of files from other sites that are references.
+# TYPE bsatroop53_mirrored_files_total gauge
+bsatroop53_mirrored_files_total @totalFilesMirrored
+# HELP bsatroop53_archived_files_total Total number of files from the Troop 53 archives that are referenced.
+# TYPE bsatroop53_archived_files_total gauge
+bsatroop53_archived_files_total @totalFilesArchived
