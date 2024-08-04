@@ -14,6 +14,11 @@ layout: nil
         {
             var allTags = file.GetAllTags();
             <File filename="@file.get_FileName()">
+                <DirectUrl>@file.GetDirectLink()</DirectUrl>
+                @if( string.IsNullOrWhiteSpace( file.get_ArchiveOrgLink() ) == false )
+                {
+                    <ArchiveOrgUrl>@file.get_ArchiveOrgLink()</ArchiveOrgUrl>
+                }
                 @if( string.IsNullOrWhiteSpace( file.get_Title() ) == false )
                 {
                     <Title>@file.get_Title()</Title>
