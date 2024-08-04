@@ -31,6 +31,6 @@ This website also has a list of files that are archives of the Troop history.  T
 * DirectUrl - The Direct Link
 * ArchiveOrgUrl - The link to an archived version via the [Wayback Machine](https://web.archive.org/).
 
-[This XML file](/fileinfo/archive_files_ipfs.xml) contains [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System) CIDs of each of the files.  The "name" attribute in the nodes in this file match the "filename" attribute in the [other file-info file](/fileinfo/archivedfileinfo.xml).
+[This XML file](/fileinfo/archived_files_ipfs.xml) contains [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System) CIDs of each of the files.  The "name" attribute in the nodes in this file match the "filename" attribute in the [other file-info file](/fileinfo/archivedfileinfo.xml).
 
 You may notice that there is a [CSV file](/fileinfo/archivedfiledata.csv) as well.  It is recommended to not use that.  That is meant for a person to input data into, while the XML file is meant for a machine to parse.
