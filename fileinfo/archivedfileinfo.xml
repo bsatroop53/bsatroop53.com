@@ -1,0 +1,75 @@
+---
+layout: nil
+---
+@using Pretzel.Logic.Templating.Context
+@using SitePlugin;
+@{
+    var fileList = FileGallery.ArchivedFileData;
+}
+<?xml version="1.0" encoding="UTF-8" ?>
+<Files schemaversion="1">
+    @foreach( var files in fileList.Values )
+    {
+        @foreach( var file in files )
+        {
+            var allTags = file.GetAllTags();
+            <File filename="@file.get_FileName()">
+                @if( string.IsNullOrWhiteSpace( file.get_Title() ) == false )
+                {
+                    <Title>@file.get_Title()</Title>
+                }
+                <Category>@file.get_Category()</Category>
+                @if( file.get_Date().HasValue )
+                {
+                    DateOnly date = file.get_Date().Value;
+                    <Date estimated="@file.get_IsDateEstimate()">
+                        <!-- @date.Year-@date.Month-@date.Day -->
+                        <Year>@date.Year</Year>
+                        <Month>@date.Month</Month>
+                        <Day>@date.Day</Day>
+                    </Date>
+                }
+                @if( string.IsNullOrWhiteSpace( file.get_OriginalSource() ) == false )
+                {
+                    <OriginalSource>@file.get_OriginalSource()</OriginalSource>
+                }
+                @if( string.IsNullOrWhiteSpace( file.get_PageNumber() ) == false )
+                {
+                    <PageNumber>@file.get_PageNumber()</PageNumber>
+                }
+                @if( file.IsAuthorSpecified() )
+                {
+                    <Author>
+                        <!-- @file.get_AuthorFirstName() @file.get_AuthorLastName() -->
+                        @if( string.IsNullOrWhiteSpace( file.get_AuthorFirstName() ) == false )
+                        {
+                            <FirstName>@file.get_AuthorFirstName()</FirstName>
+                        }
+                        @if( string.IsNullOrWhiteSpace( file.get_AuthorLastName() ) == false )
+                        {
+                            <LastName>@file.get_AuthorLastName()</LastName>
+                        }
+                    </Author>
+                }
+                @if( string.IsNullOrWhiteSpace( file.get_Database() ) == false )
+                {
+                    <Database>@file.get_Database()</Database>
+                }
+                <Troop53Mentioned>@file.get_Troop53Mentioned()</Troop53Mentioned>
+                <Troop253Mentioned>@file.get_Troop253Mentioned()</Troop253Mentioned>
+                <Pack253Mentioned>@file.get_Pack253Mentioned()</Pack253Mentioned>
+                <Crew153Mentioned>@file.get_Crew153Mentioned()</Crew153Mentioned>
+                @if( allTags.Any() )
+                {
+                    <Tags>
+                        <!-- @string.Join( ",", allTags ) -->
+                        @foreach( string tag in allTags )
+                        {
+                            <Tag>@tag</Tag>
+                        }
+                    </Tags>
+                }
+            </File>
+        }
+    }
+</Files>

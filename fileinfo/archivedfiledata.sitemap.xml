@@ -18,7 +18,7 @@ layout: nil
         {
             <url>
                 <loc>@file.GetDirectLink()</loc>
-                <lastmod>@file.get_Date().Value.ToString("s")</lastmod>
+                <lastmod>@file.get_Date().Value.ToString("yyyy-MM-dd")T00:00:00</lastmod>
                 <changefreq>daily</changefreq>
                 <priority>1.00</priority>
             </url>

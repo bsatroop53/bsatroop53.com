@@ -23,13 +23,24 @@ namespace SitePlugin
     /// </summary>
     public record class ArchivedFile
     {
+        // ---------------- Fields ----------------
+
+        private static readonly IReadOnlyList<string> defaultTags = new List<string>
+        {
+            "castleton ny",
+            "scouting america",
+            "castleton ny scouting america",
+            "boy scouts",
+            "bsa"
+        }.AsReadOnly();
+
         // ---------------- Properties ----------------
 
         public string FileName { get; init; } = "";
 
         public string Category { get; init; } = "";
 
-        public DateTime? Date { get; init; } = null;
+        public DateOnly? Date { get; init; } = null;
 
         public bool IsDateEstimate { get; init; } = false;
 
@@ -60,6 +71,53 @@ namespace SitePlugin
         public string? IpfsCid { get; init; }
 
         // ---------------- Functions ----------------
+
+        public bool IsAuthorSpecified()
+        {
+            return
+                ( string.IsNullOrWhiteSpace( this.AuthorFirstName ) == false ) &&
+                ( string.IsNullOrWhiteSpace( this.AuthorLastName ) == false );
+        }
+
+        public IEnumerable<string> GetAllTags()
+        {
+            var list = new List<string>();
+            list.AddRange( this.Tags );
+            list.AddRange( defaultTags );
+
+            if( this.Troop253Mentioned )
+            {
+                list.Add( "troop 253" );
+            }
+
+            if( this.Troop53Mentioned )
+            {
+                list.Add( "troop 53" );
+            }
+
+            if( this.Pack253Mentioned )
+            {
+                list.Add( "pack 253" );
+            }
+
+            if( this.Crew153Mentioned )
+            {
+                list.Add( "crew 153" );
+            }
+
+            if( string.IsNullOrWhiteSpace( this.OriginalSource ) == false )
+            {
+                list.Add( this.OriginalSource.ToLower() );
+            }
+
+            if( string.IsNullOrWhiteSpace( this.Category ) == false )
+            {
+                // Make singular.
+                list.Add( this.Category.ToLower().TrimEnd( 's' ) );
+            }
+
+            return list;
+        }
 
         public Uri GetDirectLink()
         {
