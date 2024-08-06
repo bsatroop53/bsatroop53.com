@@ -13,7 +13,7 @@ layout: aboutpage
 {
     <div class="row">
         <div class="col-md-12">
-            <h3>@fileCategory</h3>
+            <h4>@fileCategory</h4>
             <ul>
                 @foreach( ArchivedFile file in fileList[fileCategory].OrderBy( f => f.get_Date().Value ) )
                 {

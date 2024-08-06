@@ -27,6 +27,22 @@ Most of the old website was archived by [archive.org](https://archive.org/)'s [W
 
 Various Castleton, NY Scouting America Troops have been in the news over the years.  Below is a list of archived newspapers, town documents, and other forms of media that contains information about Troop 53, Troop 253, Pack 253, or Sea Scout Crew 153.
 
+### Copyright Notice
+
+To the best of our ability, all hosted media's copyright has expired.  Most media is either:
+
+* In the public domain (published before @(DateTime.Now.Year - 96), or published by the government).
+* Copyright holders no longer exist (e.g. newspaper is no longer printed).
+* Newspapers published before 1978 did not have a copyright notice or did not get renewed.
+* Media could fall under fair use.
+  * This website generates no profit.
+  * Most hosted files are non-fictional, fact-based news articles.
+  * Articles are no longer in print.
+
+If you own the copyright of an article and do not agree with this, please reach out to @(Model.Site.Config["contact"].ToString()).  If it is a legit claim, it will be taken down from our file server.  Bare in mind, we have no control over archive.org, you'll have to [contact](https://archive.org/about/terms.php) them directly to take down any files hosted there.  We also have no control over IPFS.  Their contact information is [here](https://ipfs.tech/legal).
+
+### File list
+
 Each file has three links associated with it:
 
 * Direct - Link to the original file.  Use this one to start with.
