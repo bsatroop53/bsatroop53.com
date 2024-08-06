@@ -29,7 +29,7 @@ Various Castleton, NY Scouting America Troops have been in the news over the yea
 
 ### Copyright Notice
 
-To the best of our ability, all hosted media's copyright has expired.  Most media is either:
+To the best of our ability, we believe all hosted media's copyright either has expired or can fall under fair-use.  Most media is either:
 
 * In the public domain (published before @(DateTime.Now.Year - 96), or published by the government).
 * Copyright holders no longer exist (e.g. newspaper is no longer printed).
