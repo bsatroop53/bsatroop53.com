@@ -66,7 +66,7 @@ namespace SitePlugin
 
             Console.WriteLine( "Parsing Archived T53 file info list..." );
             {
-                Dictionary<string, string> ipfsData = ParseIpfsFile( new FileInfo( Path.Combine( context.SourceFolder, "fileinfo", "archive_ipfs.xml" ) ) );
+                Dictionary<string, string> ipfsData = ParseIpfsFile( new FileInfo( Path.Combine( context.SourceFolder, "fileinfo", "archived_files_ipfs.xml" ) ) );
                 IReadOnlyDictionary<string, IReadOnlyList<ArchivedFile>> archiveFileData = ParseArchivedFileInfo( context, ipfsData );
                 ArchivedFileData = archiveFileData;
             }
@@ -207,9 +207,9 @@ namespace SitePlugin
         }
 
         private static IReadOnlyDictionary<string, IReadOnlyList<ArchivedFile>> ParseArchivedFileInfo(
-                    SiteContext context,
-                    Dictionary<string, string> ipfsInfo
-                )
+            SiteContext context,
+            Dictionary<string, string> ipfsInfo
+        )
         {
             var dict = new Dictionary<string, List<ArchivedFile>>();
 
@@ -258,6 +258,11 @@ namespace SitePlugin
                         Troop253Mentioned = string.IsNullOrWhiteSpace( csv[Array.IndexOf( headers, "troop 253" )] ) == false,
                         Troop53Mentioned = string.IsNullOrWhiteSpace( csv[Array.IndexOf( headers, "troop 53" )] ) == false,
                     };
+
+                    if( ipfsInfo.ContainsKey( file.FileName ) )
+                    {
+                        file = file with { IpfsCid = ipfsInfo[file.FileName] };
+                    }
 
                     string categoryTitle = textInfo.ToTitleCase( file.Category );
                     if( dict.ContainsKey( categoryTitle ) == false )
