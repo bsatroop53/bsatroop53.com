@@ -1,25 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Files>
-  <File name="knickerbocker_news_1940_feb_20_nine_advance.pdf">
-    <IpfsHash>QmUNFbXYRyLBUcoKwaiAToASsJhvR1rGzCuqiX4FD2wbgu</IpfsHash>
-  </File>
-  <File name="albany_evening_news_1937_jun_29_camp_sign_up.pdf">
-    <IpfsHash>QmYPy5RcFayQU5FLKVYCAzWojy4iH5w7SQ5AqYhwmRXUUC</IpfsHash>
-  </File>
-  <File name="albany_evening_news_1937_jun_11_camp_sign_up.pdf">
-    <IpfsHash>Qmb9EE7FQ1LhxTsN6G8HhJhF5JiYGJAAq3FJhckfL5szfu</IpfsHash>
-  </File>
-  <File name="albany_evening_news_1927_may_17_movie.pdf">
-    <IpfsHash>QmdbtSPap6qbeeUDhSSBGoZ2qHmnWUA7rU3Xd3rTvUJCkT</IpfsHash>
-  </File>
-  <File name="chatham_courier_1971_july_1_soar.pdf">
-    <IpfsHash>QmfNow2wLHvYUpmQq4n8FCgu1Rg6e7SPGKAcMVToUCSe1b</IpfsHash>
-  </File>
-  <File name="knickerbocker_news_1939_dec_20_awards.pdf">
-    <IpfsHash>QmePE3X8F827j45tNxXFGK5FASoJyGhpac6dwbfcwcrCma</IpfsHash>
-  </File>
-  <File name="knickerbocker_press_1928_apr_25_CarlosMorganEagle.pdf">
-    <IpfsHash>QmWrkzj2MWARasPVPpqgQWqzGGNpo3ZPXNK74peY5xFKV8</IpfsHash>
+  <File name="knickerbocker_news_1969_sep_24_t253_clam_bake.pdf">
+    <IpfsHash>QmWsmrvD5vZdv3tmqjNmAguhLzPGGn9VnsLrkNsUCBhLSg</IpfsHash>
   </File>
   <File name="albany_evening_news_1936_sep_25_promotions.pdf">
     <IpfsHash>Qmd4bxcGVLuasa72MQxgJy5TYVXwAvRomDE38dn8TpWimJ</IpfsHash>
@@ -27,7 +9,25 @@
   <File name="albany_evening_news_1936_jun_25_big_moose.pdf">
     <IpfsHash>QmafztfW8mG7K25EzTZBAeFsf5vtjM7hfnkCydnCiX1oEn</IpfsHash>
   </File>
-  <File name="knickerbocker_news_1969_sep_24_t253_clam_bake.pdf">
-    <IpfsHash>QmWsmrvD5vZdv3tmqjNmAguhLzPGGn9VnsLrkNsUCBhLSg</IpfsHash>
+  <File name="knickerbocker_press_1928_apr_25_CarlosMorganEagle.pdf">
+    <IpfsHash>QmWrkzj2MWARasPVPpqgQWqzGGNpo3ZPXNK74peY5xFKV8</IpfsHash>
+  </File>
+  <File name="knickerbocker_news_1939_dec_20_awards.pdf">
+    <IpfsHash>QmePE3X8F827j45tNxXFGK5FASoJyGhpac6dwbfcwcrCma</IpfsHash>
+  </File>
+  <File name="albany_evening_news_1927_may_17_movie.pdf">
+    <IpfsHash>QmdbtSPap6qbeeUDhSSBGoZ2qHmnWUA7rU3Xd3rTvUJCkT</IpfsHash>
+  </File>
+  <File name="chatham_courier_1971_july_1_soar.pdf">
+    <IpfsHash>QmfNow2wLHvYUpmQq4n8FCgu1Rg6e7SPGKAcMVToUCSe1b</IpfsHash>
+  </File>
+  <File name="knickerbocker_news_1940_feb_20_nine_advance.pdf">
+    <IpfsHash>QmUNFbXYRyLBUcoKwaiAToASsJhvR1rGzCuqiX4FD2wbgu</IpfsHash>
+  </File>
+  <File name="albany_evening_news_1937_jun_11_camp_sign_up.pdf">
+    <IpfsHash>Qmb9EE7FQ1LhxTsN6G8HhJhF5JiYGJAAq3FJhckfL5szfu</IpfsHash>
+  </File>
+  <File name="albany_evening_news_1937_jun_29_camp_sign_up.pdf">
+    <IpfsHash>QmYPy5RcFayQU5FLKVYCAzWojy4iH5w7SQ5AqYhwmRXUUC</IpfsHash>
   </File>
 </Files>
