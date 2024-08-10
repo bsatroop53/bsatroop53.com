@@ -10,7 +10,7 @@ is_about: true
 
 ## Original Website Archive
 
-Most of the old website was archived by [archive.org](https://archive.org/)'s [Wayback Machine](https://web.archive.org/).  You can view the old site by clicking the links below.  Much of the information on this website originated from there.
+The Troop had a website in the early 2000's.  Most of the old website was archived by [archive.org](https://archive.org/)'s [Wayback Machine](https://web.archive.org/).  You can view the old site by clicking the links below.  Much of the information on this website originated from there.
 
 * [Home](https://web.archive.org/web/20111005112803/http://bsatroop53.com/default.aspx)
 * [Calendar](https://web.archive.org/web/20111005112803/http://bsatroop53.com/calendar.aspx)
@@ -31,13 +31,14 @@ Various Castleton, NY Scouting America Troops have been in the news over the yea
 
 To the best of our ability, we believe all hosted media's copyright either has expired or can fall under fair-use.  Most media is either:
 
-* In the public domain (published before @(DateTime.Now.Year - 96), or published by the government).
-* Copyright holders no longer exist (e.g. newspaper is no longer printed).
-* Newspapers published before 1978 did not have a copyright notice or did not get renewed.
-* Media could fall under fair use.
+* In the public domain.
+  * (published before @(DateTime.Now.Year - 96), or published by the government).
+  * Published before 1978 that did not have a copyright notice.
+  * Published between 1978-1989 that did not have a copyright notice and did not get a copyright registered.
+* Could fall under fair use.
   * This website generates no profit.
   * Most hosted files are non-fictional, fact-based news articles.
-  * Articles are no longer in print.
+  * Articles are no longer in print, and not accessible online from the original publisher.
 
 If you own the copyright of an article and do not agree with this, please reach out to @(Model.Site.Config["contact"].ToString()).  If it is a legit claim, it will be taken down from our file server.  Bare in mind, we have no control over archive.org, you'll have to [contact](https://archive.org/about/terms.php) them directly to take down any files hosted there.  We also have no control over IPFS.  Their contact information is [here](https://ipfs.tech/legal).
 
