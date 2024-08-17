@@ -56,12 +56,12 @@
         <Editions>
             <Edition filename="BSA Handbook Original Edition.pdf">
                 <DisplayName>PDF</DisplayName>
-                <OrignalUrl>https://files.shendrick.net/bsa/BSA%20Handbook%20Original%20Edition.pdf</OrignalUrl>
-                <ArchiveOrgUrl>https://web.archive.org/web/20240609221312/https://files.shendrick.net/bsa/BSA%20Handbook%201st%20Edition,%201911.pdf</ArchiveOrgUrl>
+                <OrignalUrl>https://files.bsatroop53.com/handbooks/BSA%20Handbook%20Original%20Edition.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240817160907/https://files.bsatroop53.com/handbooks/BSA%20Handbook%20Original%20Edition.pdf</ArchiveOrgUrl>
             </Edition>
             <Edition filename="boyscoutsofameri00seto.epub">
                 <DisplayName>EPUB</DisplayName>
-                <OrignalUrl>https://files.shendrick.net/bsa/boyscoutsofameri00seto.epub</OrignalUrl>
+                <OrignalUrl>https://files.bsatroop53.com/handbooks/boyscoutsofameri00seto.epub</OrignalUrl>
                 <ArchiveOrgUrl>https://archive.org/download/boyscoutsofameri00seto/boyscoutsofameri00seto.epub</ArchiveOrgUrl>
             </Edition>
         </Editions>
@@ -77,13 +77,24 @@
             </Edition>
             <Edition filename="BSA Handbook 1st Edition, 1911.pdf">
                 <DisplayName>PDF</DisplayName>
-                <OrignalUrl>https://files.shendrick.net/bsa/BSA%20Handbook%201st%20Edition,%201911.pdf</OrignalUrl>
-                <ArchiveOrgUrl>https://web.archive.org/web/20240609221312/https://files.shendrick.net/bsa/BSA%20Handbook%201st%20Edition,%201911.pdf</ArchiveOrgUrl>
+                <OrignalUrl>https://files.bsatroop53.com/handbooks/BSA%20Handbook%201st%20Edition,%201911.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://web.archive.org/web/20240817160753/https://files.bsatroop53.com/handbooks/BSA%20Handbook%201st%20Edition,%201911.pdf</ArchiveOrgUrl>
             </Edition>
             <Edition filename="pg29558-images.epub">
                 <DisplayName>EPUB3</DisplayName>
                 <OrignalUrl>https://www.gutenberg.org/ebooks/29558.epub3.images</OrignalUrl>
                 <ArchiveOrgUrl>https://archive.org/download/boyscoutshandboo29558gut/pg29558-images.epub</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
+    <File>
+        <DisplayName>1920 - Scoutmastership</DisplayName>
+        <Category>Handbooks</Category>
+        <Editions>
+            <Edition filename="scoutmastership_1920.pdf">
+                <DisplayName>PDF</DisplayName>
+                <OrignalUrl>https://files.bsatroop53.com/handbooks/scoutmastership_1920.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://archive.org/details/scoutmastershiph00bade/page/n7/mode/2up</ArchiveOrgUrl>
             </Edition>
         </Editions>
     </File>
