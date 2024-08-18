@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Files>
+  <File name="BSA Handbook 1st Edition, 1911.pdf">
+    <IpfsHash>QmYkn9sAdmdq2vHS3ui6CRTuZsYh6ua3jdi7kLFdAL9Ueh</IpfsHash>
+  </File>
+  <File name="BSA Handbook Original Edition.pdf">
+    <IpfsHash>QmZFm9mRC33oNE3QC4wdba1mPwdrvzUfWZXe2kb65mog1L</IpfsHash>
+  </File>
   <File name="scoutmastership_1920.pdf">
     <IpfsHash>QmUTN3995z2dkT13vwJa7PFniF3E1q67yQpAMnfpu7pbf2</IpfsHash>
   </File>
