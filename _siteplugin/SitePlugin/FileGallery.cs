@@ -56,9 +56,33 @@ namespace SitePlugin
 
         public void Transform( SiteContext context )
         {
-            Console.WriteLine( "Parsing BSA T53 file info list..." );
+            var ipfsData = new Dictionary<string, string>();
+
+            Console.WriteLine( "Parsing IPFS Info..." );
+
+            foreach( var kvp in ParseIpfsFile( new FileInfo( Path.Combine( context.SourceFolder, "fileinfo", "ipfs.xml" ) ) ) )
             {
-                Dictionary<string, string> ipfsData = ParseIpfsFile( new FileInfo( Path.Combine( context.SourceFolder, "fileinfo", "ipfs.xml" ) ) );
+                ipfsData.Add( kvp.Key, kvp.Value );
+            }
+
+            foreach( var kvp in ParseIpfsFile( new FileInfo( Path.Combine( context.SourceFolder, "fileinfo", "archived_files_ipfs.xml" ) ) ) )
+            {
+                if(
+                    ipfsData.ContainsKey( kvp.Key ) &&
+                    ( ipfsData[kvp.Key] == kvp.Value )
+                )
+                {
+                    // If the CID already exists, just skip it.
+                    continue;
+                }
+                ipfsData.Add( kvp.Key, kvp.Value );
+            }
+
+            Console.WriteLine( "Parsing IPFS Info... Done!" );
+
+            Console.WriteLine( "Parsing BSA T53 file info list..." );
+
+            {
                 IReadOnlyDictionary<string, IReadOnlyList<T53File>> fileData = ParseFileInfo( context, ipfsData );
                 FileData = fileData;
             }
@@ -66,7 +90,6 @@ namespace SitePlugin
 
             Console.WriteLine( "Parsing Archived T53 file info list..." );
             {
-                Dictionary<string, string> ipfsData = ParseIpfsFile( new FileInfo( Path.Combine( context.SourceFolder, "fileinfo", "archived_files_ipfs.xml" ) ) );
                 IReadOnlyDictionary<string, IReadOnlyList<ArchivedFile>> archiveFileData = ParseArchivedFileInfo( context, ipfsData );
                 ArchivedFileData = archiveFileData;
             }
