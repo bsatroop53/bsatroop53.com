@@ -98,6 +98,17 @@
             </Edition>
         </Editions>
     </File>
+    <File>
+        <DisplayName>1920 - Boy Scout Song Book</DisplayName>
+        <Category>Handbooks</Category>
+        <Editions>
+            <Edition filename="1920_bsa_song_book.pdf">
+                <DisplayName>PDF</DisplayName>
+                <OrignalUrl>https://files.bsatroop53.com/handbooks/1920_bsa_song_book.pdf</OrignalUrl>
+                <ArchiveOrgUrl>https://archive.org/details/boyscout00boys/mode/1up</ArchiveOrgUrl>
+            </Edition>
+        </Editions>
+    </File>
     <!-- Advancement -->
     <File>
         <DisplayName>Guide To Advancement</DisplayName>
