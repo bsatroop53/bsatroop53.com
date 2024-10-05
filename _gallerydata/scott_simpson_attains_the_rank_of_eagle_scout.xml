@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/scott_simpson_attains_the_rank_of_eagle_scout" ThumbnailOutputDir="static/img/galleries/scott_simpson_attains_the_rank_of_eagle_scout/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="scottsimpson_1.jpg">
+    <Alt>Two people.  The person on the left is wearing a suit, and presenting an award.  The person on the right is wearing a class A, an Order of the Arrow sash, and a merit badge sash.</Alt>
+    <Caption>Photo from the Chatham Courier, credited to William Lisosky.  The caption read: "EAGLE SCOUT Scott S. Simpson, a member of the South Schodack Boy Scout Troop 253, is shown with Schodack Town Supervisor G. Jeffrey Haber who presented him with the Town aware during (the) Court of Honor.  Scott is the son of Mr. and Mrs. Earl Simpson of Kingman Road, Nassau."</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+</ImageGallery>
