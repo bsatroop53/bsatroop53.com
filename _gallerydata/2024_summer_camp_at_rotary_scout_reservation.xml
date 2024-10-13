@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/2024_summer_camp_at_rotary_scout_reservation" ThumbnailOutputDir="static/img/galleries/2024_summer_camp_at_rotary_scout_reservation/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="rotary_2024_1.jpg">
+    <Alt>19 people in Class A uniforms smiling for the camera.  To the left is the American flag, and to the right is the Troop flag.  There is text above and below the photo that reads "Rotary Scout Reservation 2024.  Troop 53.  Castleton Kiwanis.  August 4-10, 2024.</Alt>
+    <Caption>The official camp photo of the troop.</Caption>
+    <ThumbnailScale>0.7501241174071981</ThumbnailScale>
+  </Image>
+</ImageGallery>
