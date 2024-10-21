@@ -1,8 +1,12 @@
 ---
 layout: imagegallerypage4
 ---
+@using System.Xml.Linq;
+@using Pretzel.SethExtensions.ImageGallery;
 @{
     // Just here to separate eagle scout pages
     // from the rest of the pages.
 }
 @Raw( Model.Content )
+
+<p>There have been a total of @Model.GetImageGalleryConfig().Count() Eagle Scouts.</p>
