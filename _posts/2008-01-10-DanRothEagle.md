@@ -1,10 +1,11 @@
 --- 
-layout: post
+layout: imagegallerypost2
 title: "Daniel Roth Receives Scouting's Highest Rank"
 author: "BSA Troop 53"
 category: "News"
 description: "Town of Schodack Resolution for when Daniel Roth received his Eagle Scout rank."
-tags: [award, daniel roth, eagle, rank, scout]
+tags: [award, daniel roth, eagle, rank, sacred heart, scout]
+image_gallery: "_gallerydata/dan_roth_eagle.xml"
 ---
 
 2008-068
@@ -24,3 +25,7 @@ WHEREAS, Daniel is interested in pursuing a degree in Criminal Justice at the St
 NOW, THEREFORE, BE IT RESOLVED, that the Town Board of the Town of Schodack commends and congratulates Daniel M. Roth upon the auspicious occasion of being awarded the rank of Eagle Scout, Boy Scouts of America; and
 
 BE IT FURTHER RESOLVED, that Supervisor Secor present a copy of this resolution, suitably engrossed to Daniel M. Roth.
+
+## Photos
+
+Below are photos from Dan's Eagle Scout Ceremony, which took place at Sacred Heart Church.

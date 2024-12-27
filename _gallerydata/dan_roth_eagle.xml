@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageGallery ImageDir="static/img/galleries/dan_roth_eagle" ThumbnailOutputDir="static/img/galleries/dan_roth_eagle/thumbnails/" DefaultThumbnailScale="0.85">
+    <Image FileName="dan_roth_eagle_ceremony.jpg">
+        <Alt>Four people wearing Class A Uniforms.  On the left is a scout giving the scout sign.  In the middle is a scout lighting a candle.  On the right is an adult speaking behind a podium.</Alt>
+        <Caption>Dan Roth (left) gives the scout sign.</Caption>
+    </Image>
+</ImageGallery>
