@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/1935_assorted_photos" ThumbnailOutputDir="static/img/galleries/1935_assorted_photos/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="1935_1.jpg">
+    <Alt>A troop photo in black and white.  There are names under the photo.  The text reads: Earl Brist, Jack Ray, Ray Baker, Peter Andrews, Tom Latham, Bill Grotan, Al Bleadow, G Kirsh, David Van De Wal, Bob Sancomb, Irv Scott, Ray Schroeder, Bill Stolp, Rev Ton, Donald Paul, Ed Fulgo, Ed Hotaling.</Alt>
+    <Caption>Troop photo from around 1935.  Most of the names of the scouts have been recorded on the photo.  Unfortunately, there are a couple of names missing.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+</ImageGallery>
