@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/2008_campbell_island_canoe_camping" ThumbnailOutputDir="static/img/galleries/2008_campbell_island_canoe_camping/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="2008_campbell_island_1_2.jpg">
+    <Alt>Three canoes full of people arrive on a rocky beach.</Alt>
+    <Caption />
+    <ThumbnailScale>0.65</ThumbnailScale>
+  </Image>
+  <Image FileName="2008_campbell_island_2_1.jpg">
+    <Alt>A picture of a rocky beach.  There is a small cliff above the beach, on which there are several tents and the smoke of a fire.</Alt>
+    <Caption />
+    <ThumbnailScale>0.8542802161901456</ThumbnailScale>
+  </Image>
+</ImageGallery>
