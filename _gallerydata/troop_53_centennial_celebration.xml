@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/troop_53_centennial_celebration" ThumbnailOutputDir="static/img/galleries/troop_53_centennial_celebration/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="100_year_79.jpg">
+    <Alt>A patch that says "Castleton Troop 53 100 years 1924-2024".  To the left is a tent with 7 gold stars surrounding a camp fire.  To the right is the American flag.  In the center is a scout standing at attention.</Alt>
+    <Caption>The official centennial patch.  The 7 gold stars surrounding the fire represent the seven Gold Star Scouts, scouts who gave their lives defending their country.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_001_80.jpg">
+    <Alt>A bunch of scouting memorabilia.  To the top is a sign that says "Troop 53, BSA.  Castleton On Hudson,  New York.  Sine 1924.  Mahikan District, Twin Rivers Council".  There are photos of eagle scouts, a 70 year celebration, and an old rank chart.</Alt>
+    <Caption>A collection of Troop 53 memorabilia, including a troop sign, an old rank chart, and pictures of Troop 53's Eagle Scouts.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_02_81.jpg">
+    <Alt>A bunch of scouting memorabilia.  There are four old class A uniforms, an old Boy's Life Magazine, old neckerchiefs, and patches.</Alt>
+    <Caption>Old class A uniforms on display.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_03_82.jpg">
+    <Alt>A bunch of scouting memorabilia.  There are four old class A uniforms, an old Boy's Life Magazine, old neckerchiefs, and patches.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_04_83.jpg">
+    <Alt>The Troop 53 sleigh, which a life raft on it.  There are also pictures of knots surrounding it.</Alt>
+    <Caption>The troop sleigh, used for Klondike Derbys.  On it is a life raft of the S.S.S. Venture, which was Sea Scout Troop 153 of Castleton NY's boat.  In the back are pictures of some of Troop 53's Gold Star Scouts.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_05_84.jpg">
+    <Alt>A cake that has the centennial patch on it.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_06_85.jpg">
+    <Alt>A chocolate and vanilla cake with a sign that says "Happy 100th Anniversary, 1924-2024"</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_08_86.jpg">
+    <Alt>The Scouting America Logo, hand drawn with sharpie.</Alt>
+    <Caption>This was a candle holder used during court of honors.  The candles were mounted behind the logo.  This was build by Seth Hendrick (Eagle Scout, 2009) and his family and then donated to the troop to replace the old candle holder, which was broken.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_09_87.jpg">
+    <Alt>Two scouts taking apart a chuck box.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_100_88.jpg">
+    <Alt>A man in a tan class A uniform speaking into a microphone at a podium.</Alt>
+    <Caption>Charted Organization Representative, Kurt Maier, welcomes everyone to the dinner.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_104_89.jpg">
+    <Alt>Two men stand behind a podium.  One is wearing a green class A and speaking.</Alt>
+    <Caption>Unit Commissioner, Richard Noll (left) and District Commissioner, William Clancy (right) present the official charter to Troop 53.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_106_90.jpg">
+    <Alt>A man speaking into a microphone at a podium.</Alt>
+    <Caption>New York State Senator, Jake Ashby, gives proclamations celebrating the troop's 100 years.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_110_91.jpg">
+    <Alt>A gray-haired man speaking into a microphone at a podium.</Alt>
+    <Caption>Scott VanNederynen (Eagle Scout, 1978) gives a speech on the history of Troop 53.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_113_92.jpg">
+    <Alt>A man wearing a black polo and an eagle metal speaking into a microphone at a podium.</Alt>
+    <Caption>Paul Albertine (Eagle, 1976) gives speech on the Gold Star Scouts, scouts who lost their lives serving their country.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_115_93.jpg">
+    <Alt>A man in a tan class A uniform speaking into a microphone at a podium.</Alt>
+    <Caption>Scoutmaster, Jeffrey Brewer, gives remarks.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_200_94.jpg">
+    <Alt>A two scoutsn in tan class A uniforms speaking into a microphone at a podium.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_201_95.jpg">
+    <Alt>A two scouts in tan class A uniforms speaking into a microphone at a podium.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_203_96.jpg">
+    <Alt>A two scouts in tan class A uniforms speaking into a microphone at a podium.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_207_97.jpg">
+    <Alt>A three scouts in tan class A uniforms speaking into a microphone at a podium.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_210_98.jpg">
+    <Alt>One scout lights a candle on the stage.  There is one candle per scout rank.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_300_99.jpg">
+    <Alt>A scout giving an award to another scout.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_301_100.jpg">
+    <Alt>A scout giving an award to another scout.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_302_101.jpg">
+    <Alt>A scout giving an award to another scout.  Both scouts shake hands.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_304_102.jpg">
+    <Alt>A scout giving an award to another scout.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_305_103.jpg">
+    <Alt>A scout giving an award to another scout.  Both scouts are shaking hands.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_306_104.jpg">
+    <Alt>A scout giving an award to another scout.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_307_105.jpg">
+    <Alt>A scout giving an award to another scout.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_308_106.jpg">
+    <Alt>A scout giving an award to another scout.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_438_118.jpg">
+    <Alt>A scout giving an award to another scout.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_399_107.jpg">
+    <Alt>Five scouts and adults standing on stage.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_400_108.jpg">
+    <Alt>Five scouts and adults standing on stage.  The scoutmaster is pointing to the left (his right).</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_401_109.jpg">
+    <Alt>Four scouts and adults talking to each other on stage.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_405_110.jpg">
+    <Alt>The scoutmaster giving an award to a scout.  He is joined by other adults and scouts standing beside him.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_407_111.jpg">
+    <Alt>The scoutmaster giving an award to a scout.  He is joined by other adults and scouts standing beside him.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_417_112.jpg">
+    <Alt>The scoutmaster giving an award to a scout.  He is joined by other adults and scouts standing beside him.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_423_113.jpg">
+    <Alt>The scoutmaster giving an award to two scouts.  He is joined by other adults and scouts standing beside him.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_431_114.jpg">
+    <Alt>The scoutmaster giving an award to a scout.  He is joined by other adults and scouts standing beside him.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_432_115.jpg">
+    <Alt>The scoutmaster giving an award to a scout.  He is joined by other adults and scouts standing beside him.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_435_116.jpg">
+    <Alt>The scoutmaster giving an award to a scout.  He is joined by other adults and scouts standing beside him.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_437_117.jpg">
+    <Alt>The scoutmaster giving an award to a scout.  He is joined by other adults and scouts standing beside him.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_442_119.jpg">
+    <Alt>The scoutmaster giving an award to a scout.  He is joined by other adults and scouts standing beside him.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_445_120.jpg">
+    <Alt>The scoutmaster giving an award to a scout.  He is joined by other adults and scouts standing beside him.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_446_121.jpg">
+    <Alt>The scoutmaster giving an award to a scout.  He is joined by other adults and scouts standing beside him.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_457_122.jpg">
+    <Alt>The scoutmaster giving an award to a scout.  He is joined by other adults and scouts standing beside him.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_462_123.jpg">
+    <Alt>The scoutmaster giving an award to a scout.  He is joined by other adults and scouts standing beside him.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_801_124.jpg">
+    <Alt>Two people smiling at the camera.  One of whom is eating cake.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_900_125.jpg">
+    <Alt>Two people in class A uniforms standing in front of a balloon wall with "100" behind them.  They are both wearing Eagle metals and neckerchiefs.</Alt>
+    <Caption>Assistant Scoutmaster, Ethan Maier (left) and Committee Member Ciaran Sweet (right) stand in front of the balloon wall.  Both earned Eagle Scout in 2023.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_901_126.jpg">
+    <Alt>A man in a class A uniform standing in front of the balloon wall.</Alt>
+    <Caption>Former Assistant Scout Master and Troop 53 Scout, Seth Hendrick.  Seth earned his Eagle in 2009.  He currently is a merit badge counselor for the Seneca Waterways Council in Rochester, NY.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_906_129.jpg">
+    <Alt>Three people in class A uniforms and one in a suit stand in front of the balloon wall.  They are holding a proclamation.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_902_127.jpg">
+    <Alt>Three men in class A uniforms and 2 in suits stand in front of the balloon wall.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_903_128.jpg">
+    <Alt>Three people in class A uniforms stand in front of the balloon wall.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_950_130.jpg">
+    <Alt>A man in a suit jacket and an Eagle Scout metal points to the TV with a water bottle.</Alt>
+    <Caption>Don McKnight points to a photo on the television screen.  Don was a Troop 53 scout and earned his Eagle Scout rank in 1976.  He later became scoutmaster of the troop from 2003 - 2008.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_952_132.jpg">
+    <Alt>Five people looking at photos on the TV.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_998_133.jpg">
+    <Alt>Two people wearing Troop 53 hats smiling for the camera.</Alt>
+    <Caption>Bob Warland (left) and Fred Wolfe (right).  Bob is a former Cubmaster of Pack 253, while Fred is a former assistant scoutmaster of Troop 53.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="centennial_999_134.jpg">
+    <Alt>29 people wearing class A uniforms on a stage.</Alt>
+    <Caption>Troop youth and adult members as of November, 2024!</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+</ImageGallery>
