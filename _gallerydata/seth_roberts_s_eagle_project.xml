@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/seth_roberts_s_eagle_project" ThumbnailOutputDir="static/img/galleries/seth_roberts_s_eagle_project/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="img-6287-1-orig_orig_11.jpg">
+    <Alt>11 Students singing and playing instruments in the front of a room.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+    <!--
+      Photo was taken from https://bsa53.weebly.com/news.html
+      This was the first one in the slideshow, assuming this is the first concert in December, 2017.
+    -->
+    <Date estimate="false">
+        <Year>2017</Year>
+        <Month>12</Month>
+        <Day>27</Day>
+    </Date>
+  </Image>
+  <Image FileName="img-4094_orig_1.jpg">
+    <Alt>Seth sits behind a piano wearing a bow tie.  There are older folks sitting in the audience.</Alt>
+    <Caption>Seth sitting behind a piano, with former librarian Darlene Miller standing to the right.</Caption>
+    <ThumbnailScale>0.99</ThumbnailScale>
+    <!--
+      Photo was taken from https://bsa53.weebly.com/news.html
+      Assuming this one is January, since there is still trees up, and clearly a different location from
+      the previous photo.
+    -->
+    <Date estimate="true">
+        <Year>2018</Year>
+        <Month>1</Month>
+        <Day>13</Day>
+    </Date>
+  </Image>
+  <Image FileName="img-4095_orig_2.jpg">
+    <!--
+      Photo was taken from https://bsa53.weebly.com/news.html
+      Assuming this one is January, since there is still trees up, and clearly a different location from
+      the first photo.
+    -->
+    <Alt>Seth is sitting behind a piano talking into a microphone.  There is a boy and 2 girl students to the right of him standing.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+    <Date estimate="true">
+        <Year>2018</Year>
+        <Month>1</Month>
+        <Day>13</Day>
+    </Date>
+  </Image>
+  <Image FileName="img-4096_orig_3.jpg">
+    <!--
+      Photo was taken from https://bsa53.weebly.com/news.html
+      Assuming this one is January, since there is still trees up, and clearly a different location from
+      the first photo.
+    -->
+    <Alt>Seth is sitting behind a piano talking into a microphone.  There is a boy and 2 girl students to the right of him standing.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+    <Date estimate="true">
+        <Year>2018</Year>
+        <Month>1</Month>
+        <Day>13</Day>
+    </Date>
+  </Image>
+  <Image FileName="img-4274_orig_4.jpg">
+    <!--
+      Photo was taken from https://bsa53.weebly.com/news.html
+      There's a Mardi Gras sign in the background, estimated that the concert was on that day.
+    -->
+    <Alt>A group of students stand in front of senior citizens.  One of whom is talking to a microphone.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+    <Date estimate="true">
+        <Year>2018</Year>
+        <Month>2</Month>
+        <Day>13</Day>
+    </Date>
+  </Image>
+  <Image FileName="img-4526_orig_9.jpg">
+    <!--
+      Photo was taken from https://bsa53.weebly.com/news.html
+      There's a Mardi Gras sign in the background, estimated that the concert was on that day.
+    -->
+    <Alt>The student on the left playing a melodica, the student on the right playing a saxophone.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+    <Date estimate="true">
+        <Year>2018</Year>
+        <Month>2</Month>
+        <Day>13</Day>
+    </Date>
+  </Image>
+  <Image FileName="img-4527_orig_10.jpg">
+    <!--
+      Photo was taken from https://bsa53.weebly.com/news.html
+      There's a Mardi Gras sign in the background, estimated that the concert was on that day.
+    -->
+    <Alt>The student on the left playing an acoustic guitar, the student on the right playing a saxophone.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+    <Date estimate="true">
+        <Year>2018</Year>
+        <Month>2</Month>
+        <Day>13</Day>
+    </Date>
+  </Image>
+  <Image FileName="img-4520_orig_6.jpg">
+    <!--
+      Photo was taken from https://bsa53.weebly.com/news.html
+      There's a Mardi Gras sign in the background, estimated that the concert was on that day.
+    -->
+    <Alt>A student on the left playing the ukulele, and a student on the right playing the Saxophone.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+    <Date estimate="true">
+        <Year>2018</Year>
+        <Month>3</Month>
+        <Day>13</Day>
+    </Date>
+  </Image>
+  <Image FileName="img-4515_orig_5.jpg">
+    <!--
+      Photo was taken from https://bsa53.weebly.com/news.html
+      This must be the forth concert that was mentioned on that website.
+      Given the lack of holiday decor, and one concert a month, this must be March or so?
+    -->
+    <Alt>A student is sitting at a piano, while two male students stand to the right of him, singing.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+    <Date estimate="true">
+        <Year>2018</Year>
+        <Month>3</Month>
+        <Day>13</Day>
+    </Date>
+  </Image>
+  <Image FileName="img-4521_orig_7.jpg">
+    <!--
+      Photo was taken from https://bsa53.weebly.com/news.html
+      This must be the forth concert that was mentioned on that website.
+      Given the lack of holiday decor, and one concert a month, this must be March or so?
+    -->
+    <Alt>A male student playing the piano, while another female student stands to the right of him.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+    <Date estimate="true">
+        <Year>2018</Year>
+        <Month>3</Month>
+        <Day>13</Day>
+    </Date>
+  </Image>
+  <Image FileName="img-4522_orig_8.jpg">
+    <!--
+      Photo was taken from https://bsa53.weebly.com/news.html
+      This must be the forth concert that was mentioned on that website.
+      Given the lack of holiday decor, and one concert a month, this must be March or so?
+    -->
+    <Alt>A student plays the piano.</Alt>
+    <Caption />
+    <ThumbnailScale>0.99</ThumbnailScale>
+    <Date estimate="true">
+        <Year>2018</Year>
+        <Month>3</Month>
+        <Day>13</Day>
+    </Date>
+  </Image>
+</ImageGallery>
