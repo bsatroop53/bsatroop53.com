@@ -148,7 +148,7 @@ namespace SitePlugin
                 for( int yearIndex = 0; yearIndex < yearKeys.Length; ++yearIndex )
                 {
                     int year = yearKeys[yearIndex];
-                    List<T53GalleryImage> imageList = localByYear[year];
+                    List<T53GalleryImage> imageList = localByYear[year].OrderBy( i => i.PhotoDate ).ToList();
 
                     for( int imageIndex = 0; imageIndex < imageList.Count; ++imageIndex )
                     {

@@ -70,7 +70,26 @@ namespace SitePlugin
         public DateTime OriginalLastModified => 
             this.PretzelImageContext.OriginalPhotoFilePath.LastWriteTimeUtc;
 
-        public int PhotoYear => PostPage.Date.Year;
+        public DateOnly PhotoDate
+        {
+            get
+            {
+                if( this.PretzelImageContext.ImageInfo.PhotoDate is not null )
+                {
+                    return this.PretzelImageContext.ImageInfo.PhotoDate.Value;
+                }
+                else
+                {
+                    return new DateOnly(
+                        this.PostPage.Date.Year,
+                        this.PostPage.Date.Month,
+                        this.PostPage.Date.Day
+                    );
+                }
+            }
+        }
+
+        public int PhotoYear => PhotoDate.Year;
 
         public string OriginalPhotoPath => 
             this.PretzelImageContext.OriginalPhotoFilePath.FullName;
