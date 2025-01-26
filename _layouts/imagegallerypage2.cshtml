@@ -36,6 +36,33 @@ layout: page
         var imageContext = imageData[i];
         <div class="col-md-6">
             <div class="panel panel-default" style="max-width:@(imageContext.ThumbnailWidth);">
+                @if( ( string.IsNullOrEmpty( imageContext.ImageInfo.SafeGetNotes() ) == false ) || imageContext.ImageInfo.get_PhotoDate().HasValue )
+                {
+                    <div class="panel-heading">
+                        <details class="editor-notes-details" aria-label="View Editor Notes">
+                            <summary class="editor-notes-summary">
+                                <i class="fa-solid fa-circle-info"></i>
+                            </summary>
+                            <div class="editor-notes-content">
+                                @if( imageContext.ImageInfo.get_PhotoDate().HasValue )
+                                {
+                                    @if( imageContext.ImageInfo.get_DateIsEstimate() )
+                                    {
+                                        <p><em><strong>Estimated Date of Photo:</strong> @imageContext.ImageInfo.get_PhotoDate().Value.ToString( "MMMM dd, yyyy" )</em></p>
+                                    }
+                                    else
+                                    {
+                                        <p><em><strong>Date of Photo:</strong> @imageContext.ImageInfo.get_PhotoDate().Value.ToString( "MMMM dd, yyyy" )</em></p>
+                                    }
+                                }
+                                @if( string.IsNullOrEmpty( imageContext.ImageInfo.SafeGetNotes() ) == false )
+                                {
+                                    <p><em><strong>Editor's Notes:</strong></em> @imageContext.ImageInfo.SafeGetNotes()</p>
+                                }
+                            </div>
+                        </details>
+                    </div>
+                }
                 <div class="panel-body">
                     <a href="@imageContext.OriginalPhotoUrl" target="_blank">
                         <img src="@imageContext.ThumbnailUrl" alt="@imageContext.ImageInfo.SafeGetAlt()" class="thumbnailimage" />

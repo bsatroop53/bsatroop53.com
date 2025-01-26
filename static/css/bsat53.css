@@ -143,3 +143,49 @@ table {
 .mapDescription {
     font-size: medium;
 }
+
+.panel-footer {
+    background-color: #faf2e5
+}
+
+.editor-notes-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.editor-notes-summary {
+    padding: 10px;
+    cursor: pointer;
+    user-select: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.editor-notes-summary::-webkit-details-marker {
+    display: none;
+}
+
+.editor-notes-button {
+    margin-right: 0.5em;
+}
+  
+.editor-notes-content {
+  padding: 10px;
+}
+  
+/* Optional: Animation for smooth expansion */
+details[open] .editor-notes-content {
+  animation: editorNotesSlideDown 0.3s ease-out;
+}
+  
+@keyframes editorNotesSlideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
