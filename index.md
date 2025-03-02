@@ -7,9 +7,9 @@ tags: [home]
 
 Welcome to the website of Troop 53 of Castleton, NY!
 
-## Troop 53 Turns 100
+Troop 53 is Castleton's Scouts BSA unit.  The troop was founded over 100 years ago.  Since then, Scouting has had a rich history in the Castleton / Schodack community.  This website's purpose is to provide that history in a central location.
 
-2024 is the 100-year anniversary of Troop 53!  To celebrate, the old troop website was found from the [archives](/about/archive.html) and remade to what you see today!
+## Contributing Content
 
 If you are a current or former member of the Troop, and wish to add a post to this site, please checkout the editor at [https://edit.bsatroop53.com/](https://edit.bsatroop53.com/).  Posts can be photos of camping trips or outings, Eagle projects, Dutch oven recipes, or pretty much anything related to the troop.
 
