@@ -4,9 +4,9 @@ layout: nil
 /* Team */
 
     Seth Hendrick
-        GitHub: https://tech.lgbt/@@xforever1313
+        GitHub: https://github.com/xforever1313
         Mastodon: https://tech.lgbt/@@xforever1313
-        Twitter: https://twitter.com/xforever1313
+        Bluesky: https://bsky.app/profile/shendrick.net
         Website: https://shendrick.net
 
 /* Site */
