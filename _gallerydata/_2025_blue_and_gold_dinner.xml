@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/_2025_blue_and_gold_dinner" ThumbnailOutputDir="static/img/galleries/_2025_blue_and_gold_dinner/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="bgd2025_7_7.jpg">
+    <Alt>Six scouts help serve dinner.  All are wearing class A's and wearing purple gloves.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="bgd2025_2_2.jpg">
+    <Alt>Two scouts are reaching over to help remove the Webelos neckerchief off of a Cub Scout.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="bgd2025_3_3.jpg">
+    <Alt>A girl Cub Scout has her Webelos neckerchief removed with the help of an older scout.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="bgd2025_5_5.jpg">
+    <Alt>A girl Cub Scout crosses over a small bridge.  One half of the bridge is painted blue and gold, the other side is tan.</Alt>
+    <Caption>The bridge cubs cross over to enter Scouts BSA.  Blue and Gold represent the colors of Cub Scouts, while the tan represents Scouts BSA.  The neckerchiefs in the front are (left-to-right) Lion Scouts, Tiger Scouts, Bear Scouts, and Webeblos.</Caption>
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="bgd2025_4_4.jpg">
+    <Alt>Two adults congratulating a cub scout after crossing over.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="bgd2025_6_6.jpg">
+    <Alt>Two older scouts help a younger cub scout put on the Scouts BSA neckerchief.  A scout with red-dyed hair looks towards them.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="bgd2025_1_1.jpg">
+    <Alt>Sixteen scouts and adults wearing class A uniforms smiling at the camera.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+</ImageGallery>
