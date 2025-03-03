@@ -1,0 +1,40 @@
+---
+layout: nil
+---
+@using Pretzel.Logic.Templating.Context;
+@using Pretzel.SethExtensions;
+@using SitePlugin;
+@{
+    var fileList = FileGallery.ArchivedFileData;
+}
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<JallerFiles version="1">
+    <folder name="Scouting America Troop 53 of Castleton, NY">
+    @foreach( string fileCategory in fileList.Keys.OrderBy( c => c ) )
+    {
+        <folder name="@fileCategory">
+            @foreach( ArchivedFile file in fileList[fileCategory] )
+            {
+                string ipfsHash = file.get_IpfsCid();
+                @if( string.IsNullOrWhiteSpace( ipfsHash ) )
+                {
+                    continue;
+                }
+                <file name="@file.get_FileName()">
+                    <cid>@ipfsHash</cid>
+                    <description>@file.get_Title()</description>
+                    <downloadable>Public</downloadable>
+                    <metadata>Public</metadata>
+                    <mimetype />
+                    <tags>
+                        @foreach( string tag in file.GetAllTags() )
+                        {
+                            <tag>@tag</tag>
+                        }
+                    </tags>
+                </file>
+            }
+        </folder>
+    }
+    </folder>
+</JallerFiles>
