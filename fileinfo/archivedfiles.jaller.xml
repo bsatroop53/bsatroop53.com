@@ -22,7 +22,7 @@ layout: nil
                 }
                 <file name="@file.get_FileName()">
                     <cid>@ipfsHash</cid>
-                    <description>@file.get_Title()</description>
+                    <description>@file.GetJallerDescription()</description>
                     <downloadable>Public</downloadable>
                     <metadata>Public</metadata>
                     <mimetype />

@@ -16,6 +16,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 //
 
+using System.Text;
+using DotLiquid.Util;
+
 namespace SitePlugin
 {
     /// <summary>
@@ -71,6 +74,53 @@ namespace SitePlugin
         public string? IpfsCid { get; init; }
 
         // ---------------- Functions ----------------
+
+        public string GetJallerDescription()
+        {
+            var builder = new StringBuilder();
+
+            if( string.IsNullOrWhiteSpace( this.Title ) )
+            {
+                builder.Append( "Untitled" );
+            }
+            else
+            {
+                builder.Append( this.Title );
+            }
+
+            builder.Append( " (" );
+            string firstComma = "";
+            if( string.IsNullOrWhiteSpace( this.OriginalSource ) == false )
+            {
+                builder.Append( this.OriginalSource );
+                firstComma = ", ";
+            }
+
+            string secondComma = "";
+            if( this.Date is not null )
+            {
+                builder.Append( firstComma );
+                builder.Append( this.Date.Value.ToString( "yyyy-MMM-dd" ) );
+
+                secondComma = ", ";
+            }
+
+            if( this.PageNumber is not null )
+            {
+                builder.Append( secondComma );
+                builder.Append( "p" + this.PageNumber );
+            }
+
+            builder.Append( ")" );
+
+            string str = builder.ToString();
+            if( str.EndsWith( "()" ) )
+            {
+                return str.Remove( str.Length - 2, 2 );
+            } 
+
+            return str;
+        }
 
         public bool IsAuthorSpecified()
         {
