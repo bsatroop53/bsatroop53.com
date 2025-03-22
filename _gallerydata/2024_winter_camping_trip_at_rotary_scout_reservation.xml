@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/2024_winter_camping_trip_at_rotary_scout_reservation" ThumbnailOutputDir="static/img/galleries/2024_winter_camping_trip_at_rotary_scout_reservation/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="2024_feezeout2_2.jpg">
+    <Alt>Four scouts sit on sleds about to go down a snowy hill.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.8929568397154327</ThumbnailScale>
+  </Image>
+  <Image FileName="2024_feezeout1_1.jpg">
+    <Alt>Two scouts are at the bottom of the hill; one is holding a tube, one is sitting on the ground.  Another scout stands looking at them at the top of the hill.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="2024_feezeout5_5.jpg">
+    <Alt>Eight scouts sledding down a hill.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="2024_feezeout6_6.jpg">
+    <Alt>Six scouts sledding down a snowy hill.  There is a frozen lake in the background.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="2024_feezeout7_7.jpg">
+    <Alt>Four scouts sledding down a snowy hill.  There is a frozen lake in the background.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="2024_feezeout4_4.jpg">
+    <Alt>Four scouts prepare a meal.  These are standing around a picnic table with ingredients on the table.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="2024_feezeout3_3.jpg">
+    <Alt>Three dutch ovens are sitting over coals.  There is a fire in a fireplace behind them.</Alt>
+    <Caption>Dutch Oven cooking!</Caption>
+    <Notes />
+    <ThumbnailScale>0.9899623114629044</ThumbnailScale>
+  </Image>
+</ImageGallery>
