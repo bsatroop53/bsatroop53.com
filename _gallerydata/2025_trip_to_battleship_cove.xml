@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/2025_trip_to_battleship_cove" ThumbnailOutputDir="static/img/galleries/2025_trip_to_battleship_cove/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="2025_battleshipcove_1.jpg">
+    <Alt>The troop stands on the shore.  Behind them are several battle ships.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+</ImageGallery>
