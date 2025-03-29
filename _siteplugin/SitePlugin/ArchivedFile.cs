@@ -152,7 +152,7 @@ namespace SitePlugin
 
             if( this.Crew153Mentioned )
             {
-                list.Add( "crew 153" );
+                list.Add( "ship 153" );
             }
 
             if( string.IsNullOrWhiteSpace( this.OriginalSource ) == false )

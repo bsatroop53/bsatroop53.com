@@ -268,7 +268,7 @@ namespace SitePlugin
                         AuthorFirstName = csv[Array.IndexOf( headers, "author first name" )],
                         AuthorLastName = csv[Array.IndexOf( headers, "author last name" )],
                         Category = csv[Array.IndexOf( headers, "category" )],
-                        Crew153Mentioned = string.IsNullOrWhiteSpace( csv[Array.IndexOf( headers, "crew 153" )] ) == false,
+                        Crew153Mentioned = string.IsNullOrWhiteSpace( csv[Array.IndexOf( headers, "ship 153" )] ) == false,
                         Database = csv[Array.IndexOf( headers, "database" )],
                         Date = new DateOnly( year, month, day ),
                         IsDateEstimate = dateIsEstimate,
