@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/robert_koss_earns_religious_emblem" ThumbnailOutputDir="static/img/galleries/robert_koss_earns_religious_emblem/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="robert_koss_1.jpg">
+    <Alt>A black and white newspaper photo of a boy wearing the class A uniform.  He is wearing glasses, and 253 is visible on his left arm.</Alt>
+    <Caption>Photo from the Chatham Courier, credited to William Lisosky.</Caption>
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+</ImageGallery>
