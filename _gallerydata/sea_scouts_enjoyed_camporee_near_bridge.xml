@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/sea_scouts_enjoyed_camporee_near_bridge" ThumbnailOutputDir="static/img/galleries/sea_scouts_enjoyed_camporee_near_bridge/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="1944_sss153_at_roll_call_spring_1.jpg">
+    <Alt>Eight Sea Scouts stand at attention in front of tents.  They are in their uniforms.  The photo is black-and-white.</Alt>
+    <Caption>Sea Scout Troop 153 at Roll Call.</Caption>
+    <Notes>It is not known for sure if this picture was taken during the camporee described in the article.  However, the date of the photo is 1944.  There are also eight Sea Scouts - the same amount as in the article.  While it isn't 100% certain, there is a high probability that this photo is from this camporee.</Notes>
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+</ImageGallery>
