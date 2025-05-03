@@ -12,27 +12,54 @@ layout: nil
     <folder name="Scouting America Troop 53 of Castleton, NY">
     @foreach( string fileCategory in fileList.Keys.OrderBy( c => c ) )
     {
+        var yearDict = new Dictionary<int, List<ArchivedFile>>();
         <folder name="@fileCategory">
             @foreach( ArchivedFile file in fileList[fileCategory] )
             {
-                string ipfsHash = file.get_IpfsCid();
-                @if( string.IsNullOrWhiteSpace( ipfsHash ) )
+                int year = 0;
+                @if( file.get_Date() != null )
                 {
-                    continue;
+                    year = file.get_Date().Value.Year;
                 }
-                <file name="@file.get_FileName()">
-                    <cid>@ipfsHash</cid>
-                    <description>@file.GetJallerDescription()</description>
-                    <downloadable>Public</downloadable>
-                    <metadata>Public</metadata>
-                    <mimetype />
-                    <tags>
-                        @foreach( string tag in file.GetAllTags() )
-                        {
-                            <tag>@tag</tag>
-                        }
-                    </tags>
-                </file>
+
+                @if( yearDict.ContainsKey( year ) == false )
+                {
+                    yearDict[year] = new List<ArchivedFile>();
+                }
+                yearDict[year].Add( file );
+            }
+
+            @foreach( var yearKvp in yearDict.OrderBy( kvp => kvp.Key ) )
+            {
+                string yearFolderName = "Undated";
+                @if( yearKvp.Key != 0 )
+                {
+                    yearFolderName = yearKvp.Key.ToString();
+                }
+
+                <folder name="@yearFolderName">
+                @foreach( ArchivedFile file in yearKvp.Value )
+                {
+                    string ipfsHash = file.get_IpfsCid();
+                    @if( string.IsNullOrWhiteSpace( ipfsHash ) )
+                    {
+                        continue;
+                    }
+                    <file name="@file.get_FileName()">
+                        <cid>@ipfsHash</cid>
+                        <description>@file.GetJallerDescription()</description>
+                        <downloadable>Public</downloadable>
+                        <metadata>Public</metadata>
+                        <mimetype />
+                        <tags>
+                            @foreach( string tag in file.GetAllTags() )
+                            {
+                                <tag>@tag</tag>
+                            }
+                        </tags>
+                    </file>
+                }
+                </folder>
             }
         </folder>
     }
