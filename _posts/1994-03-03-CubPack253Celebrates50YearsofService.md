@@ -31,5 +31,5 @@ The Pack will be traveling to Boston in June to ride on a While Watching boat an
 
 This is a transcription of an article posted to the now-defunct newspaper _The Independent_'s Thursday, March 3rd, 1994 edition.
 
-Below is an image of the original article, which was on page 31.  You can also see the entire page archived on [archive.org](https://archive.org/details/independent-page-31-1994-03-03/mode/1up) or [IPFS](https://gateway.pinata.cloud/ipfs/QmQ8tMKCWqehZgvLdLHazNwgk8obbvXK2pUL2RmQ8ZvYAZ).
+Below is an image of the original article, which was on page 31.  You can also see the entire page archived on [archive.org](https://archive.org/details/independent-page-31-1994-03-03/mode/1up) or [IPFS](https://ipfs.shendrick.net/ipfs/QmQ8tMKCWqehZgvLdLHazNwgk8obbvXK2pUL2RmQ8ZvYAZ).
 

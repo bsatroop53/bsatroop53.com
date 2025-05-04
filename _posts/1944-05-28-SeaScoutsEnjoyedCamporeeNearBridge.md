@@ -24,6 +24,6 @@ This was a transcription from The Hudson, NY Evening Register, page four on Thur
 
 * [Original Source](https://files.bsatroop53.com/newspapers/1944/hudson_ny_evening_register_1944_jun_1_s153_camporee.pdf)
 * [Archive.org Link](https://archive.org/details/hudson_ny_evening_register_1944_jun_1_s153_camporee)
-* [IPFS Link](https://gateway.pinata.cloud/ipfs/QmXxjAYeGf9RhchFXmoCgCGWqtrbLevL4RZGLSVoL8yBfx)
+* [IPFS Link](https://ipfs.shendrick.net/ipfs/QmXxjAYeGf9RhchFXmoCgCGWqtrbLevL4RZGLSVoL8yBfx)
 
 ## Photos

@@ -21,4 +21,4 @@ The firehouse is on Bame Road.
 
 This is a transcription of an article posted to the now-defunct newspaper _The Independent_'s Monday, May 16, 1994 edition.
 
-Below is an image of the original article, which was on page 30. You can also see the entire page archived on [archive.org](https://archive.org/details/independent-page-30-1994-05-16) or [IPFS](https://gateway.pinata.cloud/ipfs/Qmctq3XspeYhV2By81sQ8cy9gufWkogzAZUV1n3SmJs79y).
+Below is an image of the original article, which was on page 30. You can also see the entire page archived on [archive.org](https://archive.org/details/independent-page-30-1994-05-16) or [IPFS](https://pinata.cloud/ipfs/Qmctq3XspeYhV2By81sQ8cy9gufWkogzAZUV1n3SmJs79y).

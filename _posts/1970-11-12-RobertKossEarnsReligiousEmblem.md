@@ -18,7 +18,7 @@ This was a transcription of a newspaper article posted in the Chatham Courier - 
 
 * [Direct Link](https://files.bsatroop53.com/newspapers/1970/chatham_courier_1970_nov_12_koss_religious_award.pdf)
 * [Archive.org Link](https://archive.org/details/chatham_courier_1970_nov_12_koss_religious_award)
-* [IPFS Link](https://gateway.pinata.cloud/ipfs/QmV2mNt3iUb2qVT4xemr4jgjKWYyvayz2Las6BJqgVeHUe)
+* [IPFS Link](https://ipfs.shendrick.net/ipfs/QmV2mNt3iUb2qVT4xemr4jgjKWYyvayz2Las6BJqgVeHUe)
 
 ## Photos
 

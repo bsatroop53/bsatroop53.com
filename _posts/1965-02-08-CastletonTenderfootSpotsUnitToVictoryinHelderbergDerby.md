@@ -35,5 +35,5 @@ This was a transcription from The Albany Times Union, page 13 on Monday, Februar
 
 * [Original Source](https://files.bsatroop53.com/newspapers/1965/times_union_1965_feb_8_t53_klondike_derby.pdf)
 * [Archive.org Link](https://archive.org/details/times_union_1965_feb_8_t53_klondike_derby)
-* [IPFS Link](https://gateway.pinata.cloud/ipfs/QmUTDubiCY767jipasmeNYQtyLveVDreXoNSNtfSa13ZeN)
+* [IPFS Link](https://ipfs.shendrick.net/ipfs/QmUTDubiCY767jipasmeNYQtyLveVDreXoNSNtfSa13ZeN)
 

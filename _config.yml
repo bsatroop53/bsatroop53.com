@@ -18,7 +18,7 @@ contact: admin@bsatroop53.com
 github: https://github.com/bsatroop53/bsatroop53.com
 githubissues: https://github.com/bsatroop53/bsatroop53.com/issues
 
-ipfs_url: https://gateway.pinata.cloud/ipfs
+ipfs_url: https://ipfs.shendrick.net/ipfs
 
 exclude:
  - .gitignore
