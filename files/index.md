@@ -13,6 +13,7 @@ This page contains a list of files useful to both scouts and adult volunteers.  
 Each file has three links associated with it:
 
 * Direct - Link to the original file.  Use this one to start with.
+* Mirror - Link that is [mirrored](https://en.wikipedia.org/wiki/Mirror_site) on our [mirror server](https://files.bsatroop53.com/mirrors/).
 * Web Archive - An alternative link in case the original file went down.  This is powered by archive.org's [Wayback Machine](https://web.archive.org/).  Use this one if the direct link fails.
 * IPFS Link - Another alternative link in case the previous mentioned links no longer work.  See [this page](https://en.wikipedia.org/wiki/InterPlanetary_File_System) on Wikipedia on what IPFS is.  Use this link as a last resort; it takes the longest to download, and may not even work.
 

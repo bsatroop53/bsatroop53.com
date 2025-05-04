@@ -26,8 +26,19 @@ namespace SitePlugin
 
         public string EditionName { get; init; } = "";
 
+        /// <summary>
+        /// Link directly to the original source.
+        /// </summary>
         public Uri? DirectLink { get; init; } = null;
 
+        /// <summary>
+        /// Link that is mirrored at files.bsatroop53.com/mirrors.
+        /// </summary>
+        public Uri? MirrorLink { get; init; } = null;
+
+        /// <summary>
+        /// Link that points to mirror at archive.org.
+        /// </summary>
         public Uri? ArchiveOrgLink { get; init; } = null;
 
         public string? IpfsCid { get; init; } = null;

@@ -14,43 +14,53 @@ layout: page
 {
     <div class="row">
         <div class="col-md-12">
-        <h3>@fileCategory</h3>
-            <ul>
-            @foreach( T53File file in fileList[fileCategory].OrderBy( f => f.get_DisplayName() ) )
-            {
-                <li>
-                    <strong>@file.get_DisplayName()</strong>
-                    <ul>
-                        @foreach( T53FileEditionInfo edition in file.get_EditionList() )
-                        {
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3>@fileCategory</h3>
+                </div>
+                <div class="panel-body">
+                    @foreach( T53File file in fileList[fileCategory].OrderBy( f => f.get_DisplayName() ) )
+                    {
+                        <ul>
                             <li>
-                                @if( string.IsNullOrWhiteSpace( @edition.get_EditionName() )  )
-                                {
-                                    <span><strong>Unknown Edition  </strong></span>
-                                }
-                                else
-                                {
-                                    <span><strong>@edition.get_EditionName() Edition  </strong></span>
-                                }
+                                <strong>@file.get_DisplayName()</strong>
+                                <ul>
+                                    @foreach( T53FileEditionInfo edition in file.get_EditionList() )
+                                    {
+                                        <li>
+                                            @if( string.IsNullOrWhiteSpace( @edition.get_EditionName() )  )
+                                            {
+                                                <span><strong>Unknown Edition  </strong></span>
+                                            }
+                                            else
+                                            {
+                                                <span><strong>@edition.get_EditionName() Edition  </strong></span>
+                                            }
 
-                                @if( edition.get_DirectLink() != null )
-                                {
-                                    <span>|  <a href="@edition.get_DirectLink()" target="_blank" rel="@SethHtmlFormatter.ATagRelProperties">Direct Link</a></span>
-                                }
-                                @if( edition.get_ArchiveOrgLink() != null )
-                                {
-                                    <span>|  <a href="@edition.get_ArchiveOrgLink()" target="_blank" rel="@SethHtmlFormatter.ATagRelProperties">archive.org Link</a></span>
-                                }
-                                @if( string.IsNullOrWhiteSpace( edition.get_IpfsCid() ) == false )
-                                {
-                                    <span>|  <a href="@ipfsUrlPrefix/@edition.get_IpfsCid()" target="_blank" rel="@SethHtmlFormatter.ATagRelProperties">IPFS Link</a></span>
-                                }
+                                            @if( edition.get_DirectLink() != null )
+                                            {
+                                                <span>|  <a href="@edition.get_DirectLink()" target="_blank" rel="@SethHtmlFormatter.ATagRelProperties">Direct Link</a></span>
+                                            }
+                                            @if( edition.get_MirrorLink() != null )
+                                            {
+                                                <span>|  <a href="@edition.get_MirrorLink()" target="_blank" rel="@SethHtmlFormatter.ATagRelProperties">Mirror Link</a></span>
+                                            }
+                                            @if( edition.get_ArchiveOrgLink() != null )
+                                            {
+                                                <span>|  <a href="@edition.get_ArchiveOrgLink()" target="_blank" rel="@SethHtmlFormatter.ATagRelProperties">archive.org Link</a></span>
+                                            }
+                                            @if( string.IsNullOrWhiteSpace( edition.get_IpfsCid() ) == false )
+                                            {
+                                                <span>|  <a href="@ipfsUrlPrefix/@edition.get_IpfsCid()" target="_blank" rel="@SethHtmlFormatter.ATagRelProperties">IPFS Link</a></span>
+                                            }
+                                        </li>
+                                    }
+                                </ul>
                             </li>
-                        }
-                    </ul>
-                </li>
-            }
-            </ul>
+                        </ul>
+                    }
+                </div>
+            </div>
         </div>
     </div>
 }

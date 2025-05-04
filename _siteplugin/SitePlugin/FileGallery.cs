@@ -197,9 +197,13 @@ namespace SitePlugin
                                     {
                                         edition = edition with { EditionName = editionChild.Value };
                                     }
-                                    else if( "OrignalUrl" == editionChild.Name.LocalName )
+                                    else if( ( "OrignalUrl" == editionChild.Name.LocalName ) || ( "OriginalUrl" == editionChild.Name.LocalName) )
                                     {
                                         edition = edition with { DirectLink = new Uri( editionChild.Value ) };
+                                    }
+                                    else if( "MirrorUrl" == editionChild.Name.LocalName )
+                                    {
+                                        edition = edition with { MirrorLink = new Uri( editionChild.Value ) };
                                     }
                                     else if( "ArchiveOrgUrl" == editionChild.Name.LocalName )
                                     {
