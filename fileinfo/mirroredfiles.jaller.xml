@@ -27,6 +27,7 @@ layout: nil
                     }
                     <file name="@edition.get_FileName()">
                         <cid>@ipfsHash</cid>
+                        <title>@file.get_DisplayName() (@edition.get_EditionName())</title>
                         <description>@file.get_DisplayName() (@edition.get_EditionName())</description>
                         <downloadable>Public</downloadable>
                         <metadata>Public</metadata>

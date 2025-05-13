@@ -75,6 +75,18 @@ namespace SitePlugin
 
         // ---------------- Functions ----------------
 
+        public string GetTitle()
+        {
+            if( string.IsNullOrWhiteSpace( this.Title ) )
+            {
+                return this.FileName;
+            }
+            else
+            {
+                return this.Title;
+            }
+        }
+
         public string GetJallerDescription()
         {
             var builder = new StringBuilder();
