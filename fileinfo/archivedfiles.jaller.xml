@@ -10,59 +10,65 @@ layout: nil
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <JallerFiles version="1">
     <folder name="Scouting America Troop 53 of Castleton, NY">
-    @foreach( string fileCategory in fileList.Keys.OrderBy( c => c ) )
-    {
-        var yearDict = new Dictionary<int, List<ArchivedFile>>();
-        <folder name="@fileCategory">
-            @foreach( ArchivedFile file in fileList[fileCategory] )
-            {
-                int year = 0;
-                @if( file.get_Date() != null )
+        <downloadable>Public</downloadable>
+        <metadata>Public</metadata>
+        @foreach( string fileCategory in fileList.Keys.OrderBy( c => c ) )
+        {
+            var yearDict = new Dictionary<int, List<ArchivedFile>>();
+            <folder name="@fileCategory">
+                <downloadable>Public</downloadable>
+                <metadata>Public</metadata>
+                @foreach( ArchivedFile file in fileList[fileCategory] )
                 {
-                    year = file.get_Date().Value.Year;
-                }
-
-                @if( yearDict.ContainsKey( year ) == false )
-                {
-                    yearDict[year] = new List<ArchivedFile>();
-                }
-                yearDict[year].Add( file );
-            }
-
-            @foreach( var yearKvp in yearDict.OrderBy( kvp => kvp.Key ) )
-            {
-                string yearFolderName = "Undated";
-                @if( yearKvp.Key != 0 )
-                {
-                    yearFolderName = yearKvp.Key.ToString();
-                }
-
-                <folder name="@yearFolderName">
-                @foreach( ArchivedFile file in yearKvp.Value )
-                {
-                    string ipfsHash = file.get_IpfsCid();
-                    @if( string.IsNullOrWhiteSpace( ipfsHash ) )
+                    int year = 0;
+                    @if( file.get_Date() != null )
                     {
-                        continue;
+                        year = file.get_Date().Value.Year;
                     }
-                    <file name="@file.get_FileName()">
-                        <cid>@ipfsHash</cid>
-                        <title>@file.GetJallerDescription()</title>
-                        <description>@file.GetJallerDescription()</description>
+
+                    @if( yearDict.ContainsKey( year ) == false )
+                    {
+                        yearDict[year] = new List<ArchivedFile>();
+                    }
+                    yearDict[year].Add( file );
+                }
+
+                @foreach( var yearKvp in yearDict.OrderBy( kvp => kvp.Key ) )
+                {
+                    string yearFolderName = "Undated";
+                    @if( yearKvp.Key != 0 )
+                    {
+                        yearFolderName = yearKvp.Key.ToString();
+                    }
+
+                    <folder name="@yearFolderName">
                         <downloadable>Public</downloadable>
                         <metadata>Public</metadata>
-                        <mimetype />
-                        <tags>
-                            @foreach( string tag in file.GetAllTags() )
+                        @foreach( ArchivedFile file in yearKvp.Value )
+                        {
+                            string ipfsHash = file.get_IpfsCid();
+                            @if( string.IsNullOrWhiteSpace( ipfsHash ) )
                             {
-                                <tag>@tag</tag>
+                                continue;
                             }
-                        </tags>
-                    </file>
+                            <file name="@file.get_FileName()">
+                                <cid>@ipfsHash</cid>
+                                <title>@file.GetJallerDescription()</title>
+                                <description>@file.GetJallerDescription()</description>
+                                <downloadable>Public</downloadable>
+                                <metadata>Public</metadata>
+                                <mimetype />
+                                <tags>
+                                    @foreach( string tag in file.GetAllTags() )
+                                    {
+                                        <tag>@tag</tag>
+                                    }
+                                </tags>
+                            </file>
+                        }
+                    </folder>
                 }
-                </folder>
-            }
-        </folder>
-    }
+            </folder>
+        }
     </folder>
 </JallerFiles>

@@ -16,31 +16,33 @@ layout: nil
         @foreach( string fileCategory in fileList.Keys.OrderBy( c => c ) )
         {
             <folder name="@fileCategory">
-            @foreach( T53File file in fileList[fileCategory].OrderBy( f => f.get_DisplayName() ) )
-            {
-                @foreach( T53FileEditionInfo edition in file.get_EditionList() )
+                <downloadable>Public</downloadable>
+                <metadata>Public</metadata>
+                @foreach( T53File file in fileList[fileCategory].OrderBy( f => f.get_DisplayName() ) )
                 {
-                    string ipfsHash = edition.get_IpfsCid();
-                    @if( string.IsNullOrWhiteSpace( ipfsHash ) )
+                    @foreach( T53FileEditionInfo edition in file.get_EditionList() )
                     {
-                        continue;
+                        string ipfsHash = edition.get_IpfsCid();
+                        @if( string.IsNullOrWhiteSpace( ipfsHash ) )
+                        {
+                            continue;
+                        }
+                        <file name="@edition.get_FileName()">
+                            <cid>@ipfsHash</cid>
+                            <title>@file.get_DisplayName() (@edition.get_EditionName())</title>
+                            <description>@file.get_DisplayName() (@edition.get_EditionName())</description>
+                            <downloadable>Public</downloadable>
+                            <metadata>Public</metadata>
+                            <mimetype />
+                            <tags>
+                                <tag>Scouting America</tag>
+                                <tag>Scouts BSA</tag>
+                                <tag>@file.get_DisplayName()</tag>
+                                <tag>@fileCategory</tag>
+                            </tags>
+                        </file>
                     }
-                    <file name="@edition.get_FileName()">
-                        <cid>@ipfsHash</cid>
-                        <title>@file.get_DisplayName() (@edition.get_EditionName())</title>
-                        <description>@file.get_DisplayName() (@edition.get_EditionName())</description>
-                        <downloadable>Public</downloadable>
-                        <metadata>Public</metadata>
-                        <mimetype />
-                        <tags>
-                            <tag>Scouting America</tag>
-                            <tag>Scouts BSA</tag>
-                            <tag>@file.get_DisplayName()</tag>
-                            <tag>@fileCategory</tag>
-                        </tags>
-                    </file>
                 }
-            }
             </folder>
         }
     </folder>
