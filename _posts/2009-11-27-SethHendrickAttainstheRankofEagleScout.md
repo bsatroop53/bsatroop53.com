@@ -32,7 +32,7 @@ WHEREAS, Seth now continues, as an adult leader, to serve the Scouts of Troop 53
 
 NOW, THEREFORE, BE IT RESOLVED, that the Town Board of the Town of Schodack commends and congratulates Seth Robert Hendrick upon the auspicious occasion of being awarded the rank of Eagle Scout, Boy Scouts of America, and
 
-BE IT FURTHER RESOLVED, that Supervisor Secor shall present a copy of this resolution, suitably engrossed to Seth Robert Hendrick at his Court of Honor on the 27th of November 2009 
+BE IT FURTHER RESOLVED, that Supervisor Secor shall present a copy of this resolution, suitably engrossed to Seth Robert Hendrick at his Court of Honor on the 27th of November 2009
 
 TOWN OF SCHODACK
 
@@ -43,14 +43,14 @@ By: Beth Knauf Secor, Supervisor
 
 ## Rensselaear County Proclamation
 
-PROCLAMATION COMMENDING SETH ROBERT HENDRICK UPON THE OCCASION OF HIS INVESTITURE AS AN EAGLE SCOUT FOR THE BOY SCOUTS OF AMERICA, 
+PROCLAMATION COMMENDING SETH ROBERT HENDRICK UPON THE OCCASION OF HIS INVESTITURE AS AN EAGLE SCOUT FOR THE BOY SCOUTS OF AMERICA,
 NOVEMBER 27, 2009
 
 WHEREAS, As it is the sense of our unique society to recognize the contributions and achievements of the citizens of Rensselaer County, this Legislative Body acknowledges with profound respect and admiration a milestone in the life of a member of the Rensselaer County community; and
 
 WHEREAS, Attendant to such concern and fully in accord with our longstanding traditions, it is the intent of the Rensselaer County Legislature to convey its compliments and congratulations to Seth Robert Hendrick upon the occasion of his investiture as an Eagle Scout in the Boy Scouts of America; and
 
-WHEREAS, This Legislative Body is acquainted with the rigorous and demanding requirements necessary to attain the prestigious and highly honored rank of Eagle Scout; and 
+WHEREAS, This Legislative Body is acquainted with the rigorous and demanding requirements necessary to attain the prestigious and highly honored rank of Eagle Scout; and
 
 WHEREAS, Seth will be installed as an Eagle Scout at an Eagle Scout Court of Honor ceremony to be held at the Sacred Heart Church in Castleton, New York on Friday, November 27, 2009 at seven o’clock in the evening. The Eagle Scout badge is the highest rank a boy can receive in scouting; and
 
