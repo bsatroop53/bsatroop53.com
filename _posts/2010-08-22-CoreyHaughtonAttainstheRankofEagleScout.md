@@ -64,3 +64,4 @@ August 22, 2010.
 
 * *[Source](https://www.schodack.org/sites/g/files/vyhlif1186/f/uploads/2010_resolutions.pdf)*
 * *[Archived Source](https://web.archive.org/web/20240410214901/https://www.schodack.org/sites/g/files/vyhlif1186/f/uploads/2010_resolutions.pdf)*
+* *[Mirrored Source](https://files.bsatroop53.com/resolutions/town-of-schodack/2010/2010-275,2010-366_CoreyHaughtonEagle,PatrickCurtinEagle.pdf)*

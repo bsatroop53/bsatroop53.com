@@ -31,9 +31,9 @@ BE IT FURTHER RESOLVED that Supervisor Peter will transmit a copy of this resolu
 5 Ayes 0 Noes. MOTION CARRIED. Ayes – J. Bult, M. Kenney, S. Swartz, S. Haller, C. Peter. Noes – 0
 
 * *Resolution was made on March 3rd, 2025*
-* [Source](https://www.schodack.org/sites/g/files/vyhlif1186/f/minutes/minutes_03-27-2025.pdf)
-* [Archived Source](https://web.archive.org/web/20250706210302/https://www.schodack.org/sites/g/files/vyhlif1186/f/minutes/minutes_03-27-2025.pdf)
-* [Mirrored Source](https://files.bsatroop53.com/resolutions/town-of-schodack/2025/2025-113_AnthonyBasileEagle.pdf)
+* *[Source](https://www.schodack.org/sites/g/files/vyhlif1186/f/minutes/minutes_03-27-2025.pdf)*
+* *[Archived Source](https://web.archive.org/web/20250706210302/https://www.schodack.org/sites/g/files/vyhlif1186/f/minutes/minutes_03-27-2025.pdf)*
+* *[Mirrored Source](https://files.bsatroop53.com/resolutions/town-of-schodack/2025/2025-113_AnthonyBasileEagle.pdf)*
 
 ## Photos
 

@@ -54,3 +54,4 @@ Meeting on May 9, 2019.
 
 * *[Source](https://www.schodack.org/sites/g/files/vyhlif1186/f/uploads/2019_resolutions.pdf)*
 * *[Archived Source](https://web.archive.org/web/20240411162033/https://www.schodack.org/sites/g/files/vyhlif1186/f/uploads/2019_resolutions.pdf)*
+* *[Mirrored Source](https://files.bsatroop53.com/resolutions/town-of-schodack/2019/2019-170_SethRobertsEagle.pdf)*

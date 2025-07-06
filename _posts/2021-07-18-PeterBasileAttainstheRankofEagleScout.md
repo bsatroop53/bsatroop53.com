@@ -48,6 +48,7 @@ resolution, suitably engrossed to Peter Basile at his Court of Honor on July 18,
 
 * *[Source](https://www.schodack.org/sites/g/files/vyhlif1186/f/uploads/2021_resolutions.pdf)*
 * *[Archived Source](https://web.archive.org/web/20240411154951/https://www.schodack.org/sites/g/files/vyhlif1186/f/uploads/2021_resolutions.pdf)*
+* *[Mirrored Source](https://files.bsatroop53.com/resolutions/town-of-schodack/2021/2021-162_PeterBasileEagle.pdf)*
 
 ## Video
 

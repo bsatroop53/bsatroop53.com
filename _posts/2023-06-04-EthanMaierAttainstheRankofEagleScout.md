@@ -48,3 +48,4 @@ resolution, suitably engrossed to Ethan Maier.
 
 * *[Source](https://www.schodack.org/sites/g/files/vyhlif1186/f/uploads/2023_resolutions.pdf)*
 * *[Archived Source](https://web.archive.org/web/2/https://www.schodack.org/sites/g/files/vyhlif1186/f/uploads/2023_resolutions.pdf)*
+* *[Mirrored Source](https://files.bsatroop53.com/resolutions/town-of-schodack/2023/2023-196_EthanMaierEagle.pdf)*

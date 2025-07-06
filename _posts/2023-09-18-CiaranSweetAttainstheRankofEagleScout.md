@@ -28,9 +28,10 @@ and
 BE IT FURTHER RESOLVED that Supervisor Peter will transmit a copy of this resolution, suitably engrossed to Ciaran R. Sweet.
 5 Ayes 0 Noes. MOTION CARRIED. Ayes – J. Bult, M. Kenney, S. Swartz, S. Haller, C. Peter. Noes – 0.
 
-* _Resolution was made on March 14th, 2024._
-* _[Source](https://www.schodack.org/sites/g/files/vyhlif1186/f/minutes/minutes_03-14-2024.pdf)_
-* _[Archived Source](https://web.archive.org/web/20240721155256/https://www.schodack.org/sites/g/files/vyhlif1186/f/minutes/minutes_03-14-2024.pdf)_
+* *Resolution was made on March 14th, 2024.*
+* *[Source](https://www.schodack.org/sites/g/files/vyhlif1186/f/minutes/minutes_03-14-2024.pdf)*
+* *[Archived Source](https://web.archive.org/web/20240721155256/https://www.schodack.org/sites/g/files/vyhlif1186/f/minutes/minutes_03-14-2024.pdf)*
+* *[Mirrored Source](https://files.bsatroop53.com/resolutions/town-of-schodack/2024/2024-119_CiaranSweetEagle.pdf)*
 
 ## Photos
 
