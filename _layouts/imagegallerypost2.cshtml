@@ -1,8 +1,11 @@
 ---
 layout: post
 ---
+@using System.Linq;
 @using System.Xml.Linq;
 @using Pretzel.SethExtensions.ImageGallery;
+@using SitePlugin;
+
 @{
     const string galleryInfoKey = "image_gallery";
     if( Model.Bag.ContainsKey( galleryInfoKey ) == false )
@@ -11,6 +14,7 @@ layout: post
     }
 
     var imageData = Model.GetImageGalleryConfig().ToArray();
+    bool includeDateOnPhotos = imageData.Any( i => i.ImageInfo.get_PhotoDate().HasValue );
 }
 
 @Raw( Model.Content )
@@ -24,7 +28,7 @@ layout: post
         var imageContext = imageData[i];
         <div class="col-md-6">
             <div class="panel panel-default" style="max-width:@(imageContext.ThumbnailWidth);">
-                @if( ( string.IsNullOrEmpty( imageContext.ImageInfo.SafeGetNotes() ) == false ) || imageContext.ImageInfo.get_PhotoDate().HasValue )
+                @if( ( string.IsNullOrEmpty( imageContext.ImageInfo.SafeGetNotes() ) == false ) || imageContext.ImageInfo.get_PhotoDate().HasValue || includeDateOnPhotos )
                 {
                     <div class="panel-heading">
                         <details class="editor-notes-details" aria-label="View Editor Notes">
@@ -41,6 +45,17 @@ layout: post
                                     else
                                     {
                                         <p><em><strong>Date of Photo:</strong> @imageContext.ImageInfo.get_PhotoDate().Value.ToString( "MMMM dd, yyyy" )</em></p>
+                                    }
+                                }
+                                else if( includeDateOnPhotos )
+                                {
+                                    @if( Model.IsPostEstimate() )
+                                    {
+                                        <p><em><strong>Estimated Date of Photo:</strong> @Model.Page.Date.ToString( "MMM dd yyyy" )</em></p>
+                                    }
+                                    else
+                                    {
+                                        <p><em><strong>Date of Photo:</strong> @Model.Page.Date.ToString( "MMM dd yyyy" )</em></p>
                                     }
                                 }
                                 @if( string.IsNullOrEmpty( imageContext.ImageInfo.SafeGetNotes() ) == false )
