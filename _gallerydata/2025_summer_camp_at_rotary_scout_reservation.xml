@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/2025_summer_camp_at_rotary_scout_reservation" ThumbnailOutputDir="static/img/galleries/2025_summer_camp_at_rotary_scout_reservation/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="rsr_2025_4_4.jpg">
+    <Alt>Seven scouts in class A uniforms performing a flag ceremony.  Three scouts are holding the American flag at the center pole.  The other four scouts are standing to the right and left of them at attention.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.9310297677078172</ThumbnailScale>
+  </Image>
+  <Image FileName="rsr_2025_2_2.jpg">
+    <Alt>Four people, two of them are inside a ropped off area, two are standing outside.  A sign says "Axe Yard" is hung on a tree just outside the roped off area.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.8215993267839989</ThumbnailScale>
+  </Image>
+  <Image FileName="rsr_2025_3_3.jpg">
+    <Alt>Two adult leaders giving a selfie to the camera.  One is holding up a mug, the other is giving a thumbs-up sign.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="rsr_2025_7_7.jpg">
+    <Alt>Six scouts sitting around a picnic table.  A chess board is in the middle, and other scouts are playing cards.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="rsr_2025_5_5.jpg">
+    <Alt>Three scouts are sitting on a wooden log bench, and other is facing them in a chair, reading out of a book.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="rsr_2025_6_6.jpg">
+    <Alt>Seven scouts stand on a stage in front of people at night.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="rsr_2025_1_1.jpg">
+    <Alt>Group photo!  18 scouts are standing next to the troop trailer, which on on the right.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.9643638878567934</ThumbnailScale>
+  </Image>
+</ImageGallery>
