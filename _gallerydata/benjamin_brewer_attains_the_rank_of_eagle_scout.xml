@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/benjamin_brewer_attains_the_rank_of_eagle_scout" ThumbnailOutputDir="static/img/galleries/benjamin_brewer_attains_the_rank_of_eagle_scout/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="ben_brewer_eagle_1_1.jpg">
+    <Alt>Three people stand in front of the American flag and troop flags.  The two on the right are in class A uniforms.  Ben is in the middle.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="ben_brewer_eagle_2_2.jpg">
+    <Alt>Two woman stand next to Ben, who is in the middle.</Alt>
+    <Caption>To the left of Ben is Patty Racz, a long time educator of Schodack Central School District.</Caption>
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="ben_brewer_eagle_3_3.jpg">
+    <Alt>Two people in class A uniforms smile for the camera in front of the American and Troop flags.</Alt>
+    <Caption>Ben stands with his father and Troop 53 Scoutmaster, Jeffrey Brewer.</Caption>
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="ben_brewer_eagle_5_5.jpg">
+    <Alt>Two people in class A uniforms smile for the camera in front of the American Flag.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="ben_brewer_eagle_4_4.jpg">
+    <Alt>Ben stands next to an American flag.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="ben_brewer_ceremony_1_6.jpg">
+    <Alt>Four people stand in front of a room behind a podium.  Ben is giving the scout sign.</Alt>
+    <Caption>Ben's Eagle Scout Ceremony took place at Peter Andrews VFW Memorial Post.</Caption>
+    <Notes />
+    <ThumbnailScale>0.8766185125735687</ThumbnailScale>
+    <Date Estimate="false">
+      <Year>2025</Year>
+      <Month>6</Month>
+      <Day>22</Day>
+    </Date>
+  </Image>
+  <Image FileName="ben_brewer_ceremony_5_10.jpg">
+    <Alt>Ben giving a speech from behind a podium.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.8473779654058876</ThumbnailScale>
+    <Date Estimate="false">
+      <Year>2025</Year>
+      <Month>6</Month>
+      <Day>22</Day>
+    </Date>
+  </Image>
+  <Image FileName="ben_brewer_ceremony_2_7.jpg">
+    <Alt>Seven people stand smiling for the camera.</Alt>
+    <Caption>Ben and family stand with several local politicians.</Caption>
+    <Notes />
+    <ThumbnailScale>0.7771143983636202</ThumbnailScale>
+    <Date Estimate="false">
+      <Year>2025</Year>
+      <Month>6</Month>
+      <Day>22</Day>
+    </Date>
+  </Image>
+</ImageGallery>
