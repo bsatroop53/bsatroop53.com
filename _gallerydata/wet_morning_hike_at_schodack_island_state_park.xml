@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/wet_morning_hike_at_schodack_island_state_park" ThumbnailOutputDir="static/img/galleries/wet_morning_hike_at_schodack_island_state_park/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="sisp_hike1_1.jpg">
+    <Alt>A group of scouts walking away from the camera on a leafy trail.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="sisp_hike2_2.jpg">
+    <Alt>A group of scouts gathered by a trail head looking at a sign with a lot of notices on it.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="sisp_hike3_3.jpg">
+    <Alt>Group picture featuring 12 scouts and scoutmaster Jeff Brewer, standing to the left.  There are trees in the background.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.65</ThumbnailScale>
+  </Image>
+</ImageGallery>
