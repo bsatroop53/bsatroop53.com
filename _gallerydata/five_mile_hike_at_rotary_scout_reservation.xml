@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/five_mile_hike_at_rotary_scout_reservation" ThumbnailOutputDir="static/img/galleries/five_mile_hike_at_rotary_scout_reservation/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="rotaryhike1_4.jpg">
+    <Alt>A scout looking at a map with a compass in the lower-left corner of the map.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="rotaryhike2_3.jpg">
+    <Alt>A scout looks at a map with a compass with another scout.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.9497936601678979</ThumbnailScale>
+  </Image>
+  <Image FileName="rotaryhike3_2.jpg">
+    <Alt>Three scouts look at the camera while behind them is the cliffs at Rotary.  A group of others looks over the cliff.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.7335212765213255</ThumbnailScale>
+  </Image>
+  <Image FileName="rotaryhike4_1.jpg">
+    <Alt>Five scouts smiling for the camera, with the Rotary cliffs in the background.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+</ImageGallery>
