@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/fire_safety_merit_badge_at_museum_of_firefighting" ThumbnailOutputDir="static/img/galleries/fire_safety_merit_badge_at_museum_of_firefighting/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="firesafe1_2.jpg">
+    <Alt>A group of scouts standing looking towards a woman writing something on a whiteboard on wheels.</Alt>
+    <Caption>The scouts from Troop 53 are towards the back on the right in red sweatshirts.</Caption>
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="firesafe2_1.jpg">
+    <Alt>Picture of a firetruck that says &apos;GREENPORT PUMPER CO. NO. 1 EST. 1927&apos;.  There are several scouts looking at it, with three scouts from Troop 53 on the left of the photo.  The three scouts are wearing their class B hoodies.</Alt>
+    <Caption>The scouts from Troop 53 are on the left, in red sweatshirts that say &apos;53&apos; on the backs.</Caption>
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+</ImageGallery>
