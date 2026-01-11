@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/liam_connelly_attains_the_rank_of_eagle_scout" ThumbnailOutputDir="static/img/galleries/liam_connelly_attains_the_rank_of_eagle_scout/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="liameagle5_4.jpg">
+    <Alt>Five people stand in front of a podium.  Three are in a class A uniform.  One is speaking behind the podium.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+    <Date Estimate="false">
+      <Year>2026</Year>
+      <Month>1</Month>
+      <Day>10</Day>
+    </Date>
+  </Image>
+  <Image FileName="liameagle3_2.jpg">
+    <Alt>Two people in class A uniforms.  Liam is on the left giving the scout sign.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+    <Date Estimate="false">
+      <Year>2026</Year>
+      <Month>1</Month>
+      <Day>10</Day>
+    </Date>
+  </Image>
+  <Image FileName="liameagle6_5.jpg">
+    <Alt>Liam getting his Eagle pin pinned on his uniform.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+    <Date Estimate="false">
+      <Year>2026</Year>
+      <Month>1</Month>
+      <Day>10</Day>
+    </Date>
+  </Image>
+  <Image FileName="liameagle7_6.jpg">
+    <Alt>Two people hugging.  One is in a class A.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+    <Date Estimate="false">
+      <Year>2026</Year>
+      <Month>1</Month>
+      <Day>10</Day>
+    </Date>
+  </Image>
+  <Image FileName="liameagle8_7.jpg">
+    <Alt>Two people standing in front of the room in class A uniforms.  One is holding an America Flag, the other is giving the scout sign.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+    <Date Estimate="false">
+      <Year>2026</Year>
+      <Month>1</Month>
+      <Day>10</Day>
+    </Date>
+  </Image>
+  <Image FileName="liameagle9_8.jpg">
+    <Alt>A scout in a class A lights a candle in the front of the room.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+    <Date Estimate="false">
+      <Year>2026</Year>
+      <Month>1</Month>
+      <Day>10</Day>
+    </Date>
+  </Image>
+  <Image FileName="liameagle10_9.jpg">
+    <Alt>An older man seems to be giving something to Liam.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+    <Date Estimate="false">
+      <Year>2026</Year>
+      <Month>1</Month>
+      <Day>10</Day>
+    </Date>
+  </Image>
+  <Image FileName="liameagle11_10.jpg">
+    <Alt>Three people smiling for the camera.  Liam is in the middle holding a Rensselaer County Proclamation.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+    <Date Estimate="false">
+      <Year>2026</Year>
+      <Month>1</Month>
+      <Day>10</Day>
+    </Date>
+  </Image>
+  <Image FileName="liameagle2_1.jpg">
+    <Alt>Eleven people smiling for the camera.  Two of whom are in class A uniforms.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.65</ThumbnailScale>
+    <Date Estimate="false">
+      <Year>2026</Year>
+      <Month>1</Month>
+      <Day>10</Day>
+    </Date>
+  </Image>
+</ImageGallery>
