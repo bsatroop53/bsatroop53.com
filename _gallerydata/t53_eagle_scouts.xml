@@ -259,4 +259,9 @@
         <Alt>Ben Brewer</Alt>
         <Caption>Ben Brewer - 2025</Caption>
     </Image>
+    <!-- Source: https://www.schodack.org/sites/g/files/vyhlif1186/f/minutes/minutes_12-30-2025.pdf -->
+    <Image FileName="2025_Liam_Connelly.jpg">
+        <Alt>Liam Connelly</Alt>
+        <Caption>Liam Connelly - 2025</Caption>
+    </Image>
 </ImageGallery>
