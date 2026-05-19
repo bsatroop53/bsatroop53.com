@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/i_love_my_park_camporee" ThumbnailOutputDir="static/img/galleries/i_love_my_park_camporee/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="689828240_1403020701864266_459961976320368261_n_2.jpg">
+    <Alt>Scouts and Scouters stand on a curb holding shovels and smiling for the camera.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.65</ThumbnailScale>
+  </Image>
+  <Image FileName="689218872_1403021035197566_6502980298768516877_n_1.jpg">
+    <Alt>Scouts and scouters are standing in front of a building smiling for the camera.  They are holding "I Love My Park Days" bags, and standing in among of a "I &lt;3 LT" letters.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.65</ThumbnailScale>
+  </Image>
+</ImageGallery>
