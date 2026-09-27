@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ImageGallery ImageDir="static/img/galleries/anthony_basile_s_eagle_project" ThumbnailOutputDir="static/img/galleries/anthony_basile_s_eagle_project/thumbnails/" DefaultThumbnailScale="0.70">
+  <Image FileName="ab_eagle12_6.jpg">
+    <Alt>Standing around wooden boards, one of them is being lifted up.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.9104846188311214</ThumbnailScale>
+  </Image>
+  <Image FileName="ab_eagle11_7.jpg">
+    <Alt>People stand around a table.  One of them is reaching into a box of screws.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.8251150434678602</ThumbnailScale>
+  </Image>
+  <Image FileName="ab_eagle14_4.jpg">
+    <Alt>Scouts are drawing on wooden boards.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.9185964408172419</ThumbnailScale>
+  </Image>
+  <Image FileName="ab_eagle17_1.jpg">
+    <Alt>Scouts assembly the garden boxes on a black tarp.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.8713676946702921</ThumbnailScale>
+  </Image>
+  <Image FileName="ab_eagle16_2.jpg">
+    <Alt>Scouts are assembling the garden boxes on a black tarp.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="ab_eagle10_8.jpg">
+    <Alt>The four garden boxes completed, lying on their sides.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.6756767554401407</ThumbnailScale>
+  </Image>
+  <Image FileName="ab_eagle9_9.jpg">
+    <Alt>Scouts moving the flower boxes onto a black tarp.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="ab_eagle13_5.jpg">
+    <Alt>The completed garden boxes with soil and small flowers in them.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.6908461774631147</ThumbnailScale>
+  </Image>
+  <Image FileName="ab_eagle6_12.jpg">
+    <Alt>One person is holding the post in the ground, other looks at it to the side.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.9110320284697508</ThumbnailScale>
+  </Image>
+  <Image FileName="ab_eagle7_11.jpg">
+    <Alt>One person is on top of the post trying to get it into the ground.  Another is holding the post steady.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.9329864435372793</ThumbnailScale>
+  </Image>
+  <Image FileName="ab_eagle3_15.jpg">
+    <Alt>One person is on top of the post trying to get it into the ground.  Another is holding the post steady.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.963352093680464</ThumbnailScale>
+  </Image>
+  <Image FileName="ab_eagle5_13.jpg">
+    <Alt>One person is knelt down trying to put the post on the stake in the ground.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.977243115991329</ThumbnailScale>
+  </Image>
+  <Image FileName="ab_eagle2_16.jpg">
+    <Alt>Two people in red shirts screwing a bolt into the bottom of a post.  One person is drilling, the other is holding the post steady.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.912506657291344</ThumbnailScale>
+  </Image>
+  <Image FileName="ab_eagle1_17.jpg">
+    <Alt>Three people in red shirts drilling a screw into the top of a post.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.99</ThumbnailScale>
+  </Image>
+  <Image FileName="ab_eagle8_10.jpg">
+    <Alt>The little library to the right of a sidewalk outside of a brick building.</Alt>
+    <Caption />
+    <Notes />
+    <ThumbnailScale>0.8840879083077162</ThumbnailScale>
+  </Image>
+</ImageGallery>
